@@ -1,0 +1,947 @@
+/* 
+Theme Name: Mundo Cervejeiro
+Template: responsive
+*/
+
+@import url("../responsive/style.css");
+
+
+@font-face {
+    font-family: 'OswaldLight';
+    src: url('types/Oswald-Light-webfont.eot');
+    src: url('types/Oswald-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('types/Oswald-Light-webfont.ttf') format('truetype'),
+         url('types/Oswald-Light-webfont.svg#OswaldLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OswaldBook';
+    src: url('types/Oswald-Regular-webfont.eot');
+    src: url('types/Oswald-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('types/Oswald-Regular-webfont.ttf') format('truetype'),
+         url('types/Oswald-Regular-webfont.svg#OswaldBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('types/Oswald-Bold-webfont.eot');
+    src: url('types/Oswald-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('types/Oswald-Bold-webfont.ttf') format('truetype'),
+         url('types/Oswald-Bold-webfont.svg#OswaldBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OswaldStencilRegular';
+    src: url('types/Oswald-Stencil-webfont.eot');
+    src: url('types/Oswald-Stencil-webfont.eot?#iefix') format('embedded-opentype'),
+         url('types/Oswald-Stencil-webfont.ttf') format('truetype'),
+         url('types/Oswald-Stencil-webfont.svg#OswaldStencilRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kg_eyes_wide_openregular';
+    src: url('types/kgeyeswideopen-webfont.eot');
+    src: url('types/kgeyeswideopen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('types/kgeyeswideopen-webfont.ttf') format('truetype'),
+         url('types/kgeyeswideopen-webfont.svg#kg_eyes_wide_openregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+	background-image: url("images/background@2X.png");
+    background-image: url("images/background.png")\9; /* IE FIX */
+	background-size: 64px 64px;
+}
+
+body {
+	background: none;
+	background-image: url("images/stripe@2X.png");
+    background-image: url("images/stripe.png")\9; /* IE FIX */
+	background-size: 24px 114px;
+	background-repeat: repeat-x;
+	background-position: 0px 42px;
+}
+
+h1, h2, h3, h4, h5, h6, .handwrite  {
+    font-family: 'kg_eyes_wide_openregular';
+    color: #CD6B00;
+    font-weight: normal;
+}
+
+a { color: #CD6B00;}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"],
+.widget-wrapper input[type="text"],
+.widget-wrapper input[type="email"],
+.widget-wrapper input[type="password"],
+.widget-wrapper input[type="submit"],
+.widget-wrapper input[type="button"],
+.widget-wrapper input[type="checkbox"] { 
+    border-radius: 0px;
+    border: solid 1px white;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    width: auto;
+    font-family: 'OswaldLight';
+    font-size: 1.1em;
+    padding: 0.2em;
+    filter: none;
+}
+
+.no-margin { margin: 0; }
+
+.no-padding { padding: 0; }
+
+.breadcrumb-list { color: silver;}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.underline, .entry-title {
+    background-image: url("images/underline.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+}
+
+.entry-title {
+    padding-bottom: 5px;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.radius {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+}
+
+.hide { display: none; }
+
+.radius-top {
+    -webkit-border-top-left-radius: 16px;
+    -moz-border-top-left-radius: 16px;
+    border-top-left-radius: 16px;
+    -webkit-border-top-right-radius: 16px;
+    -moz-border-top-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+
+.radius-bottom {
+    -webkit-border-bottom-left-radius: 16px;
+    -moz-border-bottom-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    -webkit-border-bottom-right-radius: 16px;
+    -moz-border-bottom-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.no-radius {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.paper {
+    background-image: url("images/stripe@2X.png");
+    background-size: 24px 114px;
+}
+
+.paper-lines {
+    position: relative;
+    background: transparent;
+    background: -webkit-linear-gradient(top, #EFF8FC 0%, transparent 8%) 0 57px;
+    background: -ms-linear-gradient(top, #909090 0%, transparent 8%) 0 57px;
+    background: -moz-linear-gradient(top, #EFF8FC 0%, transparent 8%) 0 57px;
+    background: linear-gradient(top, #EFF8FC 0%, transparent 8%) 0 57px;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -ms-background-size: 100% 30px;
+    background-size: 100% 30px;
+    background-position: 0px -2px;
+}
+
+.col-290 {
+    display: inline;
+    margin-right: 2.127659574468%;
+    width: 30.209%;
+}
+
+.col-580 {
+    display: inline;
+    margin-right: 2.127659574468%;
+    width: 62.545659574468%;
+}
+
+.color1 {
+    color: #460a00;
+}
+
+.color2 {
+    color: #802518;
+}
+.color3 {
+    color: #CD6B00;
+}
+
+.msie-box { 
+    display: none;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.chromeframe p {
+    text-align: center;
+}
+
+.clean-button, .widget-wrapper .clean-button {
+    background: transparent;
+    background-color: transparent;
+    border: solid 1px white;
+    text-shadow: none;
+    color: white;
+}
+
+.handwrite {
+    font-size: 2.25em;
+}
+/********************************************************** 
+
+    HEADER
+
+**********************************************************/
+
+#before-header ul {
+    list-style: none;
+    line-height: 42px;
+    margin: 0px;
+    padding: 0px;
+    clear: none;
+    display: inline-block;
+}
+
+#before-header ul li {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0px;
+}
+
+#before-header ul li img {
+    min-height: 11px;
+    vertical-align: middle;;
+}
+
+.storelink {
+    float: right;
+}
+
+.storelink a {
+    line-height: 42px;
+    font-family: 'OswaldBold';
+    text-transform: uppercase;
+    color: #CD6B00;
+}
+
+#header {
+	margin-top: 0px;
+    padding-top: 18px;
+}
+
+#logo { 
+	float: left;
+	background-size: 245px 82px;
+	background-repeat: no-repeat;
+	width: 245px;
+	height: 82px;
+    margin-right: 20px;
+}
+
+.main-nav {
+    display: table-row;
+    height: 82px;
+}
+
+.js .main-nav .menu { 
+	color: #802518 !important;
+	clear: none;
+	background: none;
+	font-family: 'OswaldBold'; 
+	font-weight: normal;
+	text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    filter: none;
+}
+
+.menu li {
+    vertical-align: middle;
+    line-height: 2;
+    display: table-cell;
+}
+
+.menu li:hover {
+    background: none !important;
+    background-color: transparent !important;
+    filter: none;
+}
+
+.menu li a {
+    padding: 0 0.6em;
+}
+.menu li a:hover {
+    background: none !important;   
+    color: #802518 !important;
+    filter: none;
+}
+
+.menu li:last-child, .menu li:last-child a:hover {
+    color: #CD6B00 !important;
+}
+
+.menu .current_page_item a {
+    background-color: transparent;
+}
+
+.menu a { 
+	color: inherit;
+	text-decoration: none;
+	text-shadow: none;
+	font: inherit;
+    border: none;
+    height: auto;
+}
+
+
+/********************************************************** 
+
+    FOOTER
+
+**********************************************************/
+
+#footer {
+    background-image: url("images/bottom.jpg");
+    background-size: cover;
+    max-width: inherit;
+}
+
+#footer h3, #footer h4, #footer p {
+    font-family: 'OswaldBold';
+}
+
+#footer h3, #footer h4 {
+    color: #802518;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+#footer h4 {
+    text-transform: none;
+}
+
+#footer h4, #footer p, #footer a, #footer a:hover {
+    color: #460a00;    
+}
+
+#footer p {
+    font-family: 'OswaldLight';
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#footer-wrapper {
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 25px 25px;
+}
+
+.footer-menu {
+    -webkit-column-count: 2; 
+    -webkit-column-gap: 20px;
+    -moz-column-count: 2; 
+    -moz-column-gap: 20px;
+    -o-column-count: 2; 
+    -o-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+
+    margin: 0px;
+    height: 120px;
+    font-family: 'OswaldBold';
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+.footer-menu li {
+    display: block;
+}
+
+.footer-menu li a {
+    border: none;
+    padding: 0px;
+}
+
+
+
+/********************************************************** 
+
+    FRONT PAGE
+
+**********************************************************/
+
+#featured {
+    background: none;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+#featured h1:before {
+    content: '.';
+    color: transparent;
+    background-image: url("images/arrow-right.svg");
+    width: 1.2em;
+    margin-left: -0.2em;
+    margin-right: 0.2em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    display: inline-block;
+}
+
+.mslider .flex-control-nav li a {
+    background-image: url("images/background@2X.png");
+    box-shadow: none !important;
+    border: #CD6B00 1px solid !important;
+}
+
+.mslider .flex-control-nav li a.flex-active {
+    background-color: #CD6B00 !important;
+}
+
+/* Meta Slider */
+.slides {
+    background-color: #ffffff;
+    border: solid 1px #aaaaaa !important;
+    padding: 0.5em !important;
+}
+
+.front-page .widgets {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.front-page .widgets .grid {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.front-page .widgets h2 {
+    margin: 0.25em 0;
+}
+
+.front-page .widget-wrapper {
+    min-height: 390px;
+    border: none;
+    padding: 0px;
+}
+
+.front-page .widget-wrapper:after, .widget-wrapper:before {
+    content: none;
+    display: table;
+    margin: 0;
+}
+
+.front-page .widget-wrapper > div {
+    padding: 0px 20px;
+}
+
+/********************************************************** 
+
+    CALENDAR WIDGET
+
+**********************************************************/
+
+#calendar-widget .paper-lines {
+    min-height: 390px;
+}
+
+#calendar-widget .widget-wrapper {
+    line-height: 30px;
+    text-align: left;
+}
+
+#calendar-widget .widget-wrapper h2 span {
+    text-align: right;
+    margin: 0px;
+    float: right;
+}
+
+#calendar-widget .hour, #calendar-widget .more {
+    font-family: 'kg_eyes_wide_openregular';
+    font-weight: 400;
+    font-size: 1.500em;
+    margin-right: 0.25em;
+}
+
+#calendar-widget p {
+    line-height: 29px;
+    vertical-align: text-bottom;
+    font-family: 'OswaldBook';
+    margin: 0px;
+}
+
+#calendar-widget .widget-wrapper h2:first-child {
+    padding-top: 4px;
+}
+
+#calendar-widget .widget-wrapper h2 {
+    margin: 0px;
+    line-height: 30px;
+    color: #460a00;
+    font-size: 1.875em;
+}
+
+#calendar-widget .more {
+    background-image: url("images/mini-arrow-right.svg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    text-align: right;
+    height: 26px;
+    padding-right: 25px;
+    position: absolute;
+    bottom: 0px;
+    right: 0.75em;
+    clear: both;
+}
+
+#calendar-widget .overflow {
+    max-height: 360px;
+    overflow: hidden;
+}
+
+/********************************************************** 
+
+    NEWSLETTER WIDGET
+
+**********************************************************/
+
+#newsletter-widget h2,
+#newsletter-widget p {
+    color: #FFFFFF !important;
+    margin: 0px;
+    text-align: left;
+}
+
+#newsletter-widget p {
+    font-family: 'OswaldBook';
+    font-weight: normal;
+}
+
+#newsletter-widget .widget-wrapper {
+    background-image: url("images/newsletter-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 102px;
+}
+
+#newsletter-widget .widget-wrapper div {
+    display: inline-block;
+    width: auto;
+    text-align: right;
+}
+
+#newsletter-widget .widget-wrapper div:first-child {
+    margin: 10px 0px;
+}
+
+#newsletter-widget input[type="email"] {
+    width: 200px;
+    margin-bottom: 4px;
+}
+
+/********************************************************** 
+
+    BEERS WIDGET
+
+**********************************************************/
+
+#beers-widget .radius > div{ padding: 0px;}
+
+#beers-widget .beer-logo {
+    height: 160px;
+    width: 100%;
+}
+
+#beers-widget .beer-invite {
+    height: 70px;
+    background-image: url("images/bottom.jpg");
+    background-size: auto 100%;
+    width: 100%;
+}
+
+#beers-widget .heineken, #beers-widget .tria {
+    background-image: url("images/heineken-logo.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#beers-widget .tria {
+    background-image: url("images/tria-logo.jpg");
+}
+
+#beers-widget h3 {
+    font-family: 'OswaldBook';
+    text-transform: uppercase;  
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+/********************************************************** 
+
+    SOCIAL NETWORK WIDGET
+
+**********************************************************/
+
+#socialnetwork-widget {
+}
+
+#socialnetwork-widget .widget-wrapper {
+    background-image: url("images/socialnetwork-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 102px;
+}
+
+#socialnetwork-widget .widget-wrapper > div {
+    min-height: 102px;
+}
+
+#socialnetwork-widget h2 {
+    margin: 0px;
+    padding-top: 8px;
+    line-height: 29px;
+}
+
+#socialnetwork-widget p {
+    line-height: 29px;
+    font-family: 'OswaldBook';
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+#socialnetwork-widget p span {
+    font-size: 1.3em;
+    margin: 0px 4px;
+}
+
+#socialnetwork-widget img { 
+    vertical-align: sub;
+}
+
+#socialnetwork-widget .arrow {
+    margin-top: -15px;
+    margin-left: 190px;
+    width: 280px;
+    height: 20px;
+    padding-top: 10px;
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("images/arrow-socialnetwork.svg");
+}
+
+/********************************************************** 
+
+    PAGINAS
+
+**********************************************************/
+
+#content-full { 
+    margin-top: 0px;
+}
+
+.page #wrapper, .single #wrapper {
+    background: none;
+    border: none;
+}
+
+/********************************************************** 
+
+    PROGRAMACAO
+
+**********************************************************/
+
+.page-id-92 .post-entry {
+    margin-left: -4px;
+    margin-right: -4px;
+    padding-bottom: 20px;
+}
+
+.page-id-92 .em-calendar {
+    background-size: 24px 114px;
+    background-image: url("images/stripe@2X.png");
+    border-collapse: separate;
+    border-spacing: 8px 8px;
+    padding: 10px;
+}
+
+.page-id-92 .em-calendar td {
+    border: solid 1px #CD6B00 ;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    height: 110px;
+    width: 14.28571428571429%;
+    display: table-cell;
+    overflow: hidden;
+    padding: 0.5em;
+    font-size: 0.95em;
+}
+
+.page-id-92 .eventless-pre,
+.page-id-92 .eventless-post,
+.page-id-92 .eventful-pre,
+.page-id-92 .eventful-post,
+.page-id-92 .eventless, 
+.page-id-92 .eventless-today, 
+.page-id-92 .eventful, 
+.page-id-92 .eventful-today {
+    font-family: 'OswaldLight';
+}
+
+.page-id-92 .eventless-pre > span,
+.page-id-92 .eventless-post > span,
+.page-id-92 .eventful-pre > a,
+.page-id-92 .eventful-post > a,
+.page-id-92 .eventless > span, 
+.page-id-92 .eventless-today > span, 
+.page-id-92 .eventful > a, 
+.page-id-92 .eventful-today > a {
+    font-family: 'OswaldBold';
+    font-size: 1.5em;
+    text-decoration: none !important;
+}
+.page-id-92 .eventful,
+.page-id-92 .eventful-today,
+.page-id-92 .eventful a,
+.page-id-92 .eventful-today a{
+    background: #CD6B00;
+    color: #FFFFFF;
+}
+
+.page-id-92 .eventless, 
+.page-id-92 .eventless-today {
+    color: #CD6B00;
+}
+
+.page-id-92 .eventless-pre,
+.page-id-92 .eventless-post,
+.page-id-92 .eventful-post,
+.page-id-92 .eventful-pre,
+.page-id-92 .eventless-pre a,
+.page-id-92 .eventless-post a,
+.page-id-92 .eventful-post a,
+.page-id-92 .eventful-pre a {
+    color: silver;
+    border-color: silver !important;
+}
+
+.page-id-92 .em-calendar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-id-92 .em-calendar thead td,
+.page-id-92 .days-names td {
+    height: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #CD6B00;
+    font-family: 'OswaldBold';
+    font-size: 1.875em;
+    text-align: center;
+}
+
+.page-id-92 .days-names td {
+    font-size: 1em;
+}
+
+.page-id-92 .em-calendar thead td:nth-child(1) {
+    text-align: right;
+}
+
+.page-id-92 .em-calendar thead td:nth-child(3) {
+    text-align: left;
+}
+
+.page-id-92 .arrow {
+    height: 150px;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    padding-top: 40px;
+    padding-left: 80px;
+    margin-left: 200px;
+    background-image: url("images/arrow-calendarpage.svg");
+}
+
+@media screen and (min-width: 960px) {
+
+    #calendar-widget .arrow {
+        margin-top: 40px;
+        margin-left: -40px;
+        width: 84px;
+        height: 150px;
+        position: absolute;
+        display: block;
+        background-image: url("images/arc-arrow-calendar.svg");
+    }
+
+    #calendar-widget h2 span {
+        margin-left: 130px;
+    }
+
+    #beers-widget h2 {
+        text-align: right;
+        margin-right: 30px !important;
+    }
+
+    #bar-widget h2.circle {
+        margin-left: 80px !important; 
+        margin-top: -30px !important;
+        width: 298px;
+        height: 108px;
+        padding-left: 86px;
+        padding-top: 24px;
+        position: absolute;
+        display: block;
+        background-image: url("images/arc-arrow-circle.svg");
+        background-size: 298px 108px;
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+}
+
+/********************************************************** 
+
+    MEDIAS
+
+**********************************************************/
+
+@media screen and (max-width: 960px) {
+
+    .widgets .grid {
+        display: inline !important;
+    }
+
+    .hide-small { 
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    #header {
+        padding-top: 2px;
+    }
+
+    #container {
+        padding: 0px;
+    }
+
+    #logo {
+        margin-top: 0px;
+    }
+
+    #responsive_current_menu_item { 
+        color: transparent !important;
+        font-family: 'OswaldBold';
+        font-weight: normal !important;
+        font-size: 1em !important;
+    }
+
+    #responsive_current_menu_item:before {
+       content: 'Menu';
+       color: White;
+    }
+
+    #responsive_menu_button {
+        border: none !important;
+    }
+
+    .main-nav {
+        background-image: none !important;
+        background-color: #CD6B00 !important;
+        margin-top: 50px;
+        display: block;
+        height: auto;
+    }
+
+    .menu {
+        display: block;;
+    }
+
+    .menu li {
+        line-height: 20px;
+        display: block;
+    }
+
+    .menu li:first-child {
+        margin-left: 0px;
+    }
+
+    .featured-title {
+        padding-top: 0px;
+    }
+
+    .storelink {    
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
