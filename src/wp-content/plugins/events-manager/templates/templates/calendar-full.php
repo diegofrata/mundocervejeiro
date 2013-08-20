@@ -16,9 +16,9 @@ $col_max = count($calendar['row_headers']); //each time this collumn number is r
 <table class="em-calendar fullcalendar">
 	<thead>
 		<tr>
-			<td colspan="2"><a class="em-calnav full-link em-calnav-prev" href="<?php echo $calendar['links']['previous_url']; ?>">&#9664;</a></td>
-			<td class="month_name" colspan="3"><?php echo ucfirst(date_i18n(get_option('dbem_full_calendar_month_format'), $calendar['month_start'])); ?></td>
-			<td colspan="2"><a class="em-calnav full-link em-calnav-next" href="<?php echo $calendar['links']['next_url']; ?>">&#9658;</a></td>
+			<td><a class="em-calnav full-link em-calnav-prev" href="<?php echo $calendar['links']['previous_url']; ?>">&lt;&lt;</a></td>
+			<td class="month_name" colspan="5"><?php echo ucfirst(date_i18n(get_option('dbem_full_calendar_month_format'), $calendar['month_start'])); ?></td>
+			<td><a class="em-calnav full-link em-calnav-next" href="<?php echo $calendar['links']['next_url']; ?>">&gt;&gt;</a></td>
 		</tr>
 	</thead>
 	<tbody>
@@ -56,10 +56,7 @@ $col_max = count($calendar['row_headers']); //each time this collumn number is r
 						<?php endif; ?>
 					</ul>
 					<?php else:?>
-					<span><?php echo date('j',$cell_data['date']); ?></span>
-					<ul>
-						<li>Aberto</li>
-					</ul>
+					<?php echo date('j',$cell_data['date']); ?>
 					<?php endif; ?>
 				</td>
 				<?php

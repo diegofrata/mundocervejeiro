@@ -74,6 +74,8 @@ body {
 	background-size: 24px 114px;
 	background-repeat: repeat-x;
 	background-position: 0px 42px;
+    font-family: 'Verdana';
+    font-size: 0.8em;
 }
 
 h1, h2, h3, h4, h5, h6, .handwrite  {
@@ -244,6 +246,10 @@ input[type="checkbox"],
     HEADER
 
 **********************************************************/
+
+body, html { 
+    overflow-x: hidden;
+}
 
 #before-header ul {
     list-style: none;
@@ -445,21 +451,27 @@ input[type="checkbox"],
     display: inline-block;
 }
 
-.mslider .flex-control-nav li a {
-    background-image: url("images/background@2X.png");
-    box-shadow: none !important;
-    border: #CD6B00 1px solid !important;
+.home #wrapper .rsNav {
+    overflow: visible;
+    margin-top: 20px;
 }
 
-.mslider .flex-control-nav li a.flex-active {
+.home #wrapper .rsBullet span {
+    box-shadow: none !important;
+    border: #CD6B00 1px solid !important;
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+}
+
+.home #wrapper .rsNavSelected span {
     background-color: #CD6B00 !important;
 }
 
-/* Meta Slider */
-.slides {
-    background-color: #ffffff;
+.home #wrapper .royalSlider {
     border: solid 1px #aaaaaa !important;
-    padding: 0.5em !important;
+    padding: 0.7% !important;
+    margin-bottom: 50px;
 }
 
 .front-page .widgets {
@@ -693,13 +705,17 @@ input[type="checkbox"],
 
 **********************************************************/
 
-#content-full { 
+#content-full, #content { 
     margin-top: 0px;
 }
 
 .page #wrapper, .single #wrapper {
     background: none;
     border: none;
+}
+
+.page, .single { 
+    color: #e9e9e9;
 }
 
 /********************************************************** 
@@ -823,6 +839,191 @@ input[type="checkbox"],
     background-image: url("images/arrow-calendarpage.svg");
 }
 
+/********************************************************** 
+
+    O BAR
+
+**********************************************************/
+
+.page #wrapper .rsUni, #wrapper .rsThumbs
+{
+    background: transparent;
+}
+
+.page #wrapper .rsOverflow {
+    border: solid 6px #fff !important;
+    background: #fff;
+}
+
+.page #wrapper .royalSlider {
+    margin-top: 40px;
+}
+
+.page #wrapper .rsTmb {
+    border: solid 3px #FFF;
+}
+
+.page #wrapper .rsNav {
+    margin: 20px 0px 40px 0px;
+}
+
+.page #wrapper .rsNavSelected .thumbIco {
+    border: solid 3px #cd6b00;
+}
+
+.page #wrapper .rsThumbsArrowIcn {
+    background-image: url("images/button-right.png");
+    background-size: 30px 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 26px;
+    right: 0px;
+    left: auto;
+}
+
+.page #wrapper .rsThumbsArrowRight .rsThumbsArrowIcn {
+    background-image: url("images/button-right.png");
+}
+
+.page #wrapper .rsThumbsArrowLeft .rsThumbsArrowIcn {
+    background-image: url("images/button-left.png");
+    margin-left: 0px;
+    right: auto;
+}
+
+/********************************************************** 
+
+    CERVEJAS
+
+**********************************************************/
+
+#post-18 td {
+    font-family: 'OswaldLight';
+    border-color: #CD6B00;
+    border-style: dashed;
+    text-transform: uppercase;
+}
+
+#post-18 th {
+    background-color: transparent;
+    font-family: 'OswaldBook';
+    text-transform: uppercase;
+    color: #CD6B00;
+    border-color: #CD6B00;
+    border-bottom-width: 3px;
+}
+
+#post-18 .dataTables_length {
+    display: none;
+}
+
+#post-18 .dataTables_filter {
+    float: none;
+}
+
+#post-18 .tablepress {
+    margin: 20px 0px !important;
+}
+
+#post-18 input {
+    background: transparent;
+    border-color: #CD6B00;
+    color: #CD6B00;
+    width: 250px;
+}
+
+#beers {
+    border: solid 6px #ffffff;
+    padding: 12px;
+    color: #CD6B00;
+    margin: 30px 0px;
+}
+
+#beers * { margin: 0px; }
+
+#beers h3 {
+    font-family: 'OswaldBold';
+}
+
+#beers header {
+    font-family: 'OswaldLight';
+}
+
+#beers dl {
+    margin: auto;
+    float: none;
+    width: 828px;
+}
+
+#beers dt {
+    width: 138px;
+    margin: 0px;
+    font-family: 'OswaldBook';
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#beers dt img {
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+#beers dt.selected {
+    background: url('images/triangle-black-12pc.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 30px 20px;
+}
+
+#beers dd, #beers #definition {
+    background: url('images/black-12pc.png');
+    margin: 0px;
+    padding: 12px;
+    display: none;
+}
+
+#beers #definition {
+    display: inline-block;
+}
+
+#post-18 .rotate {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-30deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    display: inline-block;
+}
+
+
+#post-18 .arrow-1 { 
+    background: url('images/arrow-beers-2.svg');
+    background-repeat: no-repeat;
+    background-position: 110px 0px;
+    position: absolute;
+    top: 610px;
+    left: 600px;
+    height: 60px;
+    margin: 0px;
+    padding: 10px 100px 0px 0px;
+    width: 150px;
+    text-align: center;
+}
+
+#post-18 .arrow-2 { 
+    background: url('images/arrow-beers-1.svg');
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
+    height: 82px;
+    margin-left: 100px;
+    padding: 0px 0px 0px 90px;
+    width: 180px;
+    text-align: center;
+}
+
+
 @media screen and (min-width: 960px) {
 
     #calendar-widget .arrow {
@@ -837,6 +1038,7 @@ input[type="checkbox"],
 
     #calendar-widget h2 span {
         margin-left: 130px;
+        display: inline-block;
     }
 
     #beers-widget h2 {
@@ -873,8 +1075,17 @@ input[type="checkbox"],
     }
 
     .hide-small { 
-        display: none;
+        display: none !important;
     }
+
+    .show-small {
+        display: inline-block !important;
+    }
+
+    #beers dt.selected { background: transparent; }
+    #beers dt { width: 100%; }
+    #beers dl { width: auto; }
+    #post-18 .arrow-1 { display: none; }
 }
 
 @media screen and (max-width: 650px) {

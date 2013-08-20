@@ -54,7 +54,7 @@ if ( 'posts' == get_option( 'show_on_front' ) && $responsive_options['front_page
 
 		</header>
 
-		<?php echo do_shortcode("[metaslider id=9]"); ?>
+		<?php echo get_new_royalslider(1); ?>
 
 	</section>
 

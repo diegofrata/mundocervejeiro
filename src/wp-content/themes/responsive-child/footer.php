@@ -156,20 +156,5 @@ $responsive_options = responsive_get_options();
 
 
 <?php wp_footer(); ?>
-<script type="text/javascript">
-            $(function() {
-         
-                $('.div').hover(function() {
-                    $(this).animate({
-                        height: '60px'
-                    }, 500);
-                },function() {
-                    $(this).animate({
-                        height: '30px'
-                    }, 500);
-                });
-                    // Handler for .ready() called.
-            });
-            </script>
 </body>
 </html>

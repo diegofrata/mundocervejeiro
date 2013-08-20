@@ -8,3 +8,5 @@ function test_function() {
 }
 
 add_action( 'responsive_header', 'test_function' );
+
+register_new_royalslider_files(1);
