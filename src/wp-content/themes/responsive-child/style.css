@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, .handwrite  {
 }
 
 a { color: #CD6B00;}
-
+a:hover { color: #802518;}
 
 
 input[type="text"],
@@ -110,6 +110,7 @@ input[type="checkbox"],
     font-family: 'OswaldLight';
     font-size: 1.1em;
     padding: 0.2em;
+    box-shadow: none;
     filter: none;
 }
 
@@ -181,10 +182,10 @@ input[type="checkbox"],
 .paper-lines {
     position: relative;
     background: transparent;
-    background: -webkit-linear-gradient(top, #EFF8FC 0%, transparent 8%) 0 57px;
-    background: -ms-linear-gradient(top, #909090 0%, transparent 8%) 0 57px;
-    background: -moz-linear-gradient(top, #EFF8FC 0%, transparent 8%) 0 57px;
-    background: linear-gradient(top, #EFF8FC 0%, transparent 8%) 0 57px;
+    background: -webkit-linear-gradient(top, #9A9A9A 0.5%, transparent 6%) 0 57px;
+    background: -ms-linear-gradient(top, #909090 0%, transparent 6%) 0 57px;
+    background: -moz-linear-gradient(top, #9A9A9A 0%, transparent 5%) 0 57px;
+    background: linear-gradient(top, #9A9A9A 0%, transparent 6%) 0 57px;
     -webkit-background-size: 100% 30px;
     -moz-background-size: 100% 30px;
     -ms-background-size: 100% 30px;
@@ -997,7 +998,6 @@ body, html {
     display: inline-block;
 }
 
-
 #post-18 .arrow-1 { 
     background: url('images/arrow-beers-2.svg');
     background-repeat: no-repeat;
@@ -1023,6 +1023,39 @@ body, html {
     text-align: center;
 }
 
+
+/******************************
+*
+*  LOCALIZAÇÃO
+*
+*******************************/
+
+#post-23 .cpm-map {
+    border: solid 5px #fff;
+    margin-top: 0px;
+}
+
+#post-23 h3, #post-23 address span {
+    font-family: 'OswaldBold';
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#post-23 address {
+    margin: 0.857em 0 0 0;
+}
+
+#post-23 .handwrite {
+    background: url('images/arrow-contact-1.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    margin: 20px 0px 30px 40px;
+    padding: 20px 0px 20px 80px;
+    text-align: center;
+    line-height: 1em;
+}
 
 @media screen and (min-width: 960px) {
 
@@ -1086,6 +1119,7 @@ body, html {
     #beers dt { width: 100%; }
     #beers dl { width: auto; }
     #post-18 .arrow-1 { display: none; }
+    #post-23 .handwrite { display: none; }
 }
 
 @media screen and (max-width: 650px) {
