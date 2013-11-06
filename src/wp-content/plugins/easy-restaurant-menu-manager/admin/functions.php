@@ -237,4 +237,24 @@ function wprmm_editor_or_admin(){
   }
 }
 
+
+
+
+/**
+ * Converts saved category layout name to full layout name.
+ */
+function ermm_full_layout_name( $layout ){
+  $name = $layout;
+  $layouts = ermm_defined_layouts();
+  foreach( ermm_defined_layouts() as $l ){
+    if( $l['safe_name'] == $layout ){
+      $name = $l['name'];
+    }
+  }
+  return $name;
+}
+
+
+
+
 ?>

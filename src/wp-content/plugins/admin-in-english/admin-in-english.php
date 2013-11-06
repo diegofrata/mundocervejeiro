@@ -3,11 +3,16 @@
 Plugin Name: Admin in English
 Plugin URI: http://wordpress.org/extend/plugins/admin-in-english/
 Description: Lets you have your backend administration panel in English, even if the rest of your blog is translated into another language.
-Version: 1.2
+Version: 1.2.1
 Author: Nikolay Bachiyski
 Author URI: http://nikolay.bg/
 Tags: translation, translations, i18n, admin, english, localization, backend
 */
+
+function admin_in_english_add_hooks() {
+	add_filter( 'locale', 'admin_in_english_locale' );
+}
+add_action( 'plugins_loaded', 'admin_in_english_add_hooks' );
 
 function admin_in_english_locale( $locale ) {
 	if ( admin_in_english_should_use_english() ) {
@@ -15,7 +20,6 @@ function admin_in_english_locale( $locale ) {
 	}
 	return $locale;
 }
-add_filter( 'locale', 'admin_in_english_locale' );
 
 function admin_in_english_should_use_english() {
 	// frontend AJAX calls are mistakend for admin calls, because the endpoint is wp-admin/admin-ajax.php

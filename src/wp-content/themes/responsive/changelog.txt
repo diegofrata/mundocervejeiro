@@ -8,6 +8,80 @@ Changelog Legend:
 [x] = Deleted
 [!] = Bugs
 
+(10/28/13) - Improvements - Version 1.9.3.9
+
+[+] Added footer widget area.
+[+] Added Id's to home widgets.
+[+] Added h3 tags to widgets.
+[X] Removed 100% width from input form fields.
+[*] Plugin notification is made to be displayed only to admin.
+[*] Updated language files
+[!] Fixed if else structure.
+[!] Fixed Image map area.
+[*] Widgets - Added better descriptions.
+
+
+(10/04/13) - Improvements - Version 1.9.3.8
+
+[*] Spaces for indentation have been swapped out for tabs in the code
+[!] Fixed javascript bug that was preventing other javascripts from working correctly
+
+(09/26/13) - Improvements - Version 1.9.3.7
+
+http://cyberchimps.com/guide/update-1-9-3-7/
+
+[*] Set up icon links with new responsive_child_uri() function.
+[+] Added function responsive_free_get_option() to get value of individual free option.
+[+] Added title to blog post page.
+[x] Removed trailing blank spaces.
+[+] Added editor option type for Content area and Featured content options.
+
+
+(08/21/13) - Improvements - Version 1.9.3.6
+
+http://cyberchimps.com/guide/update-1-9-3-6/
+
+[+] Themes page to appearance menu
+[!] Fixed support and forum links.
+[^] Moved plugin from theme to wordpress plugin repo.
+[+] Added ability to add classes to options.
+[*] Allowed call to action update without home content.
+
+----
+
+(08/06/13) - Improvements - Version 1.9.3.5
+
+http://cyberchimps.com/guide/update-1-9-3-5/
+
+[+] Added rtl css support.
+[+] Added cyberchimps logo to footer.
+[+] Added option class to define theme options.
+[+] Added support for companion plugin.
+[*] Changed post title tag of blog post from h1 to h2.
+[x] Removed google-site-verification etc as per WP rules.
+[!] Fixed css loading sequence.
+[!] Fixed customizer redirection issue.
+
+----
+
+(07/22/13) - Improvements - Version 1.9.3.4
+
+http://cyberchimps.com/guide/update-1-9-3-4/
+
+[+] Allow pinch to zoom
+[+] Close mobile menu by clicking anywhere on the page
+[+] Add waring when reseting options to defaults
+[+] Translation can be loaded from the the WordPress language folder or child theme
+[*] Update Translations
+[*] Allow pinch to zoom
+[*] Improvments for loading of title for mobile menu
+[*] Support for jQuery 1.9
+[!] RTL Sub-Header Menu fix
+[!] Fix errors on image atachment page
+[!] Fix breadcrumb errors
+
+----
+
 (06/18/13) - Improvements - Version 1.9.3.3
 
 http://themeid.com/docs/update-1-9-3-3/

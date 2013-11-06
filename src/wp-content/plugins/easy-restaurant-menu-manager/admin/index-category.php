@@ -49,7 +49,7 @@ $categories = $category->get_all($menu->id);
      <tr>
        <td><strong><?php echo $c->name; ?></strong></td>
        <td><?php echo $menu->name;?></td>
-       <td><?php echo $c->layout; ?></td>
+       <td><?php echo ermm_full_layout_name( $c->layout ); ?></td>
        <td><?php echo $c->display_order; ?></td>
        <td><?php echo ($c->active == 1) ? 'Yes' : 'No'; ?></td>
        <td><a href="<?php echo wprmm_admin_url('category','edit-category',$c->id);?>">Edit Category</a></td>

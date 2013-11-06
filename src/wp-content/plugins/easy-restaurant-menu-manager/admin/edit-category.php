@@ -57,8 +57,11 @@ $menu = new WPRMM_Menu((int) $category->menu_id);
           <th scope="row"><label for="wprmm[layout]">Layout</label></th>
           <td>
             <select name="wprmm[layout]" class="regular-text code">
-              <option value="one-column" <?php echo ($category->layout == 'one-column') ? 'selected' : '';?>>One Column</option>
-              <option value="two-column" <?php echo ($category->layout == 'two-column') ? 'selected' : '';?>>Two Column</option>
+              <?php foreach( ermm_defined_layouts() as $layout ): ?>
+                <option value="<?php echo $layout['safe_name'];?>" <?php echo ($category->layout == $layout['safe_name']) ? 'selected' : '';?>>
+                  <?php echo $layout['name'];?>
+                </option>
+              <?php endforeach;?>
             </select>
             <span class="description">Layout for items in this category.</span>
           </td>

@@ -128,11 +128,15 @@ input[type="checkbox"],
     text-align: right;
 }
 
-.underline, .entry-title {
+.underline, .entry-title, .underline2 {
     background-image: url("images/underline.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
+}
+
+.underline2 {
+    background-image: url("images/underline2.svg");    
 }
 
 .entry-title {
@@ -174,7 +178,7 @@ input[type="checkbox"],
     border-radius: 0px;
 }
 
-.paper {
+.paper, .wprmm_menu {
     background-image: url("images/stripe@2X.png");
     background-size: 24px 114px;
 }
@@ -242,6 +246,16 @@ input[type="checkbox"],
 .handwrite {
     font-size: 2.25em;
 }
+
+.rotate {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-30deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    display: inline-block;
+}
+
 /********************************************************** 
 
     HEADER
@@ -706,18 +720,20 @@ body, html {
 
 **********************************************************/
 
-#content-full, #content { 
+#content-full, #content, #content-archive { 
     margin-top: 0px;
 }
 
-.page #wrapper, .single #wrapper {
+.page #wrapper, .single #wrapper, .archive #wrapper {
     background: none;
     border: none;
 }
 
-.page, .single { 
+.page, .single, .archive { 
     color: #e9e9e9;
 }
+
+.title-archive, .post-data { display: none; }
 
 /********************************************************** 
 
@@ -989,15 +1005,6 @@ body, html {
     display: inline-block;
 }
 
-#post-18 .rotate {
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -ms-transform: rotate(-10deg);
-    -o-transform: rotate(-30deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    display: inline-block;
-}
-
 #post-18 .arrow-1 { 
     background: url('images/arrow-beers-2.svg');
     background-repeat: no-repeat;
@@ -1055,6 +1062,110 @@ body, html {
     padding: 20px 0px 20px 80px;
     text-align: center;
     line-height: 1em;
+}
+
+
+
+/******************************
+*
+*  CARDAPIO
+*
+*******************************/
+#post-19 #menu-categories {
+    background: url('images/arrow-menu.svg') no-repeat;
+    background-size: 142px 36px;
+    background-position: 65px 0px;
+    padding-top: 35px;
+    margin-top: 10px;
+    float: left;
+
+}
+
+#post-19 h1, #post-19 h2  {
+    color: #460a00;
+    font-size: 2.7em;
+    text-align: center;
+}
+
+#post-19 h2 {
+    margin-top: 0px;
+}
+
+#post-19 .wprmm_menu li {
+    margin: 30px 0px;
+}
+#post-19 h3, #post-19 li p {
+    font-family: 'OswaldBook';
+    font-size: 1.065em;
+}
+
+#post-19 h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#post-19 #menu-categories a {
+    color: white;
+    text-decoration: underline;
+}
+
+#post-19 #menu-categories div {
+    width: 220px;
+    background: url('images/menu-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#post-19 #menu-categories ul {
+    list-style: none;
+    list-style-image: none;
+    list-style-position: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#post-19 #menu-categories li {
+    margin: 1em 0;
+}
+
+#post-19 .wprmm_menu {
+    display: table-cell;
+    padding: 20px;
+    margin-top: 10px;
+    color: #460a00;
+}
+
+#post-19 .post-title {
+    display: none;
+}
+
+#post-19 .tip {
+    line-height: 30px;
+    width: 140px;
+    text-align: center;
+    margin: auto;
+    margin-top: 45px;
+    display: block;
+}
+
+#post-19 .menu_price {
+    float: left;
+    display: inline;
+    width: 19px;
+    min-height: 19px;
+    vertical-align: top;
+    margin: 0px 10px 20px -29px;
+}
+
+#post-19 .menu_price img {
+    width: 19px;
+    vertical-align: top;
+}
+
+#post-19 .menu_manager {
+    padding: 0 12px;
 }
 
 @media screen and (min-width: 960px) {

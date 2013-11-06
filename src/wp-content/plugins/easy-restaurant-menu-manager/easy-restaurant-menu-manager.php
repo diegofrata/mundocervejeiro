@@ -3,7 +3,7 @@
 Plugin Name: Easy Restaurant Menu Manager
 Plugin URI: http://labs.saidigital.co/products/easy-restaurant-menu-manager-wordpress/
 Description: Makes it easy for a restaurant to maintain an online menu. Includes categories, prices and descriptions that are a snap to update.
-Version: 1.3.0
+Version: 1.4.0
 Author: Sarah Tebo, Richard Royal
 Author URI: http://saidigital.co
 */
@@ -26,7 +26,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
 
 
 defined('WP_PLUGIN_URL') or die('Restricted access');
@@ -56,6 +55,7 @@ require_once("lib/class.category.php");
 require_once("lib/class.item.php");
 require_once("lib/class.icon.php");
 require_once("views/view.items.php");
+require_once("views/layouts.php");
 require_once("views/view.menu.php");
 require_once("views/view.printer-friendly.php");
 require_once("views/view.feed.php");

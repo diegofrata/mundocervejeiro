@@ -31,6 +31,8 @@ Tired of using PDFs to post your restaurant's menus online? Easy Restaurant Menu
 * Multiple layouts for items
 * Easily activate and deactivate menu items to match your inventory
 * Easy CSS customizations of views
+* Easy HTML/PHP customizations of views for full control
+* Supports common responsive frameworks like Twitter Bootstrap and Foundation
 
 = Extend =
 
@@ -92,6 +94,10 @@ Each menu has its own RSS feed, which means customers can easily keep track of c
 9. Menu as viewed in an RSS feed reader
 
 == Changelog ==
+
+= 1.4.0 =
+* Made it easier to add custom layouts.
+* Added responsive  layouts for Twitter Bootstrap and Zurb Foundation.
 
 = 1.3.0 =
 * Added better breadcrumb navigation for admin.
