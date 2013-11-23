@@ -326,6 +326,7 @@ body, html {
     display: table-cell;
     vertical-align: middle;
     filter: none;
+    font-size: 1.2em;
 }
 
 .menu li {
@@ -341,7 +342,7 @@ body, html {
 }
 
 .menu li a {
-    padding: 0 0.6em;
+    padding: 0 0.75em;
 }
 .menu li a:hover {
     background: none !important;   
