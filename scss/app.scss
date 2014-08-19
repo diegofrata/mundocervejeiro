@@ -1,0 +1,140 @@
+@import "settings";
+@import "foundation";
+@import "flex.scss";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+// GENERAL
+
+$retina: "only screen and (-webkit-min-device-pixel-ratio: 2),
+          only screen and (min--moz-device-pixel-ratio: 2),
+          only screen and (-o-min-device-pixel-ratio: 2/1),
+          only screen and (min-device-pixel-ratio: 2),
+          only screen and (min-resolution: 192dpi),
+          only screen and (min-resolution: 2dppx)";
+
+
+h1:not(.no-decoration) { 
+    background: url(../img/seal.png) center center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    line-height: rem-calc(143px);
+    text-align: center;
+}
+h1:not(.no-decoration)::before, h1:not(.no-decoration)::after { 
+    background: url(../img/dotted-line.png);
+    background-size: contain;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+}
+
+@media #{$retina} { 
+    h1:not(.no-decoration) { 
+        background-image: url(../img/seal@2X.png);
+    }
+    h1:not(.no-decoration)::before, h1:not(.no-decoration)::after { 
+        background-image: url(../img/dotted-line@2X.png);
+    }
+}
+
+h1:not(.no-decoration)::before { top: rem-calc(38px); }
+h1:not(.no-decoration)::after { top: rem-calc(110px); }
+
+h2 { 
+    font-family: "Georgia";
+    color: #8b7752;
+    text-align: center; 
+}
+
+h3 { text-transform: uppercase; }
+
+p { text-align: center; }
+
+// HEADER
+.top-bar {
+    .name {
+        h1 { background: none; }
+        a { padding: 0 !important; } 
+    }
+    .logo-large { display: none; }
+}
+@media #{$small-up} {
+    .logo-small { width: rem-calc(200px); }
+}
+
+@media #{$medium-up} {
+    .logo-small { width: rem-calc(239px); }
+}
+
+@media #{$large-up} {
+    .top-bar {
+        @include flexbox;
+        
+        .title-area { 
+            @include flex(none);
+
+            float: none;
+            
+            .show-for-large-up { display: inline-block !important; }
+            .logo-large { width: rem-calc(129px); display: inline-block; }
+            .logo-small { display: none; }
+        }
+
+        .top-bar-section, ul { 
+            @include flexbox;
+            @include flex-just(space-between);
+            @include flex(1, 1, 50%);
+
+            margin: 0% 2% !important;   
+        }
+
+        .top-bar-section li a {
+            text-transform: uppercase;
+            display: inline;
+            span { line-height: rem-calc(286px); }
+        }
+
+        .order-0 { @include order(0); }
+        .order-1 { @include order(1); }
+        .order-2 { @include order(2); }
+    }
+}

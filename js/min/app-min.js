@@ -1,0 +1,1 @@
+$(document).foundation(),$(document).on("scroll",function(){var o=$(document).scrollTop();$(".sticky").css("margin-top",-Math.min(o,106))});
