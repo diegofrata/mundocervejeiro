@@ -1,6 +1,7 @@
 @import "settings";
 @import "foundation";
 @import "flex.scss";
+@import "slick.scss";
 
 // Or selectively include components
 // @import
@@ -40,7 +41,9 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+///////////////////////////////////////////////
 // GENERAL
+///////////////////////////////////////////////
 
 $retina: "only screen and (-webkit-min-device-pixel-ratio: 2),
           only screen and (min--moz-device-pixel-ratio: 2),
@@ -49,39 +52,50 @@ $retina: "only screen and (-webkit-min-device-pixel-ratio: 2),
           only screen and (min-resolution: 192dpi),
           only screen and (min-resolution: 2dppx)";
 
+h1 { 
+    line-height: rem-calc(100px);
+    text-align: center;
+    text-transform: uppercase;
+}
 
 h1:not(.no-decoration) { 
-    background: url(../img/seal.png) center center; 
+    background: url(../images/seal.png) center center; 
     background-size: contain;
     background-repeat: no-repeat;
-    line-height: rem-calc(143px);
-    text-align: center;
 }
+
 h1:not(.no-decoration)::before, h1:not(.no-decoration)::after { 
-    background: url(../img/dotted-line.png);
+    background: url(../images/dotted-line.png);
     background-size: contain;
     content: '';
     display: block;
-    width: 100%;
     height: 1px;
-    position: absolute;
+    position: relative;
 }
+
+h1:not(.no-decoration)::before { top: rem-calc(25px); }
+h1:not(.no-decoration)::after { top: rem-calc(-25px); }
 
 @media #{$retina} { 
     h1:not(.no-decoration) { 
-        background-image: url(../img/seal@2X.png);
+        background-image: url(../images/seal@2X.png);
     }
     h1:not(.no-decoration)::before, h1:not(.no-decoration)::after { 
-        background-image: url(../img/dotted-line@2X.png);
+        background-image: url(../images/dotted-line@2X.png);
     }
 }
 
-h1:not(.no-decoration)::before { top: rem-calc(38px); }
-h1:not(.no-decoration)::after { top: rem-calc(110px); }
+@media #{$medium-up} {
+    h1:not(.no-decoration) { 
+        line-height: rem-calc(143px);
+    }        
+    h1:not(.no-decoration)::before { top: rem-calc(36px); }
+    h1:not(.no-decoration)::after { top: rem-calc(-36px); }
+}
 
 h2 { 
     font-family: "Georgia";
-    color: #8b7752;
+    color: $secondary-color;
     text-align: center; 
 }
 
@@ -89,20 +103,79 @@ h3 { text-transform: uppercase; }
 
 p { text-align: center; }
 
+///////////////////////////////////////////////
 // HEADER
+///////////////////////////////////////////////
+@mixin header-height($height) {
+    .f-topbar-fixed { padding-top: $height !important; }
+    .top-bar {
+        height: $height;
+        .title-area { height: $height; }
+        .name h1 { line-height: $height; }
+    }
+
+    a[name] {
+        position: relative;
+        top: -$height;
+    }
+}
+
+@include header-height(rem-calc(100px));
+
 .top-bar {
+    background-color: transparent;
     .name {
-        h1 { background: none; }
+        h1 { 
+            background: none; 
+        }
         a { padding: 0 !important; } 
     }
     .logo-large { display: none; }
+    .logo-small { margin: rem-calc(5px); }
+    .menu-icon { 
+        margin-right: rem-calc(10px);
+        a { padding: 0 rem-calc(25px) 0 0; }
+    }
+    .top-bar-section li a { text-transform: uppercase; }
+    .socialmedia img { width: rem-calc(30px); }
 }
+
+.top-bar.expanded 
+{
+    .top-bar-section {
+        //background: $secondary-color;
+        li {
+            border-top: rem-calc(1px) solid $body-font-color;
+
+            a { 
+                //color: #fff;
+                padding: rem-calc(12px); 
+            }
+        }
+    }
+
+    .top-bar-section.order-2 {
+        li:nth-child(3) { border-bottom: rem-calc(1px) solid $body-font-color; }
+        li:last-of-type { display: none; }
+    }
+}
+
 @media #{$small-up} {
     .logo-small { width: rem-calc(200px); }
 }
 
 @media #{$medium-up} {
-    .logo-small { width: rem-calc(239px); }
+    @include header-height(rem-calc(192px));
+    a[name] { top: rem-calc(-86px) !important; }
+    .logo-small { display: none; }
+    .top-bar {
+        .name h1 a { 
+            text-align: center;
+            width: auto;
+        }
+        .name .logo-large { width: rem-calc(129px); display: inline-block; }
+        .menu-icon { margin-top: rem-calc(30px) !important; }
+    }
 }
 
 @media #{$large-up} {
@@ -115,8 +188,6 @@ p { text-align: center; }
             float: none;
             
             .show-for-large-up { display: inline-block !important; }
-            .logo-large { width: rem-calc(129px); display: inline-block; }
-            .logo-small { display: none; }
         }
 
         .top-bar-section, ul { 
@@ -124,17 +195,61 @@ p { text-align: center; }
             @include flex-just(space-between);
             @include flex(1, 1, 50%);
 
-            margin: 0% 2% !important;   
+            margin: 0% 1.25% !important;   
         }
 
-        .top-bar-section li a {
-            text-transform: uppercase;
+        .top-bar-section li a, .socialmedia li {
+            
             display: inline;
-            span { line-height: rem-calc(286px); }
+            span, a { line-height: rem-calc(286px) !important; }
         }
 
         .order-0 { @include order(0); }
         .order-1 { @include order(1); }
         .order-2 { @include order(2); }
     }
+}
+
+
+///////////////////////////////////////////////
+// MAIN SLIDER
+///////////////////////////////////////////////
+#mainslider {
+    div > div > div {
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    section { 
+        padding: 1.5em;
+        width: 100%;
+        background: rgba(#000, 0.5);
+    }
+
+    h1 { 
+        line-height: 1em;
+        color: rgba(#d3d1c9, 1);
+        font-family: "Gotham Black";
+    }
+
+    h2 {
+        color: rgba(#e99e21, 1);
+        font-size: rem-calc(24px);
+        font-family: "Gibson";
+        font-weight: bold;
+        font-size: rem-calc(20px) !important;
+    }
+
+    .slick-dots { 
+        margin-left: 0px; 
+        margin-right: 0px; 
+    }
+
+    .full { width: 100%; }
+}
+
+@media #{$medium-up} {
+    #mainslider h1 { font-size: rem-calc(55px); }
 }

@@ -56,7 +56,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/foundation.min-min.js",
@@ -1071,7 +1071,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery.min-min.js",
@@ -3578,6 +3578,293 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/slick.js\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/slick.js\/img\/fonz1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 424390,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/fonz1.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/fonz1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/img\/fonz2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244508,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/fonz2.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/fonz2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/img\/fonz3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 389865,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/fonz3.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/fonz3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/img\/lazyfonz1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86726,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz1.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/img\/lazyfonz2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77774,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz2.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/img\/lazyfonz3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86125,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz3.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/img\/lazyfonz4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74865,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz4.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/img\/lazyfonz5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40742,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz5.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/img\/lazyfonz6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45690,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz6.png",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/img\/lazyfonz6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/slick.js\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/js\/min\/scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/slick.js\/slick\/slick.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/slick.js\/slick\/slick.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.js",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/slick\/min\/slick-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/slick.js\/slick\/slick.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/slick.js\/slick\/min\/slick.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/slick.js\/slick\/slick.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/slick.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/verge\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/CHANGELOG.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/verge\/GruntFile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/GruntFile.js",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/min\/GruntFile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/verge\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/verge\/src\/ender.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/src\/ender.js",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/src\/min\/ender-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/verge\/src\/verge.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/src\/verge.js",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/src\/min\/verge-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/verge\/test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/verge\/test\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/test\/index.js",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/test\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/verge\/test\/vendor\/ender.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/test\/vendor\/ender.js",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/test\/vendor\/min\/ender-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/verge\/test\/vendor\/ender.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/test\/vendor\/ender.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/test\/vendor\/min\/ender.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/verge\/verge.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/verge.js",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/min\/verge-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/verge\/verge.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/verge\/verge.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/verge\/min\/verge.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -3598,90 +3885,189 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/dotted-line.png": {
+	"\/images\/dotted-line.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 943,
-		"inputAbbreviatedPath": "\/img\/dotted-line.png",
-		"outputAbbreviatedPath": "\/img\/dotted-line.png",
+		"inputAbbreviatedPath": "\/images\/dotted-line.png",
+		"outputAbbreviatedPath": "\/images\/dotted-line.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/dotted-line@2X.png": {
+	"\/images\/dotted-line@2X.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 950,
-		"inputAbbreviatedPath": "\/img\/dotted-line@2X.png",
-		"outputAbbreviatedPath": "\/img\/dotted-line@2X.png",
+		"inputAbbreviatedPath": "\/images\/dotted-line@2X.png",
+		"outputAbbreviatedPath": "\/images\/dotted-line@2X.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-horizontal.png": {
+	"\/images\/email-256.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3752,
+		"inputAbbreviatedPath": "\/images\/email-256.png",
+		"outputAbbreviatedPath": "\/images\/email-256.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/facebook-256.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2466,
+		"inputAbbreviatedPath": "\/images\/facebook-256.png",
+		"outputAbbreviatedPath": "\/images\/facebook-256.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/foursquare-256.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4582,
+		"inputAbbreviatedPath": "\/images\/foursquare-256.png",
+		"outputAbbreviatedPath": "\/images\/foursquare-256.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo-horizontal.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5828,
-		"inputAbbreviatedPath": "\/img\/logo-horizontal.png",
-		"outputAbbreviatedPath": "\/img\/logo-horizontal.png",
+		"inputAbbreviatedPath": "\/images\/logo-horizontal.png",
+		"outputAbbreviatedPath": "\/images\/logo-horizontal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-horizontal@2X.png": {
+	"\/images\/logo-horizontal@2X.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 13058,
-		"inputAbbreviatedPath": "\/img\/logo-horizontal@2X.png",
-		"outputAbbreviatedPath": "\/img\/logo-horizontal@2X.png",
+		"inputAbbreviatedPath": "\/images\/logo-horizontal@2X.png",
+		"outputAbbreviatedPath": "\/images\/logo-horizontal@2X.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo.png": {
+	"\/images\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7328,
-		"inputAbbreviatedPath": "\/img\/logo.png",
-		"outputAbbreviatedPath": "\/img\/logo.png",
+		"inputAbbreviatedPath": "\/images\/logo.png",
+		"outputAbbreviatedPath": "\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo@2X.png": {
+	"\/images\/logo@2X.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 11542,
-		"inputAbbreviatedPath": "\/img\/logo@2X.png",
-		"outputAbbreviatedPath": "\/img\/logo@2X.png",
+		"inputAbbreviatedPath": "\/images\/logo@2X.png",
+		"outputAbbreviatedPath": "\/images\/logo@2X.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/seal.png": {
+	"\/images\/restaurant-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.77767e+06,
+		"inputAbbreviatedPath": "\/images\/restaurant-1.jpg",
+		"outputAbbreviatedPath": "\/images\/restaurant-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/restaurant-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.27036e+06,
+		"inputAbbreviatedPath": "\/images\/restaurant-2.jpg",
+		"outputAbbreviatedPath": "\/images\/restaurant-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/restaurant-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.06401e+06,
+		"inputAbbreviatedPath": "\/images\/restaurant-3.jpg",
+		"outputAbbreviatedPath": "\/images\/restaurant-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/seal.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4503,
-		"inputAbbreviatedPath": "\/img\/seal.png",
-		"outputAbbreviatedPath": "\/img\/seal.png",
+		"inputAbbreviatedPath": "\/images\/seal.png",
+		"outputAbbreviatedPath": "\/images\/seal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/seal@2X.png": {
+	"\/images\/seal@2X.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 11335,
-		"inputAbbreviatedPath": "\/img\/seal@2X.png",
-		"outputAbbreviatedPath": "\/img\/seal@2X.png",
+		"inputAbbreviatedPath": "\/images\/seal@2X.png",
+		"outputAbbreviatedPath": "\/images\/seal@2X.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tripadvisor-256.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5966,
+		"inputAbbreviatedPath": "\/images\/tripadvisor-256.png",
+		"outputAbbreviatedPath": "\/images\/tripadvisor-256.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/twitter-256.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3971,
+		"inputAbbreviatedPath": "\/images\/twitter-256.png",
+		"outputAbbreviatedPath": "\/images\/twitter-256.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/untappd-256.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7413,
+		"inputAbbreviatedPath": "\/images\/untappd-256.png",
+		"outputAbbreviatedPath": "\/images\/untappd-256.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3704,7 +4090,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/min\/app-min.js": {
 		"fileType": 64,
@@ -3800,6 +4186,32 @@
 	],
 "lastSavedByUser": "Diego Frata",
 "manualImportLinks": {
+	"\/js\/app.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation.min.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/verge\/verge.min.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.min.js",
+			"position": 3,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
