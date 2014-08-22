@@ -52,10 +52,44 @@ $retina: "only screen and (-webkit-min-device-pixel-ratio: 2),
           only screen and (min-resolution: 192dpi),
           only screen and (min-resolution: 2dppx)";
 
+
+@font-face {
+    font-family: 'Gibson-SemiBold';
+    src: url('../fonts/Gibson-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-SemiBold.woff') format('woff'),
+         url('../fonts/Gibson-SemiBold.ttf')  format('truetype'),
+         url('../fonts/Gibson-SemiBold.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'Gibson-Regular';
+    src: url('../fonts/Gibson-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Regular.woff') format('woff'),
+         url('../fonts/Gibson-Regular.ttf')  format('truetype'),
+         url('../fonts/Gibson-Regular.svg#webfont') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Bold.woff') format('woff'),
+         url('../fonts/Gotham-Bold.otf')  format('truetype'),
+         url('../fonts/Gotham-Bold.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('../fonts/gotham-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-black-webfont.woff') format('woff'),
+         url('../fonts/gotham-black-webfont.ttf')  format('truetype'),
+         url('../fonts/gotham-black-webfont.svg#webfont') format('svg');
+}
+
 h1 { 
     line-height: rem-calc(100px);
-    text-align: center;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h1:not(.no-decoration) { 
@@ -73,6 +107,11 @@ h1:not(.no-decoration)::before, h1:not(.no-decoration)::after {
     position: relative;
 }
 
+
+.alternate-bg h1:not(.no-decoration) { 
+    background-image: url(../images/seal-alternate.png); 
+}
+
 h1:not(.no-decoration)::before { top: rem-calc(25px); }
 h1:not(.no-decoration)::after { top: rem-calc(-25px); }
 
@@ -80,6 +119,11 @@ h1:not(.no-decoration)::after { top: rem-calc(-25px); }
     h1:not(.no-decoration) { 
         background-image: url(../images/seal@2X.png);
     }
+
+    .alternate-bg h1:not(.no-decoration) { 
+        background-image: url(../images/seal-alternate@2X.png);
+    }
+
     h1:not(.no-decoration)::before, h1:not(.no-decoration)::after { 
         background-image: url(../images/dotted-line@2X.png);
     }
@@ -127,6 +171,7 @@ p { text-align: center; }
     .name {
         h1 { 
             background: none; 
+            text-align: left;
         }
         a { padding: 0 !important; } 
     }
@@ -231,13 +276,13 @@ p { text-align: center; }
     h1 { 
         line-height: 1em;
         color: rgba(#d3d1c9, 1);
-        font-family: "Gotham Black";
+        font-family: "Gotham-Black";
     }
 
     h2 {
         color: rgba(#e99e21, 1);
         font-size: rem-calc(24px);
-        font-family: "Gibson";
+        font-family: "Gibson-Regular";
         font-weight: bold;
         font-size: rem-calc(20px) !important;
     }
@@ -253,3 +298,6 @@ p { text-align: center; }
 @media #{$medium-up} {
     #mainslider h1 { font-size: rem-calc(55px); }
 }
+
+
+.alternate-bg { background-color: #f5f0e9; }

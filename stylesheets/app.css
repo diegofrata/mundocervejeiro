@@ -64,7 +64,7 @@ body {
   color: #cfc0a4;
   padding: 0;
   margin: 0;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
   font-weight: normal;
   font-style: normal;
   line-height: 150%;
@@ -1615,7 +1615,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
   font-size: 1rem;
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2315,7 +2315,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4499,7 +4499,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5071,7 +5071,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5081,7 +5081,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
 }
 /* line 144, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5436,7 +5436,7 @@ dialog.full, .reveal-modal.full {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5459,7 +5459,7 @@ dialog.full, .reveal-modal.full {
 .side-nav li.active > a:first-child:not(.button) {
   color: #ddd2bf;
   font-weight: normal;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -5627,7 +5627,7 @@ dialog.full, .reveal-modal.full {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -6154,7 +6154,7 @@ p aside {
 /* Default header styles */
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Gotham Bold";
+  font-family: "Gotham-Bold";
   font-weight: normal;
   font-style: normal;
   color: #f29b10;
@@ -6579,7 +6579,7 @@ blockquote p {
   background: #efefef;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: Gibson;
+  font-family: "Gibson-Regular";
   font-size: 1rem;
 }
 /* line 47, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -7005,7 +7005,7 @@ meta.foundation-mq-topbar {
   color: #cebfa3;
   padding: 12px 0 12px 0;
   padding-left: 0;
-  font-family: "Gotham Bold";
+  font-family: "Gotham-Bold";
   font-size: 0.75rem;
   font-weight: normal;
   text-transform: none;
@@ -8615,21 +8615,37 @@ th.hide-for-touch {
   opacity: 0.75;
 }
 
-/* line 55, ../scss/app.scss */
+@font-face {
+  font-family: 'Gibson-SemiBold';
+  src: url("../fonts/Gibson-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson-SemiBold.woff") format("woff"), url("../fonts/Gibson-SemiBold.ttf") format("truetype"), url("../fonts/Gibson-SemiBold.svg#webfont") format("svg");
+}
+@font-face {
+  font-family: 'Gibson-Regular';
+  src: url("../fonts/Gibson-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson-Regular.woff") format("woff"), url("../fonts/Gibson-Regular.ttf") format("truetype"), url("../fonts/Gibson-Regular.svg#webfont") format("svg");
+}
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.otf") format("truetype"), url("../fonts/Gotham-Bold.svg#webfont") format("svg");
+}
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url("../fonts/gotham-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-black-webfont.woff") format("woff"), url("../fonts/gotham-black-webfont.ttf") format("truetype"), url("../fonts/gotham-black-webfont.svg#webfont") format("svg");
+}
+/* line 89, ../scss/app.scss */
 h1 {
   line-height: 6.25rem;
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
 }
 
-/* line 61, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 h1:not(.no-decoration) {
   background: url(../images/seal.png) center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-/* line 67, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 h1:not(.no-decoration)::before, h1:not(.no-decoration)::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -8639,196 +8655,207 @@ h1:not(.no-decoration)::before, h1:not(.no-decoration)::after {
   position: relative;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
+.alternate-bg h1:not(.no-decoration) {
+  background-image: url(../images/seal-alternate.png);
+}
+
+/* line 115, ../scss/app.scss */
 h1:not(.no-decoration)::before {
   top: 1.5625rem;
 }
 
-/* line 77, ../scss/app.scss */
+/* line 116, ../scss/app.scss */
 h1:not(.no-decoration)::after {
   top: -1.5625rem;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 80, ../scss/app.scss */
+  /* line 119, ../scss/app.scss */
   h1:not(.no-decoration) {
     background-image: url(../images/seal@2X.png);
   }
 
-  /* line 83, ../scss/app.scss */
+  /* line 123, ../scss/app.scss */
+  .alternate-bg h1:not(.no-decoration) {
+    background-image: url(../images/seal-alternate@2X.png);
+  }
+
+  /* line 127, ../scss/app.scss */
   h1:not(.no-decoration)::before, h1:not(.no-decoration)::after {
     background-image: url(../images/dotted-line@2X.png);
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 89, ../scss/app.scss */
+  /* line 133, ../scss/app.scss */
   h1:not(.no-decoration) {
     line-height: 8.9375rem;
   }
 
-  /* line 92, ../scss/app.scss */
+  /* line 136, ../scss/app.scss */
   h1:not(.no-decoration)::before {
     top: 2.25rem;
   }
 
-  /* line 93, ../scss/app.scss */
+  /* line 137, ../scss/app.scss */
   h1:not(.no-decoration)::after {
     top: -2.25rem;
   }
 }
-/* line 96, ../scss/app.scss */
+/* line 140, ../scss/app.scss */
 h2 {
   font-family: "Georgia";
   color: #8b7752;
   text-align: center;
 }
 
-/* line 102, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 h3 {
   text-transform: uppercase;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 p {
   text-align: center;
 }
 
-/* line 110, ../scss/app.scss */
+/* line 154, ../scss/app.scss */
 .f-topbar-fixed {
   padding-top: 6.25rem !important;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 155, ../scss/app.scss */
 .top-bar {
   height: 6.25rem;
 }
-/* line 113, ../scss/app.scss */
+/* line 157, ../scss/app.scss */
 .top-bar .title-area {
   height: 6.25rem;
 }
-/* line 114, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 .top-bar .name h1 {
   line-height: 6.25rem;
 }
 
-/* line 117, ../scss/app.scss */
+/* line 161, ../scss/app.scss */
 a[name] {
   position: relative;
   top: -6.25rem;
 }
 
-/* line 125, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 .top-bar {
   background-color: transparent;
 }
-/* line 128, ../scss/app.scss */
+/* line 172, ../scss/app.scss */
 .top-bar .name h1 {
   background: none;
+  text-align: left;
 }
-/* line 131, ../scss/app.scss */
+/* line 176, ../scss/app.scss */
 .top-bar .name a {
   padding: 0 !important;
 }
-/* line 133, ../scss/app.scss */
+/* line 178, ../scss/app.scss */
 .top-bar .logo-large {
   display: none;
 }
-/* line 134, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 .top-bar .logo-small {
   margin: 0.3125rem;
 }
-/* line 135, ../scss/app.scss */
+/* line 180, ../scss/app.scss */
 .top-bar .menu-icon {
   margin-right: 0.625rem;
 }
-/* line 137, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 .top-bar .menu-icon a {
   padding: 0 1.5625rem 0 0;
 }
-/* line 139, ../scss/app.scss */
+/* line 184, ../scss/app.scss */
 .top-bar .top-bar-section li a {
   text-transform: uppercase;
 }
-/* line 140, ../scss/app.scss */
+/* line 185, ../scss/app.scss */
 .top-bar .socialmedia img {
   width: 1.875rem;
 }
 
-/* line 147, ../scss/app.scss */
+/* line 192, ../scss/app.scss */
 .top-bar.expanded .top-bar-section li {
   border-top: 0.0625rem solid #cfc0a4;
 }
-/* line 150, ../scss/app.scss */
+/* line 195, ../scss/app.scss */
 .top-bar.expanded .top-bar-section li a {
   padding: 0.75rem;
 }
-/* line 158, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 .top-bar.expanded .top-bar-section.order-2 li:nth-child(3) {
   border-bottom: 0.0625rem solid #cfc0a4;
 }
-/* line 159, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 .top-bar.expanded .top-bar-section.order-2 li:last-of-type {
   display: none;
 }
 
 @media only screen {
-  /* line 164, ../scss/app.scss */
+  /* line 209, ../scss/app.scss */
   .logo-small {
     width: 12.5rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 110, ../scss/app.scss */
+  /* line 154, ../scss/app.scss */
   .f-topbar-fixed {
     padding-top: 12rem !important;
   }
 
-  /* line 111, ../scss/app.scss */
+  /* line 155, ../scss/app.scss */
   .top-bar {
     height: 12rem;
   }
-  /* line 113, ../scss/app.scss */
+  /* line 157, ../scss/app.scss */
   .top-bar .title-area {
     height: 12rem;
   }
-  /* line 114, ../scss/app.scss */
+  /* line 158, ../scss/app.scss */
   .top-bar .name h1 {
     line-height: 12rem;
   }
 
-  /* line 117, ../scss/app.scss */
+  /* line 161, ../scss/app.scss */
   a[name] {
     position: relative;
     top: -12rem;
   }
 
-  /* line 169, ../scss/app.scss */
+  /* line 214, ../scss/app.scss */
   a[name] {
     top: -5.375rem !important;
   }
 
-  /* line 170, ../scss/app.scss */
+  /* line 215, ../scss/app.scss */
   .logo-small {
     display: none;
   }
 
-  /* line 172, ../scss/app.scss */
+  /* line 217, ../scss/app.scss */
   .top-bar .name h1 a {
     text-align: center;
     width: auto;
   }
-  /* line 176, ../scss/app.scss */
+  /* line 221, ../scss/app.scss */
   .top-bar .name .logo-large {
     width: 8.0625rem;
     display: inline-block;
   }
-  /* line 177, ../scss/app.scss */
+  /* line 222, ../scss/app.scss */
   .top-bar .menu-icon {
     margin-top: 1.875rem !important;
   }
 }
 @media only screen and (min-width: 53.563em) {
-  /* line 182, ../scss/app.scss */
+  /* line 227, ../scss/app.scss */
   .top-bar {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8836,7 +8863,7 @@ a[name] {
     display: -ms-flexbox;
     display: flex;
   }
-  /* line 185, ../scss/app.scss */
+  /* line 230, ../scss/app.scss */
   .top-bar .title-area {
     -webkit-box-flex: none;
     -webkit-flex: none;
@@ -8846,11 +8873,11 @@ a[name] {
     flex: none;
     float: none;
   }
-  /* line 190, ../scss/app.scss */
+  /* line 235, ../scss/app.scss */
   .top-bar .title-area .show-for-large-up {
     display: inline-block !important;
   }
-  /* line 193, ../scss/app.scss */
+  /* line 238, ../scss/app.scss */
   .top-bar .top-bar-section, .top-bar ul {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8870,15 +8897,15 @@ a[name] {
     flex: 1 1 50%;
     margin: 0% 1.25% !important;
   }
-  /* line 201, ../scss/app.scss */
+  /* line 246, ../scss/app.scss */
   .top-bar .top-bar-section li a, .top-bar .socialmedia li {
     display: inline;
   }
-  /* line 204, ../scss/app.scss */
+  /* line 249, ../scss/app.scss */
   .top-bar .top-bar-section li a span, .top-bar .top-bar-section li a a, .top-bar .socialmedia li span, .top-bar .socialmedia li a {
     line-height: 17.875rem !important;
   }
-  /* line 207, ../scss/app.scss */
+  /* line 252, ../scss/app.scss */
   .top-bar .order-0 {
     -webkit-box-ordinal-group: 1;
     -webkit-order: 0;
@@ -8886,7 +8913,7 @@ a[name] {
     -ms-flex-order: 0;
     order: 0;
   }
-  /* line 208, ../scss/app.scss */
+  /* line 253, ../scss/app.scss */
   .top-bar .order-1 {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -8894,7 +8921,7 @@ a[name] {
     -ms-flex-order: 1;
     order: 1;
   }
-  /* line 209, ../scss/app.scss */
+  /* line 254, ../scss/app.scss */
   .top-bar .order-2 {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
@@ -8903,46 +8930,50 @@ a[name] {
     order: 2;
   }
 }
-/* line 218, ../scss/app.scss */
+/* line 263, ../scss/app.scss */
 #mainslider div > div > div {
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 225, ../scss/app.scss */
+/* line 270, ../scss/app.scss */
 #mainslider section {
   padding: 1.5em;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 231, ../scss/app.scss */
+/* line 276, ../scss/app.scss */
 #mainslider h1 {
   line-height: 1em;
   color: #d3d1c9;
-  font-family: "Gotham Black";
+  font-family: "Gotham-Black";
 }
-/* line 237, ../scss/app.scss */
+/* line 282, ../scss/app.scss */
 #mainslider h2 {
   color: #e99e21;
   font-size: 1.5rem;
-  font-family: "Gibson";
+  font-family: "Gibson-Regular";
   font-weight: bold;
   font-size: 1.25rem !important;
 }
-/* line 245, ../scss/app.scss */
+/* line 290, ../scss/app.scss */
 #mainslider .slick-dots {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 250, ../scss/app.scss */
+/* line 295, ../scss/app.scss */
 #mainslider .full {
   width: 100%;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 254, ../scss/app.scss */
+  /* line 299, ../scss/app.scss */
   #mainslider h1 {
     font-size: 3.4375rem;
   }
+}
+/* line 303, ../scss/app.scss */
+.alternate-bg {
+  background-color: #f5f0e9;
 }

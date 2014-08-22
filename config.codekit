@@ -3885,6 +3885,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/fonts\/Gibson-Regular.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/Gibson-Regular.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/Gibson-SemiBold.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/Gibson-SemiBold.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/dotted-line.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4013,6 +4031,28 @@
 		"initialSize": 1.06401e+06,
 		"inputAbbreviatedPath": "\/images\/restaurant-3.jpg",
 		"outputAbbreviatedPath": "\/images\/restaurant-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/seal-alternate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4503,
+		"inputAbbreviatedPath": "\/images\/seal-alternate.png",
+		"outputAbbreviatedPath": "\/images\/seal-alternate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/seal-alternate@2X.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11335,
+		"inputAbbreviatedPath": "\/images\/seal-alternate@2X.png",
+		"outputAbbreviatedPath": "\/images\/seal-alternate@2X.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
