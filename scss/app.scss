@@ -98,13 +98,17 @@ h1:not(.no-decoration) {
     background-repeat: no-repeat;
 }
 
-h1:not(.no-decoration)::before, h1:not(.no-decoration)::after { 
+@mixin dotted-line() {
     background: url(../images/dotted-line.png);
     background-size: contain;
     content: '';
     display: block;
     height: 1px;
     position: relative;
+}
+
+h1:not(.no-decoration)::before, h1:not(.no-decoration)::after { 
+    @include dotted-line;
 }
 
 
@@ -146,6 +150,9 @@ h2 {
 h3 { text-transform: uppercase; }
 
 p { text-align: center; }
+
+
+.alternate-bg { background-color: #f5f0e9; }
 
 ///////////////////////////////////////////////
 // HEADER
@@ -300,4 +307,97 @@ p { text-align: center; }
 }
 
 
-.alternate-bg { background-color: #f5f0e9; }
+///////////////////////////////////////////////
+// Cardapio
+///////////////////////////////////////////////
+
+#cardapio {
+    h3 { }
+    h3::after {
+        @include dotted-line;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .cardapio-completo {
+        p { text-align: left; }
+
+        dt, .cardapio-item { 
+            color: #ac9874; 
+        }
+
+        dl {
+            dd { 
+                padding-bottom: 8px;
+                border-bottom: 1px solid #cfc0a4;
+            }
+
+            dd:last-of-type { border-bottom: none; padding-bottom: inherit;}
+        }
+
+    }
+}
+
+
+///////////////////////////////////////////////
+// Localização
+///////////////////////////////////////////////
+
+#google-map {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+///////////////////////////////////////////////
+// Social
+///////////////////////////////////////////////
+#social {
+    font-size: $topbar-link-font-size;
+    font-family: "Gotham-Bold";
+    text-transform: uppercase;
+
+    img { 
+        height: 46px;
+        margin-right: 10px;
+    }
+
+    .social-list {
+
+        margin-top: 10px;
+
+        span { width: 80px; display: inline-block; text-align: center; }
+        div { 
+            border-bottom: 1px solid #cfc0a4;
+            
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        div:last-of-type { border-bottom: none; }
+    }
+}
+
+@media #{$medium-up} {
+    #social .social-list {
+
+        span { width: auto; display: inline-block; text-align: center; }
+
+        div {
+            text-align: center;
+            border-bottom: none;
+            border-right: 1px solid #cfc0a4;
+        }
+
+        div:last-of-type { border-right: none; }
+    }
+}

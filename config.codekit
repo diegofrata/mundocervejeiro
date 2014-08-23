@@ -4079,6 +4079,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/social-facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1248,
+		"inputAbbreviatedPath": "\/images\/social-facebook.png",
+		"outputAbbreviatedPath": "\/images\/social-facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-foursquare.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2420,
+		"inputAbbreviatedPath": "\/images\/social-foursquare.png",
+		"outputAbbreviatedPath": "\/images\/social-foursquare.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-tripadvisor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3047,
+		"inputAbbreviatedPath": "\/images\/social-tripadvisor.png",
+		"outputAbbreviatedPath": "\/images\/social-tripadvisor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1935,
+		"inputAbbreviatedPath": "\/images\/social-twitter.png",
+		"outputAbbreviatedPath": "\/images\/social-twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/tripadvisor-256.png": {
 		"fileType": 32768,
 		"ignore": 0,

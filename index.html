@@ -7,6 +7,7 @@
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBVtbYfbHAbVyJVOZF71lWD6mwxZiHJ2sQ&sensor=true"></script>
   </head>
   <body>
     <div class="contain-to-grid sticky">
@@ -73,44 +74,281 @@
     <article class="row">
       <div class="medium-12 columns">
         <a name="espaco">&nbsp;</a>
-        <h1 data-magellan-destination="bar">Espaço</h1>
+        <h1>Espaço</h1>
         <h2>Um bar descontraído, um cardápio brasileiro e contemporâneo e uma fábrica de cervejas artesanais em Moema.</h2>
         <p>Sample text</p>
       </div>
     </article>
     <!--//////////////////////////////////////////
     ////  CARDÁPIO
-    //////////////////////////////////////////////-->
+    //////////////////////////////////////////////-->  
+    <article id="cardapio" class="row">
+      <div class="medium-12 columns">
+        <a name="cardapio">&nbsp;</a>
+        <h1>Cardápio</h1>
+        <h2>Servimos um cardápio estritamente brasileiro, trazendo interpretações contemporâneas de receitas clássicas das cinco regiões do país. </h2>
+        <p>Elaborado pelo Chef Edson Gallo Jr., o cardápio </p>
+        <div class="row cardapio-completo">
+          <div class="medium-6 columns">
+            <h3>Couvert</h3>
+            <p>Nosso couvert é opcional e somente será fornecido mediante aceitação do cliente.</p>
+            <p class="cardapio-item"><strong>Pão da casa, torradas de alho, azeite aromatizado com ervas, manteiga de castanha-do-brasil e patê de azeitonas pretas.</strong></p>
+            <h3>Para Petiscar</h3>
+            <dl>
+              <dt>Pasteizinhos de Angu com Costelinha e Meia-cura</dt>
+              <dd>Massa sequinha por fora e macia por dentro, com uma combinação inigualável de costelinha e queijo meia-cura como recheio, tipicamente mineiro.</dd>
 
-    <div class="contain-to-grid alternate-bg">
-      <article class="row">
-        <div class="medium-12 columns">
-          <a name="cardapio">&nbsp;</a>
-          <h1>Cardápio</h1>
-          <h2>Servimos um cardápio estritamente brasileiro, trazendo interpretações contemporâneas de receitas clássicas das cinco regiões do país. </h2>
-          <p>Elaborado pelo Chef Edson Gallo Jr., o cardápio </p>
-          <div class="row">
-            <div class="medium-6 columns">
-              <h3>Couvert</h3>
-            </div>
-            <div class="medium-6 columns">
-              <h3>Couvert</h3>
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            </div>
+              <dt>Palitos de Coalho ao Piri-piri</dt>
+              <dd>Palitos de queijo coalho empanado, acompanhados de molho levemente apimentado.</dd>
+
+              <dt>Frango à Passarinho</dt>
+              <dd>Pedaços nobres de frango fritos, crocantes e bem sequinhos, salpicados de cebolinha e alho dourado.</dd>
+
+              <dt>Tábua de Frios</dt>
+              <dd>Queijos especiais brasileiros e embutidos suíno artesanais, acompanhados de azeitonas, torradas de alho e molho especial.</dd>
+
+              <dt>Bolinho de Camarão na Moranga</dt>
+              <dd>Massa de abóbora recheada com camarão e Catupiry. Acompanha molho.</dd>
+
+              <dt>Mandioca Frita</dt>
+              <dd>Bastonetes de mandioca fritos. Sequinhos por fora e macios por dentro.</dd>
+
+              <dt>Torresmão</dt>
+              <dd>Sequinho, crocante, pururucado. Companheiro ideal para uma boa cerveja.</dd>
+
+              <dt>Linguiças Artesanais</dt>
+              <dd>Com recheio de Pernil, Apimentada ou Ervas Finas, servida com pão da casa.</dd>
+
+              <dt>Linguiças Artesanais Especiais</dt>
+              <dd>Cachaça com Jabuticaba ou Queijo Coalho com Castanha de Caju, servida com pão da casa.</dd>
+
+              <dt>Picanha Maturada Aperitivo</dt>
+              <dd>Corte nobre grelhado, levemente defumado, preparado em iscas.</dd>
+            </dl>
+
+            <h3>Panelinhas</h3>
+            <p>Mania Goiana, agora em São Paulo, são arrozes especiais, com ingredientes nobres em cortes rústicos, servidos em uma panelinha.</p>
+
+            <dl>
+              <dt>Tradicional Goiana</dt>
+              <dd>Linguiça caipira, lombo de porco, carne de sol, feijão verde, palmito e queijo meia-cura.</dd>
+
+              <dt>Galinhada</dt>
+              <dd>Pedaços nobres de frango, pequi e guariroba.</dd>
+            </dl>
+
+            <h3>Grelhados</h3>
+            <p>Cortes nobres e especiais grelhados, servidos com arroz branco, farofa da casa e molho campanha.</p>
+
+            <dl>
+              <dt>Picanha Grelhada</dt>
+              <dd>Filés de Picanha, temperados somente em sal grosso, grelhados em charbroiler e servidos na pedra.</dd>
+              
+              <dt>Picanha Grelhada com Catupiry</dt>
+              <dd>Filés de Picanha, temperados somente em sal grosso, grelhados em charbroiler e servidos na pedra, com cobertura de Catupiry.</dd>
+
+              <dt>Filé de Jacaré Pantaneiro</dt>
+              <dd>Filé de cauda grelhado, parte mais nobre do jacaré, temperado com sal de ervas.</dd>
+            </dl>
+
+            <h3>Das nossas águas</h3>
+            <p>Delícias dos nossos mares e rios servidas com arroz branco, farofa da casa e mandioca frita.</p>
+
+            <dl>
+              <dt>Pirarucu Grelhado</dt>
+              <dd>Filé de pirarucu grelhado, com reduçãoo de tucupi.</dd>
+
+              <dt>Bobó de Camarão</dt>
+              <dd>Puro creme de mandioca com camarões puxados no azeite de dendê.</dd>
+
+              <dt>MoquecaBaiana</dt>
+              <dd>Posta de badejo cozida em panela de barro, com guarnicões aromáticas, camarões, azeite de dendê e leite de coco.</dd>
+
+              <dt>Moqueca Capixaba</dt>
+              <dd>Posta de badejo cozida em panela de barro, com guarnições aromáticas e óleo de urucum.</dd>
+            </dl>
+
+
+          </div>
+          <div class="medium-6 columns">
+            
+
+
+            <h3>Saladas</h3>
+            <p>Todas as nossas saladas acompanham de mix de folhas frescas composto por alface americana, radicchio, chicória, agrião e rúcula.</p>
+
+            <dl>
+              <dt>Salada do Cerrado</dt>
+              <dd>Mix de folhas frescas, tomate em rodelas, cebola pérola, guariroba, pimenta biquinho, castanha de baru, salsinha e molho especial.</dd>
+
+              <dt>Salada Sertaneja</dt>
+              <dd>Mix de folhas frescas, tomate, cenoura, cebola pérola, castanha de caju, coentro, palmito pupunha, lascas de queijo de coalho e molho especial.</dd>
+            </dl>
+
+            <h3>Acompanhamentos</h3>
+            <dl>
+              <dt>Arroz Carreteiro</dt>
+              <dd>Prato típico dos Pampas, feito com charque e calabresa defumada, além de outros ingredientes que entregam sabores e colorido ao prato.</dd>
+
+              <dt>Baião de Dois</dt>
+              <dd>Mexidão de arroz e feijão de corda, típico do sertão nordestino, feito com carne seca, calabresa, toucinho, queijo de coalho e manteiga de garrafa.</dd>
+
+              <dt>Arroz Branco</dt>
+              <dd>Arroz branco temperado.</dd>
+
+              <dt>Farofa da Casa</dt>
+              <dd>Simples, mas muito saborosa, feita à partir de um refogado de bacon e farinha de mandioca flocada.</dd>
+
+              <dt>Mandioca na Manteiga de Garrafa</dt>
+              <dd>Mandioca cozida, macia, puxada na manteiga de garrafa, que lhe empresta um sabor singular.</dd>
+
+              <dt>Feijão Tropeiro</dt>
+              <dd>Feijão puxado no refogado de bacon com linguiça calabresa, ovos, couve e farinha de mandioca flocada.</dd>
+            </dl>
+
+            <h3>Pratos Típicos</h3>
+            <p>Pratos tradicionais da nossa culinária com aromas e sabores que vão encantar você.</p>
+
+            <dl>
+              <dt>Carne de Sol Com Macaxeira</dt>
+              <dd>Combinação perfeita da carne de sol e a mandioca, puxados na manteiga de garrafa.</dd>
+
+              <dt>Escondidinho de Mandioquinha com Carne Seca</dt>
+              <dd>Carne seca desfiada temperada, escondidinha num purê de mandioquinha com requeijão cremoso e gratinada com queijo de coalho.</dd>
+            </dl>
+
+            <h3>Especiais de Fim de Semana</h3>
+
+            <dl>
+              <dt>Feijoada (servida aos Sábados)</dt>
+              <dd>“Simplesmente demais!” Isso que queremos escutar de você após experimentar essa delícia da nossa culinária. Acompanham arroz, bisteca, couve refogada, torresminho, banana à milanesa, mandioca frita, farofa, laranja em rodelas e molho apimentado.</dd>
+
+              <dt>Leitão à Pururuca (servido aos Domingos e Feriados)</dt>
+              <dd>Pedaços tenros de leitão assados e pururucados, acompanhados de arroz, batatas coradas, farofa, tutu e couve à mineira.</dd>
+            </dl>
+
+            <h3>Sanduíches</h3>
+
+            <dl>
+              <dt>Picanha Colonial</dt>
+              <dd>Hambúrguer de picanha grelhado, molho Campanha e queijo Colonial derretido.</dd>
+
+              <dt>Sertanejo</dt>
+              <dd>Carne de sol fatiada e grelhada, molho Campanha e mussarela de búfala derretida.</dd>
+
+              <dt>Calabresa Artesanal</dt>
+              <dd>Hambúrguer de calabresa artesanal grelhado, molho campanha e mussarela de búfala derretida.</dd>
+            </dl>
+
+            <h3>Sobremesas</h3>
+
+            <dl>
+              <dt>Pudim de Leite com Mel de Engenho</dt>
+              <dd>Nossa interpretação desta sobremesa tradicional. </dd>
+
+              <dt>Torta Romeu &amp; Julieta</dt>
+              <dd>Cheesecake de goiaba. Sobremesa com sotaque mineiro.</dd>
+
+              <dt>Verrine Café com Leite</dt>
+              <dd>Mousse de doce de leite com cobertura de brigadeiro de café.</dd>
+            </dl>
           </div>
         </div>
-      </article>
-    </div>
-    <article class="row">
-      <div class="medium-12 columns">
-        <a name="fabrica">&nbsp;</a>
-        <h1>Fábrica</h1>
-        <h2>Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker)</h2>
-        <p>Sample text</p>
       </div>
     </article>
     
+
+    <!--//////////////////////////////////////////
+    ////  FÁBRICA
+    //////////////////////////////////////////////--> 
+    <div class="contain-to-grid alternate-bg">
+      <article class="row">
+        <div class="medium-12 columns">
+          <a name="fabrica">&nbsp;</a>
+          <h1>Fábrica</h1>
+          <h2>Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker)</h2>
+          <p>Sample text</p>
+        </div>
+      </article>
+    </div>
+
+
+    <!--//////////////////////////////////////////
+    ////  AS CERVEJAS
+    //////////////////////////////////////////////--> 
+    <article class="row">
+        <div class="medium-12 columns">
+          <a name="ascervejas">&nbsp;</a>
+          <h1>As Cervejas</h1>
+          <h2>Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker)</h2>
+          <p>Sample text</p>
+        </div>
+      </article>
     
+
+    <!--//////////////////////////////////////////
+    ////  EVENTOS
+    //////////////////////////////////////////////--> 
+    <div class="contain-to-grid alternate-bg">
+      <article class="row">
+        <div class="medium-12 columns">
+          <a name="eventos">&nbsp;</a>
+          <h1>Eventos</h1>
+          <h2>Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker)</h2>
+          <p>Sample text</p>
+        </div>
+      </article>
+    </div>
+
+    <!--//////////////////////////////////////////
+    ////  LOCALIZAÇÃO
+    //////////////////////////////////////////////--> 
+    <div class="contain-to-grid">
+      <div id="google-map"></div>
+      <article id="localizacao" class="row">
+        <div class="medium-12 columns">
+          <a name="localizacao">&nbsp;</a>
+          <h1>Localização</h1>
+          
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+      </article>
+    </div>
+
+    <!--//////////////////////////////////////////
+    ////  SOCIAL
+    //////////////////////////////////////////////--> 
+    <div id="social" class="contain-to-grid">
+      <article class="row">
+        <div class="medium-12 columns">
+          <a name="social">&nbsp;</a>
+          <h1>Social</h1>
+          
+          <div class="medium-12 columns social-list">
+            <div class="medium-3 columns"><a href="#">
+              <span><img src="images/social-twitter.png" alt="Twitter"></span>Twitter</a></div>
+            <div class="medium-3 columns"><a href="#">
+              <span><img src="images/social-facebook.png" alt="Facebook"></span>Facebook</a></div>
+            <div class="medium-3 columns"><a href="#">
+              <span><img src="images/social-foursquare.png" alt="Foursquare"></span>Foursquare</a></div>
+            <div class="medium-3 columns"><a href="#">
+              <span><img src="images/social-tripadvisor.png" alt="Tripadvisor"></span>Tripadvisor</a></div>
+          </div>
+
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+      </article>
+    </div>
+
     <script src="js/min/app-min.js"></script>
   </body>
 </html>

@@ -8,6 +8,7 @@ $(document).ready(function(){
 		var topbar = verge.rectangle($(".sticky"));
 		var sectionHeight = verge.viewportH() - topbar.height;
 		$('.full').css('min-height', sectionHeight);
+		$('#google-map').css('height', verge.rectangle($('#localizacao')).height);
 	};
 
 	var scrollHandler = function(){
@@ -49,6 +50,32 @@ $(document).ready(function(){
 		cssEase: 'linear',
 		arrows: false
 	});
+
+
+	function initialiseMaps() {
+	    var myLatLng = new google.maps.LatLng(-23.61132,-46.665704);
+	    var mapOptions = {
+	        zoom: 15,
+	        center: myLatLng,
+	        scrollwheel: false,
+	        disableDefaultUI: true,
+	        draggable: false,
+	        scaleControl: false,
+	        navigationControl: false,
+	        streetViewControl: false
+	    };
+
+	    var map = new google.maps.Map(document.getElementById('google-map'),
+	        mapOptions);
+
+	    google.maps.event.addListener(map, 'center_changed', function() {
+	        window.setTimeout(function() {
+	            map.panTo(marker.getPosition());
+	        }, 1500);
+	    });
+	};
+
+	google.maps.event.addDomListener(window, 'load', initialiseMaps);
 });
 
 
