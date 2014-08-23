@@ -76,6 +76,12 @@ $(document).ready(function(){
 	};
 
 	google.maps.event.addDomListener(window, 'load', initialiseMaps);
+
+	var cssLink = document.createElement("link") 
+	cssLink.href = "/stylesheets/tintup.css"; 
+	cssLink .rel = "stylesheet"; 
+	cssLink .type = "text/css"; 
+	$('iframe').document.body.appendChild(cssLink);
 });
 
 

@@ -2313,9 +2313,9 @@ select {
 /* line 213, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   cursor: pointer;
-  font-family: "Gibson-Regular";
+  font-family: "Gotham-Bold";
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2330,24 +2330,24 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #cebfa3;
-  border-color: #b49e73;
-  color: #333333;
+  background-color: transparent;
+  border-color: #f29b10;
+  color: #f29b10;
   transition: background-color 300ms ease-out;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #b49e73;
+  background-color: transparent;
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 220, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
   background-color: #8b7752;
   border-color: #6f5f42;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -2355,13 +2355,13 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 221, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success, .button.success {
   background-color: #43ac6a;
   border-color: #368a55;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
@@ -2369,13 +2369,13 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 222, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert, .button.alert {
   background-color: #f04124;
   border-color: #cf2a0e;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
@@ -2383,7 +2383,7 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 224, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.large, .button.large {
@@ -2435,30 +2435,30 @@ button.round, .button.round {
 }
 /* line 235, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #cebfa3;
-  border-color: #b49e73;
-  color: #333333;
+  background-color: transparent;
+  border-color: #f29b10;
+  color: #f29b10;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #b49e73;
+  background-color: transparent;
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 174, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #cebfa3;
+  background-color: transparent;
 }
 /* line 236, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
   background-color: #8b7752;
   border-color: #6f5f42;
-  color: white;
+  color: #f29b10;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
@@ -2469,7 +2469,7 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 174, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
@@ -2479,7 +2479,7 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
   background-color: #43ac6a;
   border-color: #368a55;
-  color: white;
+  color: #f29b10;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
@@ -2490,7 +2490,7 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 174, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
@@ -2500,7 +2500,7 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
   background-color: #f04124;
   border-color: #cf2a0e;
-  color: white;
+  color: #f29b10;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
@@ -2511,7 +2511,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 174, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
@@ -7017,7 +7017,7 @@ meta.foundation-mq-topbar {
   padding-left: 0;
   background-color: #cebfa3;
   border-color: #b49e73;
-  color: #333333;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -7025,13 +7025,13 @@ meta.foundation-mq-topbar {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 315, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
   background-color: #8b7752;
   border-color: #6f5f42;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
@@ -7039,13 +7039,13 @@ meta.foundation-mq-topbar {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 316, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
   background-color: #43ac6a;
   border-color: #368a55;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
@@ -7053,13 +7053,13 @@ meta.foundation-mq-topbar {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 317, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
   background-color: #f04124;
   border-color: #cf2a0e;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
@@ -7067,7 +7067,7 @@ meta.foundation-mq-topbar {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 320, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button {
@@ -7076,7 +7076,7 @@ meta.foundation-mq-topbar {
   padding-left: 0;
   background-color: #cebfa3;
   border-color: #b49e73;
-  color: #333333;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
@@ -7084,13 +7084,13 @@ meta.foundation-mq-topbar {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 326, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.secondary {
   background-color: #8b7752;
   border-color: #6f5f42;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
@@ -7098,13 +7098,13 @@ meta.foundation-mq-topbar {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 327, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.success {
   background-color: #43ac6a;
   border-color: #368a55;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
@@ -7112,13 +7112,13 @@ meta.foundation-mq-topbar {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 328, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.alert {
   background-color: #f04124;
   border-color: #cf2a0e;
-  color: white;
+  color: #f29b10;
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
@@ -7126,7 +7126,7 @@ meta.foundation-mq-topbar {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
-  color: white;
+  color: #f29b10;
 }
 /* line 332, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
@@ -8724,143 +8724,153 @@ p {
   background-color: #f5f0e9;
 }
 
-/* line 161, ../scss/app.scss */
+/* line 157, ../scss/app.scss */
+.button {
+  text-transform: uppercase;
+}
+
+/* line 158, ../scss/app.scss */
+.postfix.button {
+  border: 1px solid !important;
+}
+
+/* line 164, ../scss/app.scss */
 .f-topbar-fixed {
   padding-top: 6.25rem !important;
 }
 
-/* line 162, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 .top-bar {
   height: 6.25rem;
 }
-/* line 164, ../scss/app.scss */
+/* line 167, ../scss/app.scss */
 .top-bar .title-area {
   height: 6.25rem;
 }
-/* line 165, ../scss/app.scss */
+/* line 168, ../scss/app.scss */
 .top-bar .name h1 {
   line-height: 6.25rem;
 }
 
-/* line 168, ../scss/app.scss */
+/* line 171, ../scss/app.scss */
 a[name] {
   position: relative;
   top: -6.25rem;
 }
 
-/* line 176, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 .top-bar {
   background-color: transparent;
 }
-/* line 179, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 .top-bar .name h1 {
   background: none;
   text-align: left;
 }
-/* line 183, ../scss/app.scss */
+/* line 186, ../scss/app.scss */
 .top-bar .name a {
   padding: 0 !important;
 }
-/* line 185, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 .top-bar .logo-large {
   display: none;
 }
-/* line 186, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 .top-bar .logo-small {
   margin: 0.3125rem;
 }
-/* line 187, ../scss/app.scss */
+/* line 190, ../scss/app.scss */
 .top-bar .menu-icon {
   margin-right: 0.625rem;
 }
-/* line 189, ../scss/app.scss */
+/* line 192, ../scss/app.scss */
 .top-bar .menu-icon a {
   padding: 0 1.5625rem 0 0;
 }
-/* line 191, ../scss/app.scss */
+/* line 194, ../scss/app.scss */
 .top-bar .top-bar-section li a {
   text-transform: uppercase;
 }
-/* line 192, ../scss/app.scss */
+/* line 195, ../scss/app.scss */
 .top-bar .socialmedia img {
   width: 1.875rem;
 }
 
-/* line 199, ../scss/app.scss */
+/* line 202, ../scss/app.scss */
 .top-bar.expanded .top-bar-section li {
   border-top: 0.0625rem solid #cfc0a4;
 }
-/* line 202, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 .top-bar.expanded .top-bar-section li a {
   padding: 0.75rem;
 }
-/* line 210, ../scss/app.scss */
+/* line 213, ../scss/app.scss */
 .top-bar.expanded .top-bar-section.order-2 li:nth-child(3) {
   border-bottom: 0.0625rem solid #cfc0a4;
 }
-/* line 211, ../scss/app.scss */
+/* line 214, ../scss/app.scss */
 .top-bar.expanded .top-bar-section.order-2 li:last-of-type {
   display: none;
 }
 
 @media only screen {
-  /* line 216, ../scss/app.scss */
+  /* line 219, ../scss/app.scss */
   .logo-small {
     width: 12.5rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 161, ../scss/app.scss */
+  /* line 164, ../scss/app.scss */
   .f-topbar-fixed {
     padding-top: 12rem !important;
   }
 
-  /* line 162, ../scss/app.scss */
+  /* line 165, ../scss/app.scss */
   .top-bar {
     height: 12rem;
   }
-  /* line 164, ../scss/app.scss */
+  /* line 167, ../scss/app.scss */
   .top-bar .title-area {
     height: 12rem;
   }
-  /* line 165, ../scss/app.scss */
+  /* line 168, ../scss/app.scss */
   .top-bar .name h1 {
     line-height: 12rem;
   }
 
-  /* line 168, ../scss/app.scss */
+  /* line 171, ../scss/app.scss */
   a[name] {
     position: relative;
     top: -12rem;
   }
 
-  /* line 221, ../scss/app.scss */
+  /* line 224, ../scss/app.scss */
   a[name] {
     top: -5.375rem !important;
   }
 
-  /* line 222, ../scss/app.scss */
+  /* line 225, ../scss/app.scss */
   .logo-small {
     display: none;
   }
 
-  /* line 224, ../scss/app.scss */
+  /* line 227, ../scss/app.scss */
   .top-bar .name h1 a {
     text-align: center;
     width: auto;
   }
-  /* line 228, ../scss/app.scss */
+  /* line 231, ../scss/app.scss */
   .top-bar .name .logo-large {
     width: 8.0625rem;
     display: inline-block;
   }
-  /* line 229, ../scss/app.scss */
+  /* line 232, ../scss/app.scss */
   .top-bar .menu-icon {
     margin-top: 1.875rem !important;
   }
 }
 @media only screen and (min-width: 53.563em) {
-  /* line 234, ../scss/app.scss */
+  /* line 237, ../scss/app.scss */
   .top-bar {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8868,7 +8878,7 @@ a[name] {
     display: -ms-flexbox;
     display: flex;
   }
-  /* line 237, ../scss/app.scss */
+  /* line 240, ../scss/app.scss */
   .top-bar .title-area {
     -webkit-box-flex: none;
     -webkit-flex: none;
@@ -8878,11 +8888,11 @@ a[name] {
     flex: none;
     float: none;
   }
-  /* line 242, ../scss/app.scss */
+  /* line 245, ../scss/app.scss */
   .top-bar .title-area .show-for-large-up {
     display: inline-block !important;
   }
-  /* line 245, ../scss/app.scss */
+  /* line 248, ../scss/app.scss */
   .top-bar .top-bar-section, .top-bar ul {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8902,15 +8912,15 @@ a[name] {
     flex: 1 1 50%;
     margin: 0% 1.25% !important;
   }
-  /* line 253, ../scss/app.scss */
+  /* line 256, ../scss/app.scss */
   .top-bar .top-bar-section li a, .top-bar .socialmedia li {
     display: inline;
   }
-  /* line 256, ../scss/app.scss */
+  /* line 259, ../scss/app.scss */
   .top-bar .top-bar-section li a span, .top-bar .top-bar-section li a a, .top-bar .socialmedia li span, .top-bar .socialmedia li a {
     line-height: 17.875rem !important;
   }
-  /* line 259, ../scss/app.scss */
+  /* line 262, ../scss/app.scss */
   .top-bar .order-0 {
     -webkit-box-ordinal-group: 1;
     -webkit-order: 0;
@@ -8918,7 +8928,7 @@ a[name] {
     -ms-flex-order: 0;
     order: 0;
   }
-  /* line 260, ../scss/app.scss */
+  /* line 263, ../scss/app.scss */
   .top-bar .order-1 {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -8926,7 +8936,7 @@ a[name] {
     -ms-flex-order: 1;
     order: 1;
   }
-  /* line 261, ../scss/app.scss */
+  /* line 264, ../scss/app.scss */
   .top-bar .order-2 {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
@@ -8935,26 +8945,26 @@ a[name] {
     order: 2;
   }
 }
-/* line 270, ../scss/app.scss */
+/* line 273, ../scss/app.scss */
 #mainslider div > div > div {
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 277, ../scss/app.scss */
+/* line 280, ../scss/app.scss */
 #mainslider section {
   padding: 1.5em;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 283, ../scss/app.scss */
+/* line 286, ../scss/app.scss */
 #mainslider h1 {
   line-height: 1em;
   color: #d3d1c9;
   font-family: "Gotham-Black";
 }
-/* line 289, ../scss/app.scss */
+/* line 292, ../scss/app.scss */
 #mainslider h2 {
   color: #e99e21;
   font-size: 1.5rem;
@@ -8962,23 +8972,23 @@ a[name] {
   font-weight: bold;
   font-size: 1.25rem !important;
 }
-/* line 297, ../scss/app.scss */
+/* line 300, ../scss/app.scss */
 #mainslider .slick-dots {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 302, ../scss/app.scss */
+/* line 305, ../scss/app.scss */
 #mainslider .full {
   width: 100%;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 306, ../scss/app.scss */
+  /* line 309, ../scss/app.scss */
   #mainslider h1 {
     font-size: 3.4375rem;
   }
 }
-/* line 316, ../scss/app.scss */
+/* line 319, ../scss/app.scss */
 #cardapio h3::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -8989,26 +8999,26 @@ a[name] {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 323, ../scss/app.scss */
+/* line 326, ../scss/app.scss */
 #cardapio .cardapio-completo p {
   text-align: left;
 }
-/* line 325, ../scss/app.scss */
+/* line 328, ../scss/app.scss */
 #cardapio .cardapio-completo dt, #cardapio .cardapio-completo .cardapio-item {
   color: #ac9874;
 }
-/* line 330, ../scss/app.scss */
+/* line 333, ../scss/app.scss */
 #cardapio .cardapio-completo dl dd {
   padding-bottom: 8px;
   border-bottom: 1px solid #cfc0a4;
 }
-/* line 335, ../scss/app.scss */
+/* line 338, ../scss/app.scss */
 #cardapio .cardapio-completo dl dd:last-of-type {
   border-bottom: none;
   padding-bottom: inherit;
 }
 
-/* line 346, ../scss/app.scss */
+/* line 349, ../scss/app.scss */
 #google-map {
   position: absolute;
   display: block;
@@ -9024,53 +9034,83 @@ a[name] {
   -webkit-filter: grayscale(1);
 }
 
-/* line 364, ../scss/app.scss */
+/* line 367, ../scss/app.scss */
 #social {
   font-size: 0.75rem;
   font-family: "Gotham-Bold";
   text-transform: uppercase;
 }
-/* line 369, ../scss/app.scss */
+/* line 372, ../scss/app.scss */
 #social img {
   height: 46px;
   margin-right: 10px;
 }
-/* line 374, ../scss/app.scss */
+/* line 377, ../scss/app.scss */
 #social .social-list {
   margin-top: 10px;
 }
-/* line 378, ../scss/app.scss */
+/* line 381, ../scss/app.scss */
 #social .social-list span {
   width: 80px;
   display: inline-block;
   text-align: center;
 }
-/* line 379, ../scss/app.scss */
+/* line 382, ../scss/app.scss */
 #social .social-list div {
   border-bottom: 1px solid #cfc0a4;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 386, ../scss/app.scss */
+/* line 389, ../scss/app.scss */
 #social .social-list div:last-of-type {
   border-bottom: none;
 }
+/* line 392, ../scss/app.scss */
+#social .newsletter {
+  padding: 20px 0px;
+  text-align: center;
+}
+/* line 397, ../scss/app.scss */
+#social .newsletter::before, #social .newsletter::after {
+  background: url(../images/dotted-line.png);
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 1px;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 405, ../scss/app.scss */
+#social .icon-twitter {
+  color: #f29b10 !important;
+}
 
 @media only screen and (min-width: 40.063em) {
-  /* line 393, ../scss/app.scss */
+  /* line 412, ../scss/app.scss */
   #social .social-list span {
     width: auto;
     display: inline-block;
     text-align: center;
   }
-  /* line 395, ../scss/app.scss */
+  /* line 414, ../scss/app.scss */
   #social .social-list div {
     text-align: center;
     border-bottom: none;
     border-right: 1px solid #cfc0a4;
   }
-  /* line 401, ../scss/app.scss */
+  /* line 420, ../scss/app.scss */
   #social .social-list div:last-of-type {
     border-right: none;
+  }
+  /* line 423, ../scss/app.scss */
+  #social .newsletter {
+    line-height: 36px;
+    margin-top: 20px;
+  }
+  /* line 427, ../scss/app.scss */
+  #social .newsletter .button {
+    margin-left: 1px;
   }
 }

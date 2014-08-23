@@ -154,6 +154,9 @@ p { text-align: center; }
 
 .alternate-bg { background-color: #f5f0e9; }
 
+.button { text-transform: uppercase; }
+.postfix.button { border: 1px solid !important; }
+
 ///////////////////////////////////////////////
 // HEADER
 ///////////////////////////////////////////////
@@ -385,19 +388,43 @@ p { text-align: center; }
 
         div:last-of-type { border-bottom: none; }
     }
+
+    .newsletter {
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .newsletter::before, .newsletter::after {
+        @include dotted-line;
+
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .icon-twitter { color: #f29b10 !important; }
 }
 
 @media #{$medium-up} {
-    #social .social-list {
+    #social {
+        .social-list {
 
-        span { width: auto; display: inline-block; text-align: center; }
+            span { width: auto; display: inline-block; text-align: center; }
 
-        div {
-            text-align: center;
-            border-bottom: none;
-            border-right: 1px solid #cfc0a4;
+            div {
+                text-align: center;
+                border-bottom: none;
+                border-right: 1px solid #cfc0a4;
+            }
+
+            div:last-of-type { border-right: none; }
         }
 
-        div:last-of-type { border-right: none; }
+        .newsletter { 
+            line-height: 36px;
+            margin-top: 20px; 
+
+            .button { margin-left: 1px;}
+        }
     }
 }
