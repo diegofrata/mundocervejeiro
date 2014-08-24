@@ -9024,53 +9024,79 @@ a[name] {
   display: block;
   width: 100%;
   height: 100%;
-  opacity: .3;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: gray;
-  -webkit-filter: grayscale(1);
 }
 
-/* line 367, ../scss/app.scss */
+/* line 368, ../scss/app.scss */
+#localizacao {
+  min-height: 400px;
+}
+
+/* line 372, ../scss/app.scss */
+#endereco {
+  -webkit-box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
+  -moz-box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
+  box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
+  padding: 8px;
+  background-color: white;
+  max-width: 275px;
+  width: auto;
+  margin: 30px auto;
+  margin-top: 90px;
+}
+/* line 382, ../scss/app.scss */
+#endereco p {
+  text-align: left;
+}
+/* line 384, ../scss/app.scss */
+#endereco ul {
+  list-style-type: none;
+  margin: 0;
+}
+/* line 389, ../scss/app.scss */
+#endereco h2 {
+  font-family: "Gibson-Regular";
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* line 401, ../scss/app.scss */
 #social {
   font-size: 0.75rem;
   font-family: "Gotham-Bold";
   text-transform: uppercase;
 }
-/* line 372, ../scss/app.scss */
+/* line 406, ../scss/app.scss */
 #social img {
   height: 46px;
   margin-right: 10px;
 }
-/* line 377, ../scss/app.scss */
+/* line 411, ../scss/app.scss */
 #social .social-list {
   margin-top: 10px;
 }
-/* line 381, ../scss/app.scss */
+/* line 415, ../scss/app.scss */
 #social .social-list span {
   width: 80px;
   display: inline-block;
   text-align: center;
 }
-/* line 382, ../scss/app.scss */
+/* line 416, ../scss/app.scss */
 #social .social-list div {
   border-bottom: 1px solid #cfc0a4;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 389, ../scss/app.scss */
+/* line 423, ../scss/app.scss */
 #social .social-list div:last-of-type {
   border-bottom: none;
 }
-/* line 392, ../scss/app.scss */
+/* line 426, ../scss/app.scss */
 #social .newsletter {
   padding: 20px 0px;
   text-align: center;
 }
-/* line 397, ../scss/app.scss */
+/* line 431, ../scss/app.scss */
 #social .newsletter::before, #social .newsletter::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -9082,34 +9108,34 @@ a[name] {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 405, ../scss/app.scss */
+/* line 439, ../scss/app.scss */
 #social .icon-twitter {
   color: #f29b10 !important;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 412, ../scss/app.scss */
+  /* line 446, ../scss/app.scss */
   #social .social-list span {
     width: auto;
     display: inline-block;
     text-align: center;
   }
-  /* line 414, ../scss/app.scss */
+  /* line 448, ../scss/app.scss */
   #social .social-list div {
     text-align: center;
     border-bottom: none;
     border-right: 1px solid #cfc0a4;
   }
-  /* line 420, ../scss/app.scss */
+  /* line 454, ../scss/app.scss */
   #social .social-list div:last-of-type {
     border-right: none;
   }
-  /* line 423, ../scss/app.scss */
+  /* line 457, ../scss/app.scss */
   #social .newsletter {
     line-height: 36px;
     margin-top: 20px;
   }
-  /* line 427, ../scss/app.scss */
+  /* line 461, ../scss/app.scss */
   #social .newsletter .button {
     margin-left: 1px;
   }

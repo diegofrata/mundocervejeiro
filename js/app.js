@@ -51,9 +51,30 @@ $(document).ready(function(){
 		arrows: false
 	});
 
+	function scrollTo() {
+
+	    $('a[href^=#]').on('click', function(e){
+	    	var topBarHeight = function() {
+	    		if ($(".logo-small").is(":visible"))
+	    			return 410;
+	    		else
+	    			return 90;
+	    	};
+
+	        var href = $(this).attr('href');
+	        $('html, body').animate({
+	            scrollTop:$(href).offset().top - topBarHeight()
+	        },1400);
+	        e.preventDefault();
+	    });
+
+	}
+
+	scrollTo();
+
 
 	function initialiseMaps() {
-	    var myLatLng = new google.maps.LatLng(-23.61132,-46.665704);
+	    var myLatLng = new google.maps.LatLng(-23.61350,-46.665704);
 	    var mapOptions = {
 	        zoom: 15,
 	        center: myLatLng,
@@ -62,26 +83,46 @@ $(document).ready(function(){
 	        draggable: false,
 	        scaleControl: false,
 	        navigationControl: false,
-	        streetViewControl: false
+	        streetViewControl: false,
+	        mapTypeControlOptions: {
+                mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'miruna']
+            }
 	    };
+
+	    var usRoadMapType = new google.maps.StyledMapType(
+        [
+		  {
+		    "stylers": [
+		      { "saturation": -100 },
+		      { "gamma": 2.38 },
+		      { "lightness": 21 }
+		    ]
+		  }
+		], {});
+
 
 	    var map = new google.maps.Map(document.getElementById('google-map'),
 	        mapOptions);
 
+	    map.mapTypes.set('miruna', usRoadMapType);
+        map.setMapTypeId('miruna');
+
+		var myLatLng = new google.maps.LatLng(-23.61132,-46.665704);
+	    var marker = new google.maps.Marker({
+		      position: myLatLng,
+		      map: map,
+		      title: 'Hello World!',
+		      optimized: false
+		  });
+
+	    marker.setAnimation(google.maps.Animation.BOUNCE);
+
 	    google.maps.event.addListener(map, 'center_changed', function() {
-	        window.setTimeout(function() {
-	            map.panTo(marker.getPosition());
-	        }, 1500);
+			map.panTo(myLatLng);
 	    });
 	};
 
 	google.maps.event.addDomListener(window, 'load', initialiseMaps);
-
-	var cssLink = document.createElement("link") 
-	cssLink.href = "/stylesheets/tintup.css"; 
-	cssLink .rel = "stylesheet"; 
-	cssLink .type = "text/css"; 
-	$('iframe').document.body.appendChild(cssLink);
 });
 
 
