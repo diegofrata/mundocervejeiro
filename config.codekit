@@ -3903,6 +3903,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/blond-ale.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90470,
+		"inputAbbreviatedPath": "\/images\/blond-ale.png",
+		"outputAbbreviatedPath": "\/images\/blond-ale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/brown-ale.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91578,
+		"inputAbbreviatedPath": "\/images\/brown-ale.png",
+		"outputAbbreviatedPath": "\/images\/brown-ale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/dotted-line.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3958,6 +3980,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ipa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92812,
+		"inputAbbreviatedPath": "\/images\/ipa.png",
+		"outputAbbreviatedPath": "\/images\/ipa.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo-horizontal.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4002,35 +4035,101 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/restaurant-1.jpg": {
-		"fileType": 16384,
+	"\/images\/nobar-seal.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.77767e+06,
-		"inputAbbreviatedPath": "\/images\/restaurant-1.jpg",
-		"outputAbbreviatedPath": "\/images\/restaurant-1.jpg",
+		"initialSize": 3427,
+		"inputAbbreviatedPath": "\/images\/nobar-seal.png",
+		"outputAbbreviatedPath": "\/images\/nobar-seal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/restaurant-2.jpg": {
+	"\/images\/photos\/1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.27036e+06,
-		"inputAbbreviatedPath": "\/images\/restaurant-2.jpg",
-		"outputAbbreviatedPath": "\/images\/restaurant-2.jpg",
+		"initialSize": 4.36844e+06,
+		"inputAbbreviatedPath": "\/images\/photos\/1.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/restaurant-3.jpg": {
+	"\/images\/photos\/2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.06401e+06,
-		"inputAbbreviatedPath": "\/images\/restaurant-3.jpg",
-		"outputAbbreviatedPath": "\/images\/restaurant-3.jpg",
+		"initialSize": 3.63644e+06,
+		"inputAbbreviatedPath": "\/images\/photos\/2.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photos\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.04778e+06,
+		"inputAbbreviatedPath": "\/images\/photos\/3.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photos\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.80357e+06,
+		"inputAbbreviatedPath": "\/images\/photos\/4.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photos\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.26362e+06,
+		"inputAbbreviatedPath": "\/images\/photos\/5.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photos\/6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.62221e+06,
+		"inputAbbreviatedPath": "\/images\/photos\/6.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photos\/7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.15884e+06,
+		"inputAbbreviatedPath": "\/images\/photos\/7.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/porter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82126,
+		"inputAbbreviatedPath": "\/images\/porter.png",
+		"outputAbbreviatedPath": "\/images\/porter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4152,6 +4251,17 @@
 		"initialSize": 7413,
 		"inputAbbreviatedPath": "\/images\/untappd-256.png",
 		"outputAbbreviatedPath": "\/images\/untappd-256.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/weizen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88995,
+		"inputAbbreviatedPath": "\/images\/weizen.png",
+		"outputAbbreviatedPath": "\/images\/weizen.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

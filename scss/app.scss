@@ -111,7 +111,6 @@ h1:not(.no-decoration)::before, h1:not(.no-decoration)::after {
     @include dotted-line;
 }
 
-
 .alternate-bg h1:not(.no-decoration) { 
     background-image: url(../images/seal-alternate.png); 
 }
@@ -141,22 +140,37 @@ h1:not(.no-decoration)::after { top: rem-calc(-25px); }
     h1:not(.no-decoration)::after { top: rem-calc(-36px); }
 }
 
+
+h1 { letter-spacing: 0.25em; padding-left: 0.25em; }
+
 h2 { 
     font-family: "Georgia";
     color: $secondary-color;
     text-align: center; 
 }
 
-h3 { text-transform: uppercase; }
+h3 { 
+    text-transform: uppercase; 
+    letter-spacing: 0.15em; 
+    padding-left: 0.15em; 
+}
+
+h4 { color: #ac9874; }
 
 p { text-align: center; }
 
+.tall { line-height: 1.8em; }
 
-.alternate-bg { background-color: #f5f0e9; }
+
+.alternate-bg { 
+    background-color: #f5f0e9; 
+    p { color: #b19c75; } 
+}
 
 .button { text-transform: uppercase; }
 .postfix.button { border: 1px solid !important; }
 
+article { padding-top: 20px !important; }
 ///////////////////////////////////////////////
 // HEADER
 ///////////////////////////////////////////////
@@ -269,7 +283,7 @@ p { text-align: center; }
 ///////////////////////////////////////////////
 // MAIN SLIDER
 ///////////////////////////////////////////////
-#mainslider {
+#mainslider, #espacoslider {
     div > div > div {
         display: inline-block;
         background-repeat: no-repeat;
@@ -323,6 +337,8 @@ p { text-align: center; }
     }
 
     .cardapio-completo {
+        display: none;
+        
         p { text-align: left; }
 
         dt, .cardapio-item { 
@@ -338,6 +354,45 @@ p { text-align: center; }
             dd:last-of-type { border-bottom: none; padding-bottom: inherit;}
         }
 
+    }
+}
+
+
+///////////////////////////////////////////////
+// As Cervejas
+///////////////////////////////////////////////
+#ascervejas { 
+    h3 { text-align: center; }
+    .beer { 
+        text-align: center;
+        max-width: 200px;
+    }
+
+    ul li { 
+        text-align: center; 
+        border-width: 50%;
+    }
+
+    section {
+        h3::after { 
+            @include dotted-line;
+        }
+
+        .seal { width: 72px; }
+        li { float: none; margin: auto; }
+    }
+}
+
+@media #{$large-up} {
+    #ascervejas {
+
+        .beer { 
+            max-width: 178px;
+            margin-top: 74px; 
+        }
+
+
+        .big-beer { margin-top: 0px; }
     }
 }
 
@@ -366,7 +421,7 @@ p { text-align: center; }
 }
 
 #localizacao { 
-    min-height: 400px;
+    min-height: 420px;
 }
 
 #endereco { 

@@ -1,13 +1,26 @@
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
+
+function verCardapio() {
+	$('.cardapio-completo').css('display', 'block');
+}
+
 $(document).ready(function(){
 	jQuery.extend(verge);
 
 	var viewportRecalc = function() {
 		var topbar = verge.rectangle($(".sticky"));
+
 		var sectionHeight = verge.viewportH() - topbar.height;
-		$('.full').css('min-height', sectionHeight);
+		if ($(".logo-small").is(":visible"))
+		{
+			$('.full').css('min-height', sectionHeight/2);
+		}
+		else{
+			$('.full').css('min-height', sectionHeight);
+		}
+
 		$('#google-map').css('height', verge.rectangle($('#localizacao')).height);
 	};
 
@@ -41,12 +54,22 @@ $(document).ready(function(){
 	$(window).on("resize", resizeHandler);
 
 	$('#mainslider').slick({
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 1000,
 		autoplay: true,
 		autoplaySpeed: 5000,
 		fade: true,
+		cssEase: 'linear',
+		arrows: false
+	});
+
+	$('#espacoslider').slick({
+		dots: true,
+		infinite: true,
+		speed: 1000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		cssEase: 'linear',
 		arrows: false
 	});

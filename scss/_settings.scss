@@ -136,7 +136,7 @@ $secondary-color: #8b7752;
  $h1-font-size: rem-calc(32);
  $h2-font-size: rem-calc(24);
  $h3-font-size: rem-calc(14);
-// $h4-font-size: rem-calc(23);
+ $h4-font-size: rem-calc(14);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
 
@@ -144,7 +144,7 @@ $secondary-color: #8b7752;
  $h1-font-reduction: rem-calc(5) !default;
  $h2-font-reduction: rem-calc(5) !default;
  $h3-font-reduction: rem-calc(0) !default;
-// $h4-font-reduction: rem-calc(5) !default;
+ $h4-font-reduction: rem-calc(0) !default;
 // $h5-font-reduction: 0 !default;
 // $h6-font-reduction: 0 !default;
 
@@ -1209,7 +1209,7 @@ $sub-nav-active-cursor: default;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: rgba(#fff,0.92);
+$topbar-bg-color: rgba(#fff,0.85);
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
