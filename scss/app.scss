@@ -157,7 +157,10 @@ h3 {
 
 h4 { color: #ac9874; }
 
-p { text-align: center; }
+p { 
+    text-align: center; 
+    text-rendering: auto !important;
+}
 
 .tall { line-height: 1.8em; }
 
@@ -338,7 +341,7 @@ article { padding-top: 20px !important; }
 
     .cardapio-completo {
         display: none;
-        
+
         p { text-align: left; }
 
         dt, .cardapio-item { 

@@ -8730,174 +8730,175 @@ h4 {
 /* line 160, ../scss/app.scss */
 p {
   text-align: center;
+  text-rendering: auto !important;
 }
 
-/* line 162, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 .tall {
   line-height: 1.8em;
 }
 
-/* line 165, ../scss/app.scss */
+/* line 168, ../scss/app.scss */
 .alternate-bg {
   background-color: #f5f0e9;
 }
-/* line 167, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 .alternate-bg p {
   color: #b19c75;
 }
 
-/* line 170, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 .button {
   text-transform: uppercase;
 }
 
-/* line 171, ../scss/app.scss */
+/* line 174, ../scss/app.scss */
 .postfix.button {
   border: 1px solid !important;
 }
 
-/* line 173, ../scss/app.scss */
+/* line 176, ../scss/app.scss */
 article {
   padding-top: 20px !important;
 }
 
-/* line 178, ../scss/app.scss */
+/* line 181, ../scss/app.scss */
 .f-topbar-fixed {
   padding-top: 6.25rem !important;
 }
 
-/* line 179, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 .top-bar {
   height: 6.25rem;
 }
-/* line 181, ../scss/app.scss */
+/* line 184, ../scss/app.scss */
 .top-bar .title-area {
   height: 6.25rem;
 }
-/* line 182, ../scss/app.scss */
+/* line 185, ../scss/app.scss */
 .top-bar .name h1 {
   line-height: 6.25rem;
 }
 
-/* line 185, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 a[name] {
   position: relative;
   top: -6.25rem;
 }
 
-/* line 193, ../scss/app.scss */
+/* line 196, ../scss/app.scss */
 .top-bar {
   background-color: transparent;
 }
-/* line 196, ../scss/app.scss */
+/* line 199, ../scss/app.scss */
 .top-bar .name h1 {
   background: none;
   text-align: left;
 }
-/* line 200, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 .top-bar .name a {
   padding: 0 !important;
 }
-/* line 202, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 .top-bar .logo-large {
   display: none;
 }
-/* line 203, ../scss/app.scss */
+/* line 206, ../scss/app.scss */
 .top-bar .logo-small {
   margin: 0.3125rem;
 }
-/* line 204, ../scss/app.scss */
+/* line 207, ../scss/app.scss */
 .top-bar .menu-icon {
   margin-right: 0.625rem;
 }
-/* line 206, ../scss/app.scss */
+/* line 209, ../scss/app.scss */
 .top-bar .menu-icon a {
   padding: 0 1.5625rem 0 0;
 }
-/* line 208, ../scss/app.scss */
+/* line 211, ../scss/app.scss */
 .top-bar .top-bar-section li a {
   text-transform: uppercase;
 }
-/* line 209, ../scss/app.scss */
+/* line 212, ../scss/app.scss */
 .top-bar .socialmedia img {
   width: 1.875rem;
 }
 
-/* line 216, ../scss/app.scss */
+/* line 219, ../scss/app.scss */
 .top-bar.expanded .top-bar-section li {
   border-top: 0.0625rem solid #cfc0a4;
 }
-/* line 219, ../scss/app.scss */
+/* line 222, ../scss/app.scss */
 .top-bar.expanded .top-bar-section li a {
   padding: 0.75rem;
 }
-/* line 227, ../scss/app.scss */
+/* line 230, ../scss/app.scss */
 .top-bar.expanded .top-bar-section.order-2 li:nth-child(3) {
   border-bottom: 0.0625rem solid #cfc0a4;
 }
-/* line 228, ../scss/app.scss */
+/* line 231, ../scss/app.scss */
 .top-bar.expanded .top-bar-section.order-2 li:last-of-type {
   display: none;
 }
 
 @media only screen {
-  /* line 233, ../scss/app.scss */
+  /* line 236, ../scss/app.scss */
   .logo-small {
     width: 12.5rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 178, ../scss/app.scss */
+  /* line 181, ../scss/app.scss */
   .f-topbar-fixed {
     padding-top: 12rem !important;
   }
 
-  /* line 179, ../scss/app.scss */
+  /* line 182, ../scss/app.scss */
   .top-bar {
     height: 12rem;
   }
-  /* line 181, ../scss/app.scss */
+  /* line 184, ../scss/app.scss */
   .top-bar .title-area {
     height: 12rem;
   }
-  /* line 182, ../scss/app.scss */
+  /* line 185, ../scss/app.scss */
   .top-bar .name h1 {
     line-height: 12rem;
   }
 
-  /* line 185, ../scss/app.scss */
+  /* line 188, ../scss/app.scss */
   a[name] {
     position: relative;
     top: -12rem;
   }
 
-  /* line 238, ../scss/app.scss */
+  /* line 241, ../scss/app.scss */
   a[name] {
     top: -5.375rem !important;
   }
 
-  /* line 239, ../scss/app.scss */
+  /* line 242, ../scss/app.scss */
   .logo-small {
     display: none;
   }
 
-  /* line 241, ../scss/app.scss */
+  /* line 244, ../scss/app.scss */
   .top-bar .name h1 a {
     text-align: center;
     width: auto;
   }
-  /* line 245, ../scss/app.scss */
+  /* line 248, ../scss/app.scss */
   .top-bar .name .logo-large {
     width: 8.0625rem;
     display: inline-block;
   }
-  /* line 246, ../scss/app.scss */
+  /* line 249, ../scss/app.scss */
   .top-bar .menu-icon {
     margin-top: 1.875rem !important;
   }
 }
 @media only screen and (min-width: 53.563em) {
-  /* line 251, ../scss/app.scss */
+  /* line 254, ../scss/app.scss */
   .top-bar {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8905,7 +8906,7 @@ a[name] {
     display: -ms-flexbox;
     display: flex;
   }
-  /* line 254, ../scss/app.scss */
+  /* line 257, ../scss/app.scss */
   .top-bar .title-area {
     -webkit-box-flex: none;
     -webkit-flex: none;
@@ -8915,11 +8916,11 @@ a[name] {
     flex: none;
     float: none;
   }
-  /* line 259, ../scss/app.scss */
+  /* line 262, ../scss/app.scss */
   .top-bar .title-area .show-for-large-up {
     display: inline-block !important;
   }
-  /* line 262, ../scss/app.scss */
+  /* line 265, ../scss/app.scss */
   .top-bar .top-bar-section, .top-bar ul {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8939,15 +8940,15 @@ a[name] {
     flex: 1 1 50%;
     margin: 0% 1.25% !important;
   }
-  /* line 270, ../scss/app.scss */
+  /* line 273, ../scss/app.scss */
   .top-bar .top-bar-section li a, .top-bar .socialmedia li {
     display: inline;
   }
-  /* line 273, ../scss/app.scss */
+  /* line 276, ../scss/app.scss */
   .top-bar .top-bar-section li a span, .top-bar .top-bar-section li a a, .top-bar .socialmedia li span, .top-bar .socialmedia li a {
     line-height: 17.875rem !important;
   }
-  /* line 276, ../scss/app.scss */
+  /* line 279, ../scss/app.scss */
   .top-bar .order-0 {
     -webkit-box-ordinal-group: 1;
     -webkit-order: 0;
@@ -8955,7 +8956,7 @@ a[name] {
     -ms-flex-order: 0;
     order: 0;
   }
-  /* line 277, ../scss/app.scss */
+  /* line 280, ../scss/app.scss */
   .top-bar .order-1 {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -8963,7 +8964,7 @@ a[name] {
     -ms-flex-order: 1;
     order: 1;
   }
-  /* line 278, ../scss/app.scss */
+  /* line 281, ../scss/app.scss */
   .top-bar .order-2 {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
@@ -8972,26 +8973,26 @@ a[name] {
     order: 2;
   }
 }
-/* line 287, ../scss/app.scss */
+/* line 290, ../scss/app.scss */
 #mainslider div > div > div, #espacoslider div > div > div {
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 294, ../scss/app.scss */
+/* line 297, ../scss/app.scss */
 #mainslider section, #espacoslider section {
   padding: 1.5em;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 300, ../scss/app.scss */
+/* line 303, ../scss/app.scss */
 #mainslider h1, #espacoslider h1 {
   line-height: 1em;
   color: #d3d1c9;
   font-family: "Gotham-Black";
 }
-/* line 306, ../scss/app.scss */
+/* line 309, ../scss/app.scss */
 #mainslider h2, #espacoslider h2 {
   color: #e99e21;
   font-size: 1.5rem;
@@ -8999,23 +9000,23 @@ a[name] {
   font-weight: bold;
   font-size: 1.25rem !important;
 }
-/* line 314, ../scss/app.scss */
+/* line 317, ../scss/app.scss */
 #mainslider .slick-dots, #espacoslider .slick-dots {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 319, ../scss/app.scss */
+/* line 322, ../scss/app.scss */
 #mainslider .full, #espacoslider .full {
   width: 100%;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 323, ../scss/app.scss */
+  /* line 326, ../scss/app.scss */
   #mainslider h1 {
     font-size: 3.4375rem;
   }
 }
-/* line 333, ../scss/app.scss */
+/* line 336, ../scss/app.scss */
 #cardapio h3::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -9026,44 +9027,44 @@ a[name] {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 339, ../scss/app.scss */
+/* line 342, ../scss/app.scss */
 #cardapio .cardapio-completo {
   display: none;
 }
-/* line 342, ../scss/app.scss */
+/* line 345, ../scss/app.scss */
 #cardapio .cardapio-completo p {
   text-align: left;
 }
-/* line 344, ../scss/app.scss */
+/* line 347, ../scss/app.scss */
 #cardapio .cardapio-completo dt, #cardapio .cardapio-completo .cardapio-item {
   color: #ac9874;
 }
-/* line 349, ../scss/app.scss */
+/* line 352, ../scss/app.scss */
 #cardapio .cardapio-completo dl dd {
   padding-bottom: 8px;
   border-bottom: 1px solid #cfc0a4;
 }
-/* line 354, ../scss/app.scss */
+/* line 357, ../scss/app.scss */
 #cardapio .cardapio-completo dl dd:last-of-type {
   border-bottom: none;
   padding-bottom: inherit;
 }
 
-/* line 365, ../scss/app.scss */
+/* line 368, ../scss/app.scss */
 #ascervejas h3 {
   text-align: center;
 }
-/* line 366, ../scss/app.scss */
+/* line 369, ../scss/app.scss */
 #ascervejas .beer {
   text-align: center;
   max-width: 200px;
 }
-/* line 371, ../scss/app.scss */
+/* line 374, ../scss/app.scss */
 #ascervejas ul li {
   text-align: center;
   border-width: 50%;
 }
-/* line 377, ../scss/app.scss */
+/* line 380, ../scss/app.scss */
 #ascervejas section h3::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -9072,28 +9073,28 @@ a[name] {
   height: 1px;
   position: relative;
 }
-/* line 381, ../scss/app.scss */
+/* line 384, ../scss/app.scss */
 #ascervejas section .seal {
   width: 72px;
 }
-/* line 382, ../scss/app.scss */
+/* line 385, ../scss/app.scss */
 #ascervejas section li {
   float: none;
   margin: auto;
 }
 
 @media only screen and (min-width: 53.563em) {
-  /* line 389, ../scss/app.scss */
+  /* line 392, ../scss/app.scss */
   #ascervejas .beer {
     max-width: 178px;
     margin-top: 74px;
   }
-  /* line 395, ../scss/app.scss */
+  /* line 398, ../scss/app.scss */
   #ascervejas .big-beer {
     margin-top: 0px;
   }
 }
-/* line 404, ../scss/app.scss */
+/* line 407, ../scss/app.scss */
 #google-map {
   position: absolute;
   display: block;
@@ -9101,12 +9102,12 @@ a[name] {
   height: 100%;
 }
 
-/* line 423, ../scss/app.scss */
+/* line 426, ../scss/app.scss */
 #localizacao {
   min-height: 420px;
 }
 
-/* line 427, ../scss/app.scss */
+/* line 430, ../scss/app.scss */
 #endereco {
   -webkit-box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
   -moz-box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
@@ -9118,16 +9119,16 @@ a[name] {
   margin: 30px auto;
   margin-top: 90px;
 }
-/* line 437, ../scss/app.scss */
+/* line 440, ../scss/app.scss */
 #endereco p {
   text-align: left;
 }
-/* line 439, ../scss/app.scss */
+/* line 442, ../scss/app.scss */
 #endereco ul {
   list-style-type: none;
   margin: 0;
 }
-/* line 444, ../scss/app.scss */
+/* line 447, ../scss/app.scss */
 #endereco h2 {
   font-family: "Gibson-Regular";
   font-size: 0.875rem;
@@ -9135,43 +9136,43 @@ a[name] {
   text-align: left;
 }
 
-/* line 456, ../scss/app.scss */
+/* line 459, ../scss/app.scss */
 #social {
   font-size: 0.75rem;
   font-family: "Gotham-Bold";
   text-transform: uppercase;
 }
-/* line 461, ../scss/app.scss */
+/* line 464, ../scss/app.scss */
 #social img {
   height: 46px;
   margin-right: 10px;
 }
-/* line 466, ../scss/app.scss */
+/* line 469, ../scss/app.scss */
 #social .social-list {
   margin-top: 10px;
 }
-/* line 470, ../scss/app.scss */
+/* line 473, ../scss/app.scss */
 #social .social-list span {
   width: 80px;
   display: inline-block;
   text-align: center;
 }
-/* line 471, ../scss/app.scss */
+/* line 474, ../scss/app.scss */
 #social .social-list div {
   border-bottom: 1px solid #cfc0a4;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 478, ../scss/app.scss */
+/* line 481, ../scss/app.scss */
 #social .social-list div:last-of-type {
   border-bottom: none;
 }
-/* line 481, ../scss/app.scss */
+/* line 484, ../scss/app.scss */
 #social .newsletter {
   padding: 20px 0px;
   text-align: center;
 }
-/* line 486, ../scss/app.scss */
+/* line 489, ../scss/app.scss */
 #social .newsletter::before, #social .newsletter::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -9183,34 +9184,34 @@ a[name] {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 494, ../scss/app.scss */
+/* line 497, ../scss/app.scss */
 #social .icon-twitter {
   color: #f29b10 !important;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 501, ../scss/app.scss */
+  /* line 504, ../scss/app.scss */
   #social .social-list span {
     width: auto;
     display: inline-block;
     text-align: center;
   }
-  /* line 503, ../scss/app.scss */
+  /* line 506, ../scss/app.scss */
   #social .social-list div {
     text-align: center;
     border-bottom: none;
     border-right: 1px solid #cfc0a4;
   }
-  /* line 509, ../scss/app.scss */
+  /* line 512, ../scss/app.scss */
   #social .social-list div:last-of-type {
     border-right: none;
   }
-  /* line 512, ../scss/app.scss */
+  /* line 515, ../scss/app.scss */
   #social .newsletter {
     line-height: 36px;
     margin-top: 20px;
   }
-  /* line 516, ../scss/app.scss */
+  /* line 519, ../scss/app.scss */
   #social .newsletter .button {
     margin-left: 1px;
   }
