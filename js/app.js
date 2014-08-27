@@ -9,10 +9,35 @@ function verCardapio() {
 $(document).ready(function(){
 	jQuery.extend(verge);
 
-	var viewportRecalc = function() {
-		var topbar = verge.rectangle($(".sticky"));
 
-		var sectionHeight = verge.viewportH() - topbar.height;
+	var viewportRecalc = function() {
+		var sticky = verge.rectangle($(".sticky"));
+
+		var topbar = verge.rectangle($(".top-bar"));
+		var title = verge.rectangle($(".large-title"));
+		var usefulWidth = (topbar.width - title.width) / 2;
+		
+		var getSpaceBetween = function(arr) {
+			var sum = 0;
+			arr.each(function(i,e) {
+				sum += verge.rectangle($(e)).width; 
+			});
+			return Math.floor((usefulWidth - Math.ceil(sum)) / (arr.length - 1));
+		};
+
+		var applySpaceBetween = function(arr) {
+			var spaceBetween = getSpaceBetween(arr);
+			for (var i = 0; i < arr.length - 1; i++){
+				$(arr[i]).css("margin-right", spaceBetween);
+			}
+		};
+
+		applySpaceBetween($(".menu-1 > ul > li"));
+		applySpaceBetween($(".menu-2 > ul > li"));
+
+
+
+		var sectionHeight = verge.viewportH() - sticky.height;
 		if ($(".logo-small").is(":visible"))
 		{
 			$('.full').css('min-height', sectionHeight/2);
@@ -47,7 +72,6 @@ $(document).ready(function(){
 		viewportRecalc();
 	};
 
-	resizeHandler();
 
 	$(document).on("scroll", scrollHandler);
 
@@ -95,6 +119,9 @@ $(document).ready(function(){
 
 	scrollTo();
 
+
+
+	window.setTimeout(resizeHandler, 10);
 
 	function initialiseMaps() {
 	    var myLatLng = new google.maps.LatLng(-23.61350,-46.665704);

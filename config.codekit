@@ -4430,25 +4430,25 @@
 	"\/js\/app.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/verge\/verge.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/verge\/verge.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.js",
 			"position": 3,
 			"type": 0
 			}

@@ -195,6 +195,7 @@ article { padding-top: 20px !important; }
 
 .top-bar {
     background-color: transparent;
+    .title-area { background-color: transparent !important; }
     .name {
         h1 { 
             background: none; 
@@ -218,7 +219,7 @@ article { padding-top: 20px !important; }
         //background: $secondary-color;
         li {
             border-top: rem-calc(1px) solid $body-font-color;
-
+            margin-right: 0 !important;
             a { 
                 //color: #fff;
                 padding: rem-calc(12px); 
@@ -230,6 +231,8 @@ article { padding-top: 20px !important; }
         li:nth-child(3) { border-bottom: rem-calc(1px) solid $body-font-color; }
         li:last-of-type { display: none; }
     }
+
+    .socialmedia { display: none; }
 }
 
 @media #{$small-up} {
@@ -245,40 +248,31 @@ article { padding-top: 20px !important; }
             text-align: center;
             width: auto;
         }
-        .name .logo-large { width: rem-calc(129px); display: inline-block; }
+        .logo-large { width: rem-calc(129px); display: inline-block; }
         .menu-icon { margin-top: rem-calc(30px) !important; }
     }
 }
 
 @media #{$large-up} {
     .top-bar {
-        @include flexbox;
-        
-        .title-area { 
-            @include flex(none);
+        section {
+            float: left;
+            line-height: normal !important;
 
-            float: none;
-            
-            .show-for-large-up { display: inline-block !important; }
+            & ul 
+            {
+                display: inline-block;
+
+                > li > a { line-height: 30px !important; }
+            }
         }
 
-        .top-bar-section, ul { 
-            @include flexbox;
-            @include flex-just(space-between);
-            @include flex(1, 1, 50%);
-
-            margin: 0% 1.25% !important;   
+        section > ul > li { padding-top: 128px;}
+        .large-title { 
+            padding-top: 25px;
+            padding-left: 2%;
+            padding-right: 2%;
         }
-
-        .top-bar-section li a, .socialmedia li {
-            
-            display: inline;
-            span, a { line-height: rem-calc(286px) !important; }
-        }
-
-        .order-0 { @include order(0); }
-        .order-1 { @include order(1); }
-        .order-2 { @include order(2); }
     }
 }
 

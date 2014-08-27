@@ -6809,7 +6809,7 @@ meta.foundation-mq-topbar {
 /* line 110, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.95);
 }
 /* line 114, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -6849,7 +6849,7 @@ meta.foundation-mq-topbar {
   height: 192px;
   line-height: 192px;
   position: relative;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.95);
   margin-bottom: 0;
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6959,7 +6959,7 @@ meta.foundation-mq-topbar {
 }
 /* line 256, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.95);
 }
 /* line 259, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -6989,7 +6989,7 @@ meta.foundation-mq-topbar {
 /* line 287, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px rgba(128, 128, 128, 0.85);
+  border-top: solid 1px rgba(128, 128, 128, 0.95);
   clear: both;
   height: 1px;
   width: 100%;
@@ -7255,7 +7255,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 53.563em) {
   /* line 434, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.95);
     overflow: visible;
   }
   /* line 168, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -7289,7 +7289,7 @@ meta.foundation-mq-topbar {
   }
   /* line 452, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.95);
   }
 
   /* line 455, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7435,7 +7435,7 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px rgba(255, 255, 255, 0.85);
+    border-right: solid 1px rgba(255, 255, 255, 0.95);
     clear: none;
     height: 192px;
     width: 0;
@@ -8790,59 +8790,68 @@ a[name] {
 .top-bar {
   background-color: transparent;
 }
-/* line 199, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
+.top-bar .title-area {
+  background-color: transparent !important;
+}
+/* line 200, ../scss/app.scss */
 .top-bar .name h1 {
   background: none;
   text-align: left;
 }
-/* line 203, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 .top-bar .name a {
   padding: 0 !important;
 }
-/* line 205, ../scss/app.scss */
+/* line 206, ../scss/app.scss */
 .top-bar .logo-large {
   display: none;
 }
-/* line 206, ../scss/app.scss */
+/* line 207, ../scss/app.scss */
 .top-bar .logo-small {
   margin: 0.3125rem;
 }
-/* line 207, ../scss/app.scss */
+/* line 208, ../scss/app.scss */
 .top-bar .menu-icon {
   margin-right: 0.625rem;
 }
-/* line 209, ../scss/app.scss */
+/* line 210, ../scss/app.scss */
 .top-bar .menu-icon a {
   padding: 0 1.5625rem 0 0;
 }
-/* line 211, ../scss/app.scss */
+/* line 212, ../scss/app.scss */
 .top-bar .top-bar-section li a {
   text-transform: uppercase;
 }
-/* line 212, ../scss/app.scss */
+/* line 213, ../scss/app.scss */
 .top-bar .socialmedia img {
   width: 1.875rem;
 }
 
-/* line 219, ../scss/app.scss */
+/* line 220, ../scss/app.scss */
 .top-bar.expanded .top-bar-section li {
   border-top: 0.0625rem solid #cfc0a4;
+  margin-right: 0 !important;
 }
-/* line 222, ../scss/app.scss */
+/* line 223, ../scss/app.scss */
 .top-bar.expanded .top-bar-section li a {
   padding: 0.75rem;
 }
-/* line 230, ../scss/app.scss */
+/* line 231, ../scss/app.scss */
 .top-bar.expanded .top-bar-section.order-2 li:nth-child(3) {
   border-bottom: 0.0625rem solid #cfc0a4;
 }
-/* line 231, ../scss/app.scss */
+/* line 232, ../scss/app.scss */
 .top-bar.expanded .top-bar-section.order-2 li:last-of-type {
+  display: none;
+}
+/* line 235, ../scss/app.scss */
+.top-bar.expanded .socialmedia {
   display: none;
 }
 
 @media only screen {
-  /* line 236, ../scss/app.scss */
+  /* line 239, ../scss/app.scss */
   .logo-small {
     width: 12.5rem;
   }
@@ -8872,127 +8881,76 @@ a[name] {
     top: -12rem;
   }
 
-  /* line 241, ../scss/app.scss */
+  /* line 244, ../scss/app.scss */
   a[name] {
     top: -5.375rem !important;
   }
 
-  /* line 242, ../scss/app.scss */
+  /* line 245, ../scss/app.scss */
   .logo-small {
     display: none;
   }
 
-  /* line 244, ../scss/app.scss */
+  /* line 247, ../scss/app.scss */
   .top-bar .name h1 a {
     text-align: center;
     width: auto;
   }
-  /* line 248, ../scss/app.scss */
-  .top-bar .name .logo-large {
+  /* line 251, ../scss/app.scss */
+  .top-bar .logo-large {
     width: 8.0625rem;
     display: inline-block;
   }
-  /* line 249, ../scss/app.scss */
+  /* line 252, ../scss/app.scss */
   .top-bar .menu-icon {
     margin-top: 1.875rem !important;
   }
 }
 @media only screen and (min-width: 53.563em) {
-  /* line 254, ../scss/app.scss */
-  .top-bar {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  /* line 257, ../scss/app.scss */
-  .top-bar .title-area {
-    -webkit-box-flex: none;
-    -webkit-flex: none;
-    -moz-box-flex: none;
-    -moz-flex: none;
-    -ms-flex: none;
-    flex: none;
-    float: none;
+  /* line 258, ../scss/app.scss */
+  .top-bar section {
+    float: left;
+    line-height: normal !important;
   }
   /* line 262, ../scss/app.scss */
-  .top-bar .title-area .show-for-large-up {
-    display: inline-block !important;
+  .top-bar section ul {
+    display: inline-block;
   }
-  /* line 265, ../scss/app.scss */
-  .top-bar .top-bar-section, .top-bar ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    -moz-justify-content: space-between;
-    justify-content: space-between;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 50%;
-    -moz-box-flex: 1;
-    -moz-flex: 1 1 50%;
-    -ms-flex: 1 1 50%;
-    flex: 1 1 50%;
-    margin: 0% 1.25% !important;
+  /* line 266, ../scss/app.scss */
+  .top-bar section ul > li > a {
+    line-height: 30px !important;
   }
-  /* line 273, ../scss/app.scss */
-  .top-bar .top-bar-section li a, .top-bar .socialmedia li {
-    display: inline;
+  /* line 270, ../scss/app.scss */
+  .top-bar section > ul > li {
+    padding-top: 128px;
   }
-  /* line 276, ../scss/app.scss */
-  .top-bar .top-bar-section li a span, .top-bar .top-bar-section li a a, .top-bar .socialmedia li span, .top-bar .socialmedia li a {
-    line-height: 17.875rem !important;
-  }
-  /* line 279, ../scss/app.scss */
-  .top-bar .order-0 {
-    -webkit-box-ordinal-group: 1;
-    -webkit-order: 0;
-    -moz-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-  }
-  /* line 280, ../scss/app.scss */
-  .top-bar .order-1 {
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-    -moz-order: 1;
-    -ms-flex-order: 1;
-    order: 1;
-  }
-  /* line 281, ../scss/app.scss */
-  .top-bar .order-2 {
-    -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-    -moz-order: 2;
-    -ms-flex-order: 2;
-    order: 2;
+  /* line 271, ../scss/app.scss */
+  .top-bar .large-title {
+    padding-top: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
-/* line 290, ../scss/app.scss */
+/* line 284, ../scss/app.scss */
 #mainslider div > div > div, #espacoslider div > div > div {
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 297, ../scss/app.scss */
+/* line 291, ../scss/app.scss */
 #mainslider section, #espacoslider section {
   padding: 1.5em;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 303, ../scss/app.scss */
+/* line 297, ../scss/app.scss */
 #mainslider h1, #espacoslider h1 {
   line-height: 1em;
   color: #d3d1c9;
   font-family: "Gotham-Black";
 }
-/* line 309, ../scss/app.scss */
+/* line 303, ../scss/app.scss */
 #mainslider h2, #espacoslider h2 {
   color: #e99e21;
   font-size: 1.5rem;
@@ -9000,23 +8958,23 @@ a[name] {
   font-weight: bold;
   font-size: 1.25rem !important;
 }
-/* line 317, ../scss/app.scss */
+/* line 311, ../scss/app.scss */
 #mainslider .slick-dots, #espacoslider .slick-dots {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 322, ../scss/app.scss */
+/* line 316, ../scss/app.scss */
 #mainslider .full, #espacoslider .full {
   width: 100%;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 326, ../scss/app.scss */
+  /* line 320, ../scss/app.scss */
   #mainslider h1 {
     font-size: 3.4375rem;
   }
 }
-/* line 336, ../scss/app.scss */
+/* line 330, ../scss/app.scss */
 #cardapio h3::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -9027,44 +8985,44 @@ a[name] {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 342, ../scss/app.scss */
+/* line 336, ../scss/app.scss */
 #cardapio .cardapio-completo {
   display: none;
 }
-/* line 345, ../scss/app.scss */
+/* line 339, ../scss/app.scss */
 #cardapio .cardapio-completo p {
   text-align: left;
 }
-/* line 347, ../scss/app.scss */
+/* line 341, ../scss/app.scss */
 #cardapio .cardapio-completo dt, #cardapio .cardapio-completo .cardapio-item {
   color: #ac9874;
 }
-/* line 352, ../scss/app.scss */
+/* line 346, ../scss/app.scss */
 #cardapio .cardapio-completo dl dd {
   padding-bottom: 8px;
   border-bottom: 1px solid #cfc0a4;
 }
-/* line 357, ../scss/app.scss */
+/* line 351, ../scss/app.scss */
 #cardapio .cardapio-completo dl dd:last-of-type {
   border-bottom: none;
   padding-bottom: inherit;
 }
 
-/* line 368, ../scss/app.scss */
+/* line 362, ../scss/app.scss */
 #ascervejas h3 {
   text-align: center;
 }
-/* line 369, ../scss/app.scss */
+/* line 363, ../scss/app.scss */
 #ascervejas .beer {
   text-align: center;
   max-width: 200px;
 }
-/* line 374, ../scss/app.scss */
+/* line 368, ../scss/app.scss */
 #ascervejas ul li {
   text-align: center;
   border-width: 50%;
 }
-/* line 380, ../scss/app.scss */
+/* line 374, ../scss/app.scss */
 #ascervejas section h3::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -9073,28 +9031,28 @@ a[name] {
   height: 1px;
   position: relative;
 }
-/* line 384, ../scss/app.scss */
+/* line 378, ../scss/app.scss */
 #ascervejas section .seal {
   width: 72px;
 }
-/* line 385, ../scss/app.scss */
+/* line 379, ../scss/app.scss */
 #ascervejas section li {
   float: none;
   margin: auto;
 }
 
 @media only screen and (min-width: 53.563em) {
-  /* line 392, ../scss/app.scss */
+  /* line 386, ../scss/app.scss */
   #ascervejas .beer {
     max-width: 178px;
     margin-top: 74px;
   }
-  /* line 398, ../scss/app.scss */
+  /* line 392, ../scss/app.scss */
   #ascervejas .big-beer {
     margin-top: 0px;
   }
 }
-/* line 407, ../scss/app.scss */
+/* line 401, ../scss/app.scss */
 #google-map {
   position: absolute;
   display: block;
@@ -9102,12 +9060,12 @@ a[name] {
   height: 100%;
 }
 
-/* line 426, ../scss/app.scss */
+/* line 420, ../scss/app.scss */
 #localizacao {
   min-height: 420px;
 }
 
-/* line 430, ../scss/app.scss */
+/* line 424, ../scss/app.scss */
 #endereco {
   -webkit-box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
   -moz-box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
@@ -9119,16 +9077,16 @@ a[name] {
   margin: 30px auto;
   margin-top: 90px;
 }
-/* line 440, ../scss/app.scss */
+/* line 434, ../scss/app.scss */
 #endereco p {
   text-align: left;
 }
-/* line 442, ../scss/app.scss */
+/* line 436, ../scss/app.scss */
 #endereco ul {
   list-style-type: none;
   margin: 0;
 }
-/* line 447, ../scss/app.scss */
+/* line 441, ../scss/app.scss */
 #endereco h2 {
   font-family: "Gibson-Regular";
   font-size: 0.875rem;
@@ -9136,43 +9094,43 @@ a[name] {
   text-align: left;
 }
 
-/* line 459, ../scss/app.scss */
+/* line 453, ../scss/app.scss */
 #social {
   font-size: 0.75rem;
   font-family: "Gotham-Bold";
   text-transform: uppercase;
 }
-/* line 464, ../scss/app.scss */
+/* line 458, ../scss/app.scss */
 #social img {
   height: 46px;
   margin-right: 10px;
 }
-/* line 469, ../scss/app.scss */
+/* line 463, ../scss/app.scss */
 #social .social-list {
   margin-top: 10px;
 }
-/* line 473, ../scss/app.scss */
+/* line 467, ../scss/app.scss */
 #social .social-list span {
   width: 80px;
   display: inline-block;
   text-align: center;
 }
-/* line 474, ../scss/app.scss */
+/* line 468, ../scss/app.scss */
 #social .social-list div {
   border-bottom: 1px solid #cfc0a4;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 481, ../scss/app.scss */
+/* line 475, ../scss/app.scss */
 #social .social-list div:last-of-type {
   border-bottom: none;
 }
-/* line 484, ../scss/app.scss */
+/* line 478, ../scss/app.scss */
 #social .newsletter {
   padding: 20px 0px;
   text-align: center;
 }
-/* line 489, ../scss/app.scss */
+/* line 483, ../scss/app.scss */
 #social .newsletter::before, #social .newsletter::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -9184,34 +9142,34 @@ a[name] {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 497, ../scss/app.scss */
+/* line 491, ../scss/app.scss */
 #social .icon-twitter {
   color: #f29b10 !important;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 504, ../scss/app.scss */
+  /* line 498, ../scss/app.scss */
   #social .social-list span {
     width: auto;
     display: inline-block;
     text-align: center;
   }
-  /* line 506, ../scss/app.scss */
+  /* line 500, ../scss/app.scss */
   #social .social-list div {
     text-align: center;
     border-bottom: none;
     border-right: 1px solid #cfc0a4;
   }
-  /* line 512, ../scss/app.scss */
+  /* line 506, ../scss/app.scss */
   #social .social-list div:last-of-type {
     border-right: none;
   }
-  /* line 515, ../scss/app.scss */
+  /* line 509, ../scss/app.scss */
   #social .newsletter {
     line-height: 36px;
     margin-top: 20px;
   }
-  /* line 519, ../scss/app.scss */
+  /* line 513, ../scss/app.scss */
   #social .newsletter .button {
     margin-left: 1px;
   }
