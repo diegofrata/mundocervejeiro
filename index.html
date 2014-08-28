@@ -178,6 +178,9 @@
 
               <dt>Filé de Jacaré Pantaneiro</dt>
               <dd>Filé de cauda grelhado, parte mais nobre do jacaré, temperado com sal de ervas.</dd>
+
+              <dt>Costelinha de Javali</dt>
+              <dd>Parte de nobre desse suíno selvagem, extremamente saborosa, grelhada em charbroiler.</dd>
             </dl>
 
             <h3>Das nossas águas</h3>
@@ -469,8 +472,58 @@
       </article>
     </div>
 
-    <div class="bgcheck"></div>
+    <!-- Microdata //-->
+    <div itemscope itemtype="http://schema.org/BarOrPub" style="display: none;">
+       <span itemprop="name">Mundo Cervejeiro</span>
+       <span itemprop="description">Situado em um sobrado na pacata Av. Miruna, o Mundo Cervejeiro é um bar e restaurante
+            e também lar da Cervejaria TRIA, uma fábrica de cervejas artesanais.
+            O espaço é aconchegante e conta com salões internos – de onde se pode ver a estrutura e o funcionamento 
+            da cervejaria – e deques externos – perfeitos para noites quentes. O espaço ainda conta com uma seleção 
+            musical com o melhor do rock, pop e blues, que garante um clima empolgante e animado para qualquer ocasião.</span>
+
+       <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+         <span itemprop="streetAddress">Av. Miruna, 51</span>
+         <span itemprop="addressLocality">São Paulo</span>,
+         <span itemprop="addressRegion">São Paulo</span>
+         <span itemprop="postalCode">04084-000</span>
+       </div>
+
+       <span itemprop="telephone">(11) 5041-1180</span>
+       <span itemprop="email">contato@mundocervejeiro.com.br</span>
+
+       <a href="https://www.google.com.br/maps/place/Av.+Miruna,+51+-+Indian%C3%B3polis,+S%C3%A3o+Paulo+-+SP/@-23.6113202,-46.6657037,17z/data=!3m1!4b1!4m2!3m1!1s0x94ce5a095528b5cf:0x6ef80c2a0345f5bd" itemprop="maps">URL of Map</a> 
+
+       <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+         <span itemprop="ratingValue">5</span> 
+         <span itemprop="reviewCount">100</span>
+       </div>
+
+       <span itemprop="servesCuisine">Brasileira</span>
+       <span itemprop="priceRange">$$</span>
+       <span itemprop="priceRange">$$</span>
+       <span itemprop="acceptsReservations">True</span>
+
+       <time itemprop="openingHours" datetime="Tu-Th 17:00-23:00"></time>
+       <time itemprop="openingHours" datetime="Fr 17:00-01:00"></time>
+       <time itemprop="openingHours" datetime="Sa 12:00-01:00"></time>
+       <time itemprop="openingHours" datetime="Su 12:00-20:00"></time>
+
+
+    </div>
+
+
     <script src="js/min/app-min.js"></script>
     <script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-41302257-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </body>
 </html>
