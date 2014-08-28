@@ -9040,19 +9040,40 @@ a[name] {
   float: none;
   margin: auto;
 }
+/* line 384, ../scss/app.scss */
+#ascervejas #beerslider div {
+  text-align: center;
+}
+/* line 387, ../scss/app.scss */
+#ascervejas #beerslider div img {
+  display: inline-block;
+}
+/* line 390, ../scss/app.scss */
+#ascervejas #beerslider ul {
+  margin-left: 0;
+}
+/* line 393, ../scss/app.scss */
+#ascervejas .beer {
+  margin: 42px 0;
+}
+/* line 397, ../scss/app.scss */
+#ascervejas .big-beer {
+  margin: 0px;
+}
 
 @media only screen and (min-width: 53.563em) {
-  /* line 386, ../scss/app.scss */
+  /* line 403, ../scss/app.scss */
   #ascervejas .beer {
     max-width: 178px;
+    margin: 0px;
     margin-top: 74px;
   }
-  /* line 392, ../scss/app.scss */
+  /* line 409, ../scss/app.scss */
   #ascervejas .big-beer {
-    margin-top: 0px;
+    margin: 0px;
   }
 }
-/* line 401, ../scss/app.scss */
+/* line 418, ../scss/app.scss */
 #google-map {
   position: absolute;
   display: block;
@@ -9060,12 +9081,12 @@ a[name] {
   height: 100%;
 }
 
-/* line 420, ../scss/app.scss */
+/* line 437, ../scss/app.scss */
 #localizacao {
   min-height: 420px;
 }
 
-/* line 424, ../scss/app.scss */
+/* line 441, ../scss/app.scss */
 #endereco {
   -webkit-box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
   -moz-box-shadow: 0px 0px 30px rgba(207, 192, 164, 0.7);
@@ -9077,16 +9098,16 @@ a[name] {
   margin: 30px auto;
   margin-top: 90px;
 }
-/* line 434, ../scss/app.scss */
+/* line 451, ../scss/app.scss */
 #endereco p {
   text-align: left;
 }
-/* line 436, ../scss/app.scss */
+/* line 453, ../scss/app.scss */
 #endereco ul {
   list-style-type: none;
   margin: 0;
 }
-/* line 441, ../scss/app.scss */
+/* line 458, ../scss/app.scss */
 #endereco h2 {
   font-family: "Gibson-Regular";
   font-size: 0.875rem;
@@ -9094,43 +9115,45 @@ a[name] {
   text-align: left;
 }
 
-/* line 453, ../scss/app.scss */
+/* line 470, ../scss/app.scss */
 #social {
   font-size: 0.75rem;
   font-family: "Gotham-Bold";
   text-transform: uppercase;
 }
-/* line 458, ../scss/app.scss */
+/* line 475, ../scss/app.scss */
 #social img {
   height: 46px;
   margin-right: 10px;
 }
-/* line 463, ../scss/app.scss */
+/* line 480, ../scss/app.scss */
 #social .social-list {
+  z-index: 1;
   margin-top: 10px;
 }
-/* line 467, ../scss/app.scss */
+/* line 484, ../scss/app.scss */
 #social .social-list span {
   width: 80px;
   display: inline-block;
   text-align: center;
 }
-/* line 468, ../scss/app.scss */
+/* line 485, ../scss/app.scss */
 #social .social-list div {
   border-bottom: 1px solid #cfc0a4;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 475, ../scss/app.scss */
+/* line 492, ../scss/app.scss */
 #social .social-list div:last-of-type {
   border-bottom: none;
 }
-/* line 478, ../scss/app.scss */
+/* line 495, ../scss/app.scss */
 #social .newsletter {
+  z-index: 1;
   padding: 20px 0px;
   text-align: center;
 }
-/* line 483, ../scss/app.scss */
+/* line 501, ../scss/app.scss */
 #social .newsletter::before, #social .newsletter::after {
   background: url(../images/dotted-line.png);
   background-size: contain;
@@ -9142,35 +9165,44 @@ a[name] {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 491, ../scss/app.scss */
+/* line 509, ../scss/app.scss */
 #social .icon-twitter {
   color: #f29b10 !important;
 }
+/* line 510, ../scss/app.scss */
+#social .tintup {
+  z-index: 0;
+}
 
 @media only screen and (min-width: 40.063em) {
-  /* line 498, ../scss/app.scss */
+  /* line 517, ../scss/app.scss */
   #social .social-list span {
     width: auto;
     display: inline-block;
     text-align: center;
   }
-  /* line 500, ../scss/app.scss */
+  /* line 519, ../scss/app.scss */
   #social .social-list div {
     text-align: center;
     border-bottom: none;
     border-right: 1px solid #cfc0a4;
   }
-  /* line 506, ../scss/app.scss */
+  /* line 525, ../scss/app.scss */
   #social .social-list div:last-of-type {
     border-right: none;
   }
-  /* line 509, ../scss/app.scss */
+  /* line 528, ../scss/app.scss */
   #social .newsletter {
     line-height: 36px;
     margin-top: 20px;
   }
-  /* line 513, ../scss/app.scss */
+  /* line 532, ../scss/app.scss */
   #social .newsletter .button {
     margin-left: 1px;
   }
+}
+/* line 537, ../scss/app.scss */
+.bgcheck {
+  width: 29px;
+  display: none;
 }

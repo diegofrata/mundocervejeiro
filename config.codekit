@@ -45,7 +45,7 @@
 		},
 	"\/bower_components\/foundation\/js\/foundation.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/foundation-min.js",
@@ -1060,7 +1060,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
@@ -3708,7 +3708,7 @@
 		},
 	"\/bower_components\/slick.js\/slick\/slick.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.js",
 		"outputAbbreviatedPath": "\/bower_components\/slick.js\/slick\/min\/slick-min.js",
@@ -3792,7 +3792,7 @@
 		},
 	"\/bower_components\/verge\/src\/verge.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/verge\/src\/verge.js",
 		"outputAbbreviatedPath": "\/bower_components\/verge\/src\/min\/verge-min.js",
@@ -4442,13 +4442,13 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/verge\/verge.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/slick.js\/slick\/slick.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/verge\/src\/verge.js",
 			"position": 3,
 			"type": 0
 			}

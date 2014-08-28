@@ -77,27 +77,6 @@ $(document).ready(function(){
 
 	$(window).on("resize", resizeHandler);
 
-	$('#mainslider').slick({
-		dots: false,
-		infinite: true,
-		speed: 1000,
-		autoplay: true,
-		autoplaySpeed: 5000,
-		fade: true,
-		cssEase: 'linear',
-		arrows: false
-	});
-
-	$('#espacoslider').slick({
-		dots: true,
-		infinite: true,
-		speed: 1000,
-		autoplay: true,
-		autoplaySpeed: 5000,
-		cssEase: 'linear',
-		arrows: false
-	});
-
 	function scrollTo() {
 
 	    $('a[href^=#]').on('click', function(e){
@@ -119,9 +98,64 @@ $(document).ready(function(){
 
 	scrollTo();
 
+	resizeHandler();
+
+	var cssLoadedCheck = function () {
+
+		var menu1 = verge.rectangle($(".menu-1"));
+		var menu2 = verge.rectangle($(".menu-2"));	
+		var title = verge.rectangle($(".large-title"));	
+		var topbar = verge.rectangle($(".top-bar"));
+		
+		var total = menu1.width + menu2.width + title.width;
+
+		if (total > topbar.width)
+		{
+			window.setTimeout(cssLoadedCheck, 100);
+		}
+
+		resizeHandler();
+	};
+
+	window.setTimeout(cssLoadedCheck, 100);
 
 
-	window.setTimeout(resizeHandler, 10);
+	$(window).on("load", function() { 
+		resizeHandler();
+	});
+
+
+
+	$('#mainslider').slick({
+		dots: false,
+		infinite: true,
+		speed: 1000,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		fade: true,
+		cssEase: 'linear',
+		arrows: false
+	});
+
+	$('#espacoslider').slick({
+		dots: true,
+		infinite: true,
+		speed: 1000,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		cssEase: 'linear',
+		arrows: false
+	});
+
+	$('#beerslider').slick({
+		dots: true,
+		infinite: true,
+		speed: 1000,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		cssEase: 'linear',
+		arrows: false
+	});
 
 	function initialiseMaps() {
 	    var myLatLng = new google.maps.LatLng(-23.61350,-46.665704);

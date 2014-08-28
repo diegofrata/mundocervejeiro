@@ -378,6 +378,23 @@ article { padding-top: 20px !important; }
         .seal { width: 72px; }
         li { float: none; margin: auto; }
     }
+
+    #beerslider  {
+
+        div {
+            text-align: center;
+
+            img { display: inline-block; }
+        }
+
+        ul { margin-left: 0; }
+    }
+
+    .beer {
+        margin: 42px 0;
+    }
+
+    .big-beer { margin: 0px; }
 }
 
 @media #{$large-up} {
@@ -385,11 +402,11 @@ article { padding-top: 20px !important; }
 
         .beer { 
             max-width: 178px;
+            margin: 0px;
             margin-top: 74px; 
         }
 
-
-        .big-beer { margin-top: 0px; }
+        .big-beer { margin: 0px; }
     }
 }
 
@@ -461,7 +478,7 @@ article { padding-top: 20px !important; }
     }
 
     .social-list {
-
+        z-index: 1;
         margin-top: 10px;
 
         span { width: 80px; display: inline-block; text-align: center; }
@@ -476,6 +493,7 @@ article { padding-top: 20px !important; }
     }
 
     .newsletter {
+        z-index: 1;
         padding: 20px 0px;
         text-align: center;
     }
@@ -489,6 +507,7 @@ article { padding-top: 20px !important; }
     }
 
     .icon-twitter { color: #f29b10 !important; }
+    .tintup { z-index: 0; }
 }
 
 @media #{$medium-up} {
@@ -514,3 +533,5 @@ article { padding-top: 20px !important; }
         }
     }
 }
+
+.bgcheck { width: 29px; display: none; }
