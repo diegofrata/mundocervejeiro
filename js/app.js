@@ -147,6 +147,17 @@ $(document).ready(function(){
 		arrows: false
 	});
 
+	$('#fabricaslider').slick({
+		dots: false,
+		infinite: true,
+		speed: 1000,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		fade: true,
+		cssEase: 'linear',
+		arrows: false
+	});
+
 	$('#beerslider').slick({
 		dots: true,
 		infinite: true,
