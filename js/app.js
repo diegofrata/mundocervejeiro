@@ -147,6 +147,16 @@ $(document).ready(function(){
 		arrows: false
 	});
 
+	$('#beerslider').slick({
+		dots: true,
+		infinite: true,
+		speed: 1000,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		cssEase: 'linear',
+		arrows: false
+	});
+
 	$('#fabricaslider').slick({
 		dots: false,
 		infinite: true,
@@ -154,16 +164,6 @@ $(document).ready(function(){
 		autoplay: true,
 		autoplaySpeed: 5000,
 		fade: true,
-		cssEase: 'linear',
-		arrows: false
-	});
-
-	$('#beerslider').slick({
-		dots: true,
-		infinite: true,
-		speed: 1000,
-		autoplay: true,
-		autoplaySpeed: 5000,
 		cssEase: 'linear',
 		arrows: false
 	});

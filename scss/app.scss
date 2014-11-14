@@ -24,7 +24,7 @@
 //   "foundation/components/panels",
 //   "foundation/components/pricing-tables",
 //   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
+   "foundation/components/reveal",
 //   "foundation/components/side-nav",
 //   "foundation/components/split-buttons",
 //   "foundation/components/sub-nav",
@@ -280,7 +280,7 @@ article { padding-top: 20px !important; }
 ///////////////////////////////////////////////
 // MAIN SLIDER
 ///////////////////////////////////////////////
-#mainslider, #espacoslider, #fabricaslider3 {
+#mainslider, #espacoslider, #fabricaslider {
     div > div > div {
         display: inline-block;
         background-repeat: no-repeat;
@@ -462,6 +462,13 @@ article { padding-top: 20px !important; }
         text-align: left;
 
     }
+
+}
+
+@media #{$medium-up} {
+    .reveal-modal {
+        max-width: 250px;
+    }
 }
 
 ///////////////////////////////////////////////
@@ -489,7 +496,7 @@ article { padding-top: 20px !important; }
             padding-bottom: 10px;
         }
 
-        .medium-2 { width: 20%; z-index: 20; }
+        .medium-2 { z-index: 20; }
 
         div:last-of-type { border-bottom: none; }
     }
@@ -526,6 +533,8 @@ article { padding-top: 20px !important; }
 
             div:last-of-type { border-right: none; }
         }
+
+        .medium-2 { width: 20%; }
 
         .newsletter { 
             line-height: 36px;
