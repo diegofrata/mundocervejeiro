@@ -131,7 +131,7 @@ $(document).ready(function(){
 		infinite: true,
 		speed: 1000,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 10000,
 		fade: true,
 		cssEase: 'linear',
 		arrows: false
@@ -142,7 +142,7 @@ $(document).ready(function(){
 		infinite: true,
 		speed: 1000,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 10000,
 		cssEase: 'linear',
 		arrows: false
 	});
@@ -152,7 +152,7 @@ $(document).ready(function(){
 		infinite: true,
 		speed: 1000,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 10000,
 		cssEase: 'linear',
 		arrows: false
 	});
@@ -162,7 +162,7 @@ $(document).ready(function(){
 		infinite: true,
 		speed: 1000,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 10000,
 		fade: true,
 		cssEase: 'linear',
 		arrows: false
