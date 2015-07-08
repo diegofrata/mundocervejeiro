@@ -4234,6 +4234,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/photos\/100.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51556,
+		"inputAbbreviatedPath": "\/images\/photos\/100.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/100.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photos\/101.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62724,
+		"inputAbbreviatedPath": "\/images\/photos\/101.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/101.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photos\/102.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57134,
+		"inputAbbreviatedPath": "\/images\/photos\/102.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/102.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/photos\/11.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4329,6 +4362,17 @@
 		"initialSize": 122369,
 		"inputAbbreviatedPath": "\/images\/photos\/92.jpg",
 		"outputAbbreviatedPath": "\/images\/photos\/92.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photos\/Mundo-Cervejeiro24.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85981,
+		"inputAbbreviatedPath": "\/images\/photos\/Mundo-Cervejeiro24.jpg",
+		"outputAbbreviatedPath": "\/images\/photos\/Mundo-Cervejeiro24.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
