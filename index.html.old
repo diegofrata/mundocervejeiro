@@ -1,0 +1,596 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Um bar descontraído, um cardápio contemporâneo e uma fábrica de cervejas artesanais.">
+    <title>Mundo Cervejeiro | Bar &amp; Microcervejaria</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="js/min/modernizr-min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBVtbYfbHAbVyJVOZF71lWD6mwxZiHJ2sQ&sensor=true"></script>
+  </head>
+  <body>
+    <div class="contain-to-grid sticky">
+      <nav class="top-bar" data-topbar>
+        <section class="top-bar-section menu-2">
+          <ul>
+            <li><a href="#espaco"><span>Espaço</span></a></li>
+            <li><a href="#cardapio"><span>Cardápio</span></a></li>
+            <li><a href="#fabrica"><span>Fábrica</span></a></li>
+            <li><a href="#ascervejas"><span>As Cervejas</span></a></li>
+          </ul>
+        </section>
+        <section class="large-title show-for-large-up">
+          <h1 class="no-decoration">
+            <a href="#">
+              <img class="logo-large" alt="Mundo Cervejeiro | Bar &amp; Microcervejaria" class="logo" data-interchange="[images/logo.png, (default)],[images/logo@2X.png, (retina)]">
+            </a>
+          </h1>
+        </section>
+        <ul class="title-area hide-for-large-up">
+          <li class="name">
+            <h1 class="no-decoration">
+            <a href="#">
+              <img class="logo-small" alt="Mundo Cervejeiro | Bar &amp; Microcervejaria" class="logo" data-interchange="[images/logo-horizontal.png, (default)],[images/logo-horizontal@2X.png, (retina)]"/>
+              <img class="logo-large" alt="Mundo Cervejeiro | Bar &amp; Microcervejaria" class="logo" data-interchange="[images/logo.png, (default)],[images/logo@2X.png, (retina)]">
+            </a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section menu-1">
+          <ul>
+            <li><a href="#eventos"><span>Eventos</span></a></li>
+            <li><a href="#localizacao"><span>Localização</span></a></li>
+            <li><a href="#social"><span>Social</span></a></li>
+            <li class="socialmedia">
+              <ul>
+                <li><a href="http://twitter.com/barmcervejeiro" target="_blank"><img src="images/twitter-256.png" alt="Twitter"></a></li>
+                <li><a href="http://facebook.com/mundocervejeiro" target="_blank"><img src="images/facebook-256.png" alt="Facebook"></a></li>
+                <li><a href="http://foursquare.com/v/mundo-cervejeiro/5176a7c5582fbe4f5c1bbe6b" target="_blank"><img src="images/foursquare-256.png" alt="Foursquare"></a></li>
+                <li><a href="http://www.tripadvisor.com.br/Restaurant_Review-g303631-d5626338-Reviews-Mundo_Cervejeiro-Sao_Paulo_State_of_Sao_Paulo.html" target="_blank"><img src="images/tripadvisor-256.png" alt="Trip Advisor"></a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <div id="mainslider" class="contain-to-grid">
+      <div class="full">
+        <div class="full" style="background-image: url(images/photos/9.jpg)">
+          <!--section >
+            <h1 class="no-decoration">Bar, Restaurante &amp; Micro-Cervejaria</h1>
+            <h2 class="no-decoration">Tudo em um s
+            .</h2>
+          </section-->
+        </div>
+      </div>
+
+      <div class="full">
+        <div class="full" style="background-image: url(images/photos/100.jpg)">
+          <!--section >
+            <h1 class="no-decoration">Bar, Restaurante &amp; Micro-Cervejaria</h1>
+            <h2 class="no-decoration">Tudo em um s
+            .</h2>
+          </section-->
+        </div>
+      </div>
+      <div class="full">
+        <div class="full" style="background-image: url(images/photos/101.jpg)">
+          <!--section >
+            <h1 class="no-decoration">Bar, Restaurante &amp; Micro-Cervejaria</h1>
+            <h2 class="no-decoration">Tudo em um s
+            .</h2>
+          </section-->
+        </div>
+      
+      </div>
+
+
+      <div class="full">
+        <div class="full" style="background-image: url(images/photos/102.jpg)">
+          <!--section >
+            <h1 class="no-decoration">Bar, Restaurante &amp; Micro-Cervejaria</h1>
+            <h2 class="no-decoration">Tudo em um s
+            .</h2>
+          </section-->
+        </div>
+      
+      </div>
+    </div>
+
+    <!--//////////////////////////////////////////
+    ////  ESPAÇO
+    //////////////////////////////////////////////-->
+    <article id="espaco" class="row">
+      <div class="medium-12 columns">
+        <h1>Espaço</h1>
+        <h2>Um bar e uma microcervejaria.</h2>
+        <p class="tall">Situado em um sobrado na pacata Av. Miruna, o <strong>Mundo Cervejeiro</strong> é um bar e restaurante e também lar da <strong>Cervejaria TRIA</strong>, uma fábrica de cervejas artesanais.<br>
+        O espaço conta com salões internos – de onde se pode ver a estrutura e o funcionamento 
+        da cervejaria – e deques externos – perfeitos para noites de verão. O espaço ainda conta com uma seleção 
+        musical com o melhor do rock, pop e blues, que garante um happy hour animado em qualquer dia da semana.</p>
+      </div>
+    </article>
+
+    <div id="espacoslider" class="contain-to-grid">
+      <div class="full">
+        <div class="full" style="background-image: url(images/photos/2.jpg)">
+        </div>
+      </div>
+      <div class="full">
+        <div class="full" style="background-image: url(images/photos/1.jpg)">
+        </div>
+      </div>
+      <div class="full">
+        <div class="full" style="background-image: url(images/photos/8.jpg)">
+        </div>
+      </div>
+    </div>
+    <!--//////////////////////////////////////////
+    ////  CARDÁPIO
+    //////////////////////////////////////////////-->  
+    <article id="cardapio" class="row">
+      <div class="medium-12 columns">
+        <h1>Cardápio</h1>
+        <h2>Um cardápio inspirado no Brasil.</h2>
+        <p class="tall">Recheado de cima a baixo – como nossos sanduíches. Petiscos, sanduíches e pratos clássicos, completamente artesanais e sem medo do tempero. E para os <strong>fortes</strong>, todos os itens podem ser acompanhados da nossa pimenta artesanal.</p>
+        <p style="display:none"><a href="javascript:verCardapio();" class="button">Ver Cardápio Completo</a></p>
+        <div class="row cardapio-completo">
+          <div class="medium-6 columns">
+            <h3>Para Petiscar</h3>
+            <dl>
+              <dt>Lagostim Empanado com Coco</dt>
+              <dd>Lagostim grande, crocante, empanado em massa de cerveja e coberta com coco ralado.</dd>
+
+              <dt>Palitos de Coalho ao Piri-piri</dt>   
+              <dd>Palitos de queijo coalho empanado, acompanhados de molho levemente apimentado.</dd>
+                  
+              <dt>Frango à Passarinho</dt>
+              <dd>Pedaços nobres de frango fritos, crocantes e bem sequinhos, salpicados de cebolinha e alho dourado.</dd>
+
+              <dt>Bolinho de Mandioca</dt>
+              <dd>Bolinhos de mandioca com recheio de carne seca e queijo. Crocantes por fora e macios por dentro.</dd>
+
+              <dt>Mandioca Frita</dt>
+              <dd>Bastonetes de mandioca fritos. Sequinhos por fora e macios por dentro.</dd>
+
+              <dt>Torresmo</dt>
+              <dd>Sequinho, crocante, pururucado. Companheiro ideal para uma boa cerveja.</dd>
+
+              <dt>Linguiças Artesanais</dt>
+              <dd>Com recheio de Pernil, Apimentada, Ervas Finas, Caipira ou Frango, servida com pão da casa.</dd>
+
+              <dt>Linguiças Artesanais Especiais</dt>
+              <dd>Cachaça com Jabuticaba, Queijo Coalho com Castanha de Caju ou Cuiabana, servida com pão da casa.</dd>
+
+              <dt>Bolinho de Arroz</dt>
+              <dd>Bolinho de arroz tradicional. Crocante por fora e macio por dentro.</dd>
+
+              <dt>Bolinho de Arroz Carreteiro</dt>
+              <dd>Nossa versão em bolinho desse prato tradicional da culinária gaúcha.</dd>
+
+              <dt>Bolinho de Baião de Dois</dt>
+              <dd>Nossa versão em bolinho desse prato tradicional da culinária 
+              nordestina.</dd>
+
+              <dt>Isca de Peixe</dt>
+              <dd>Peixe do dia, sempre fresco, cortado em iscas e empanado em massa de cerveja. Servido com molho.</dd>
+
+              <dt>Isca de Jacaré</dt>
+              <dd>Carne de jacaré pantaneiro, cortado em iscas e servido em nossa massa de cerveja com especiarias da casa e molho.</dd>
+
+              <dt>Picanha Maturada Aperitivo</dt>
+              <dd>Corte nobre grelhado, levemente defumado, preparado em iscas.</dd>
+
+              <dt>Carne de Sol Com Macaxeira</dt>
+              <dd>Combinação perfeita da carne de sol e a mandioca, puxados na manteiga de garrafa.</dd>
+
+              <dt>Mandioca Chips</dt>
+              <dd>Nossa deliciosa mandioca frita em formato de chips.</dd>
+
+              <dt>Mandioca na Manteiga de Garrafa</dt>
+              <dd>Mandioca cozida, macia, puxada na manteiga de garrafa, que lhe empresta um sabor singular.</dd>
+            </dl>
+
+
+            <h3>Acompanhamentos</h3>
+            <dl>
+              <dt>Arroz Branco</dt>
+              <dd>Arroz branco temperado.</dd>
+
+              <dt>Farofa da Casa</dt>
+              <dd>Simples, mas muito saborosa, feita à partir de um refogado de bacon e farinha de mandioca flocada.</dd>
+
+            </dl>
+
+            <h3>Panelinhas</h3>
+            <p>Mania Goiana, agora em São Paulo, são arrozes especiais, com ingredientes nobres em cortes rústicos, servidos em uma panelinha.</p>
+
+            <dl>
+              <dt>Tradicional Goiana</dt>
+              <dd>Linguiça caipira, lombo de porco, carne de sol, feijão fradinho, palmito e queijo meia-cura.</dd>
+
+              <dt>Galinhada</dt>
+              <dd>Pedaços nobres de frango, pequi e guariroba.</dd>
+
+              <dt>Vegetariana</dt>
+              <dd>Arroz branco, vagem, cenoura, batata e pimentão vermelho.</dd>
+
+              <dt>Baião de Dois</dt>
+              <dd>Mexidão de arroz e feijão de corda, típico do sertão nordestino, feito com carne seca, calabresa, toucinho, queijo de coalho e manteiga de garrafa.</dd>
+            </dl>
+
+            
+
+
+          </div>
+          <div class="medium-6 columns">
+            
+            <h3>Das nossas águas</h3>
+            <dl>
+              <dt>Moqueca Baiana</dt>
+              <dd>Posta de badejo cozida em panela de barro, com guarnicões aromáticas, camarões, azeite de dendê e leite de coco.</dd>
+
+              <dt>Moqueca Capixaba</dt>
+              <dd>Posta de badejo cozida em panela de barro, com guarnições aromáticas e óleo de urucum.</dd>
+            </dl>
+
+            <h3>Saladas</h3>
+            <p>Todas as nossas saladas acompanham de mix de folhas frescas composto por alface americana, radicchio, chicória, agrião e rúcula.</p>
+
+            <dl>
+              <dt>Salada do Cerrado</dt>
+              <dd>Mix de folhas frescas, tomate em rodelas, cebola pérola, guariroba, pimenta biquinho, castanha de baru, salsinha e molho especial.</dd>
+
+              <dt>Salada Sertaneja</dt>
+              <dd>Mix de folhas frescas, tomate, cenoura, cebola pérola, castanha de caju, coentro, palmito pupunha, lascas de queijo de coalho e molho especial.</dd>
+            </dl>
+
+            <h3>Especiais de Fim de Semana</h3>
+
+            <dl>
+              <dt>Feijoada (servida aos Sábados)</dt>
+              <dd>“Simplesmente demais!” Isso que queremos escutar de você após experimentar essa delícia da nossa culinária. Acompanham arroz, bisteca, couve refogada, torresminho, banana à milanesa, mandioca frita, farofa, laranja em rodelas e molho apimentado.</dd>
+
+              <dt>Leitão à Pururuca (servido aos Domingos e Feriados)</dt>
+              <dd>Pedaços tenros de leitão assados e pururucados, acompanhados de arroz, batatas coradas, farofa, tutu e couve à mineira.</dd>
+            </dl>
+
+            <h3>Sanduíches</h3>
+
+            <dl>
+              <dt>Picanha Colonial</dt>
+              <dd>Hambúrguer de picanha grelhado, molho Campanha e queijo Colonial derretido.</dd>
+
+              <dt>Sertanejo</dt>
+              <dd>Carne de sol fatiada e grelhada, molho Campanha e mussarela de búfala derretida.</dd>
+
+              <dt>Pernil Artesanal</dt>
+              <dd>Hambúrguer de pernil artesanal grelhado, molho campanha e mussarela de búfala derretida.</dd>
+
+              <dt>Goianinho (Frango com Pequi e Guariroba)</dt>
+              <dd>Versão lanche do prato típico goiano, criado em nossa cozinha.  Servido com queijo minas frescal e salada.</dd>
+
+              <dt>Cupim</dt>
+              <dd>Corte saboroso, feito grelha sem precozinhar, para manter o sabor.  Servido com molho campanha e queijo mussarela.</dd>
+
+              <dt>Javali</dt>
+              <dd>Hambúrguer de Pernil de Javali, com tempero especial da casa.  Servido com salada e molho da casa.</dd>
+
+              <dt>Pirarucu</dt>
+              <dd>Hambúrguer de pirarucu, picado na faca e servido com nosso molho branco de três queijos.</dd>
+
+              <dt>Costela Bovina</dt>
+              <dd>Delicioso hambúrguer de costela bovina, servido com salada e maionese da casa.</dd>
+
+              <dt>Jacaré</dt>
+              <dd>Especiaria pantaneira servida em forma de hambúrguer com salada e maionese de maracujá.</dd>
+
+              <dt>Mineirinho</dt>
+              <dd>Tradicional lanche de beira de estrada da região do sul de Goiás e Minas Gerais. Pão de queijo caseiro recheado com nossa liguiça caipira.</dd>
+
+              <dt>Carne com Queijo</dt>
+              <dd>Bife cortado em finas fatias e depois picado na grelha, puxado na manteiga de garrafa, com pimentão, cebola e cogumelo fresco e coberto com queijo mussarela. Servido com salada e maionese da casa no nosso exclusivo pão de ciabatta IPA.</dd>
+            </dl>
+
+            <h3>Sobremesas</h3>
+
+            <dl>
+              <dt>Pudim de Leite com Mel de Engenho</dt>
+              <dd>Nossa interpretação desta sobremesa tradicional. </dd>
+
+              <dt>Torta Romeu &amp; Julieta</dt>
+              <dd>Cheesecake de goiaba. Sobremesa com sotaque mineiro.</dd>
+
+              <dt>Verrine Café com Leite</dt>
+              <dd>Mousse de doce de leite com cobertura de brigadeiro de café.</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </article>
+    
+
+    <!--//////////////////////////////////////////
+    ////  FÁBRICA
+    //////////////////////////////////////////////--> 
+    <div class="contain-to-grid alternate-bg">
+      <article id="fabrica" class="row">
+        <div class="medium-12 columns">
+          <h1>Fábrica</h1>
+          <h2>Artesanal, no estado da arte.</h2>
+          <p class="tall">A <strong>TRIA</strong> é uma cervejaria artesanal autenticamente paulistana, comandada pelo <strong>Mestre Cervejeiro Frank Skwirut</strong>, e situada no bairro de Moema, São Paulo, em um espaço dedicado dentro do Mundo Cervejeiro.</p>
+        </div>
+      </article>
+    </div>
+
+
+    <div id="fabricaslider" class="contain-to-grid">
+      <div class="full">
+        <div class="full" style="background-image: url(images/photos/12.jpg)">
+        </div>
+      </div>
+    </div>
+
+
+    <!--//////////////////////////////////////////
+    ////  AS CERVEJAS
+    //////////////////////////////////////////////--> 
+    <article id="ascervejas" class="row">
+      <div class="medium-12 columns">
+        <h1>As Cervejas</h1>
+        <h2>Conheça as cervejas que são produzidas e servidas no local.</h2>
+        <p class="tall">A <strong>TRIA</strong> produz cinco cervejas o ano todo e uma sazonal diferente todos os meses. Todas
+        servidas exclusivamente na casa.</p>
+
+
+        <div id="beerslider" class="hide-for-large-up">
+          <div>
+            <img src="images/ipa.png" alt="TRIA India Pale Ale" class="beer">
+            <h3>India Pale Ale</h3>
+            <p>Forte, com alto amargor e aroma intenso com caráter cítrico, floral e frutado dos lúpulos americanos.</p>
+          </div>
+          <div>
+            <img src="images/blond-ale.png" alt="TRIA Blond Ale" class="beer">
+            <h3>Blond Ale</h3>
+            <p>Um estilo americano, produzido com uma mescla exclusiva de maltes e lúpulos da região. Fácil de beber e refrescante.</p>
+          </div>
+          <div>
+            <img src="images/weizen.png" alt="TRIA Weizen" class="beer big-beer">
+            <h3>Weizen</h3>
+            <p>Leve e refrescante, típica da região da Baviera, Alemanha. Produzida com quatro tipos de trigo europeus e americanos.</p>
+          </div>
+          <div>
+            <img src="images/porter.png" alt="TRIA Porter" class="beer">
+            <h3>Porter</h3>
+            <p>Mescla o melhor das escolas cervejeiras britânica e americana. Feita com uma seleção especial de maltes e lúpulos de ambas as regiões.</p>
+          </div>
+          <div>
+            <img src="images/brown-ale.png" alt="TRIA Brown Ale" class="beer">
+            <h3>Brown Ale</h3>
+            <p>Produzida com lúpulos e maltes britânicos, no melhor estilo do norte da Inglaterra. Possui um aroma levemente adocicado de malte.</p>
+          </div>
+        </div>
+
+        <ul class="show-for-large-up small-block-grid-1 large-block-grid-5">
+          <li>
+            <img src="images/ipa.png" alt="TRIA India Pale Ale" class="beer">
+            <h3>India Pale Ale</h3>
+            <p>Forte, com alto amargor e aroma intenso com caráter cítrico, floral e frutado dos lúpulos americanos.</p>
+          </li>
+          <li>
+            <img src="images/blond-ale.png" alt="TRIA Blond Ale" class="beer">
+            <h3>Blond Ale</h3>
+            <p>Um estilo americano, produzido com uma mescla exclusiva de maltes e lúpulos da região. Fácil de beber e refrescante.</p>
+          </li>
+          <li>
+            <img src="images/weizen.png" alt="TRIA Weizen" class="beer big-beer">
+            <h3>Weizen</h3>
+            <p>Leve e refrescante, típica da região da Baviera, Alemanha. Produzida com quatro tipos de trigo europeus e americanos.</p>
+          </li>
+          <li>
+            <img src="images/porter.png" alt="TRIA Porter" class="beer">
+            <h3>Porter</h3>
+            <p>Mescla o melhor das escolas cervejeiras britânica e americana. Feita com uma seleção especial de maltes e lúpulos de ambas as regiões.</p>
+          </li>
+          <li>
+            <img src="images/brown-ale.png" alt="TRIA Brown Ale" class="beer">
+            <h3>Brown Ale</h3>
+            <p>Produzida com lúpulos e maltes britânicos, no melhor estilo do norte da Inglaterra. Possui um aroma levemente adocicado de malte.</p>
+          </li>
+        </ul>
+
+        <!--
+        <section> 
+          <h3>Sazonais</h3>
+
+          <ul class="small-block-grid-1 large-block-grid-5">
+            <li>
+              <h4>Pumpkin Ale</h4>
+              <p>Cerveja com abóbora produzida especialmente para o Dia das Bruxas. Com 7% de teor alcóolico, é a cerveja mais forte
+              já produzida pela TRIA.</p>
+              <img src="images/nobar-seal.png" class="seal">
+            </li>
+          </ul>
+        </section>
+
+        //-->
+      </div>
+    </article>
+    
+
+    <!--//////////////////////////////////////////
+    ////  EVENTOS
+    //////////////////////////////////////////////--> 
+    <div class="contain-to-grid alternate-bg">
+      <article id="eventos" class="row">
+        <div class="medium-12 columns">
+          <h1>Eventos</h1>
+          <h2>Espaço e o atendimento perfeitos para sua confraternização.</h2>
+          <p class="tall">Realize seu próximo evento em um espaço aconchegante e descontraído, com um cardápio exclusivo e uma cerveja desenvolvida especialmente para seus convidados. Proporcionamos uma experiência gastronômica e cervejeira únicas para qualquer tamanho de evento. Entre em contato conosco e solicite mais informações.</p>
+          <p><a href="mailto:contato@mundocervejeiro.com.br?subject=Evento" class="button">Mais informações</a></p>
+        </div>
+      </article>
+    </div>
+
+    <!--//////////////////////////////////////////
+    ////  LOCALIZAÇÃO
+    //////////////////////////////////////////////--> 
+    <div class="contain-to-grid">
+      <div id="google-map"></div>
+      <article id="localizacao" class="row">
+        <div class="medium-12 columns">
+          <h1>Localização</h1>
+          
+          <div id="endereco">
+            <p><strong>Av. Miruna, 51</strong><br>
+            São Paulo, SP<br>
+            CEP: 04084-000<br>
+            (11) 5041-1180<br>
+            <a href="mailto:contato@mundocervejeiro.com.br">contato@mundocervejeiro.com.br</a></p>
+
+            <h2>Almoço Executivo</h2>
+             
+            <ul>
+              <li><strong>Segunda à Sexta</strong>, das 11:30 às 15:00</li>
+            </ul>
+            
+            <br/>
+            
+            <h2>Noite & Fim de Semana</h2>
+             
+            <ul>
+              <li><strong>Quarta e Quinta</strong>, das 17:00 às 23:00</li>
+              <li><strong>Sexta</strong>, das 17:00 à 01:00</li>
+              <li><strong>Sábado</strong>, das 12:00 à 01:00</li>
+              <li><strong>Domingo</strong>, FECHADO</li>
+            </ul>
+
+            <br/>
+
+
+
+            <a href="" class="button" data-reveal-id="myModal">Reservar uma mesa</a>
+
+            <div id="myModal" class="reveal-modal" data-reveal>
+              <a class="close-reveal-modal">&#215;</a>
+              <script type="text/javascript">
+                window.lrWidget = { rid: 9577, format: 'default', theme: '1' }
+              </script>
+
+              <script type="text/javascript" charset="utf-8" src="https://www.livrodereservas.com.br/widgets.js"></script>
+            </div>
+          
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!--//////////////////////////////////////////
+    ////  SOCIAL
+    //////////////////////////////////////////////--> 
+    <div class="contain-to-grid">
+      <article id="social" class="row">
+        <div class="medium-12 columns">
+          <h1>Social</h1>
+          
+          <div class="social-list ">
+            <div class="medium-2 columns"><a href="http://twitter.com/barmcervejeiro" target="_blank">
+              <span><img src="images/social-twitter.png" alt="Twitter"></span>Twitter</a></div>
+            
+            <div class="medium-2 columns"><a href="http://facebook.com/mundocervejeiro" target="_blank">
+              <span><img src="images/social-facebook.png" alt="Facebook"></span>Facebook</a></div>
+            
+            <div class="medium-2 columns"><a href="http://foursquare.com/v/mundo-cervejeiro/5176a7c5582fbe4f5c1bbe6b" target="_blank">
+              <span><img src="images/social-foursquare.png" alt="Foursquare"></span>Foursquare</a></div>
+            
+            <div class="medium-2 columns"><a href="http://www.tripadvisor.com.br/Restaurant_Review-g303631-d5626338-Reviews-Mundo_Cervejeiro-Sao_Paulo_State_of_Sao_Paulo.html" target="_blank">
+              <span><img src="images/social-tripadvisor.png" alt="Tripadvisor"></span>Tripadvisor</a></div>
+
+            <div class="medium-2 columns"><a href="http://plus.google.com/+MundocervejeiroBrasil" target="_blank">
+              <span><img src="images/social-plus.png" alt="Google+"></span>Google+</a></div>
+          </div>
+
+          <div class="large-12 columns newsletter">
+            <div class="large-6 columns">
+            Assine nossa newsletter e receba novidades e promoções!
+            </div>
+            <div class="large-6 columns">
+              <form action="//mundocervejeiro.us7.list-manage.com/subscribe/post?u=b87d36809eefc412c18f90ba9&amp;id=e12e997709" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="row collapse">
+                  <div class="small-8 columns">
+                    <input type="text" name="EMAIL" placeholder="Digite seu e-mail">
+                  </div>
+                  <div class="small-4 columns">
+                    <button class="button postfix">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="tintup" data-id="mundocervejeiro" data-columns="" data-expand="true" style="height:600px;width:100%;"></div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Microdata //-->
+    <div itemscope itemtype="http://schema.org/BarOrPub" style="position: absolute; width: 1px; height: 1px; overflow: hidden;">
+       <span itemprop="name">Mundo Cervejeiro</span>
+       <span itemprop="description">Situado em um sobrado na pacata Av. Miruna, o Mundo Cervejeiro é um bar e restaurante
+            e também lar da Cervejaria TRIA, uma fábrica de cervejas artesanais.
+            O espaço é aconchegante e conta com salões internos – de onde se pode ver a estrutura e o funcionamento 
+            da cervejaria – e deques externos – perfeitos para noites quentes. O espaço ainda conta com uma seleção 
+            musical com o melhor do rock, pop e blues, que garante um clima empolgante e animado para qualquer ocasião.</span>
+
+       <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+         <span itemprop="streetAddress">Av. Miruna, 51</span>
+         <span itemprop="addressLocality">São Paulo</span>,
+         <span itemprop="addressRegion">São Paulo</span>
+         <span itemprop="postalCode">04084-000</span>
+       </div>
+
+       <span itemprop="telephone">(11) 5041-1180</span>
+       <span itemprop="email">contato@mundocervejeiro.com.br</span>
+
+       <a href="https://www.google.com.br/maps/place/Av.+Miruna,+51+-+Indian%C3%B3polis,+S%C3%A3o+Paulo+-+SP/@-23.6113202,-46.6657037,17z/data=!3m1!4b1!4m2!3m1!1s0x94ce5a095528b5cf:0x6ef80c2a0345f5bd" itemprop="maps">URL of Map</a> 
+
+       <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+         <span itemprop="ratingValue">4.5</span> 
+         <span itemprop="ratingCount">95</span>
+       </div>
+
+       <span itemprop="servesCuisine">Brasileira</span>
+       <span itemprop="priceRange">$$</span>
+       <span itemprop="priceRange">$$</span>
+       <span itemprop="acceptsReservations">True</span>
+      
+       <time itemprop="openingHours" datetime="Mo-Fr 11:30-15:00"></time>
+       <time itemprop="openingHours" datetime="We-Th 17:00-23:00"></time>
+       <time itemprop="openingHours" datetime="Fr 17:00-01:00"></time>
+       <time itemprop="openingHours" datetime="Sa 12:00-01:00"></time>
+
+
+    </div>
+
+
+
+
+    <script src="js/min/app-min.js"></script>
+    <script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-41302257-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
