@@ -7,7 +7,7 @@
 		"uuidString": "78FB3300-D6B9-4588-9513-EE1E5D73E104"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25849",
 "files": {
 	"\/.bowerrc": {
 		"ft": 8192,
@@ -3022,7 +3022,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/media\/Modernizr 2 Logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/media\/Modernizr 2 Logo.svg": {
 		"ft": 2097152,
@@ -3079,7 +3082,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/alpha.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/apng_test.png": {
 		"ft": 32768,
@@ -3087,7 +3093,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/apng_test.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/before-after.png": {
 		"ft": 32768,
@@ -3095,7 +3104,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/before-after.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/form_validation.html": {
 		"ft": 8192,
@@ -3118,7 +3130,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/green5x5.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/hashchange.html": {
 		"ft": 8192,
@@ -3147,7 +3162,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/mathml_ref.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.js": {
 		"ft": 64,
@@ -3164,7 +3182,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/png_alpha_result.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/pushstate.html": {
 		"ft": 8192,
@@ -3178,7 +3199,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/red30x30.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/ruby.png": {
 		"ft": 32768,
@@ -3186,7 +3210,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/ruby.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/stroked-text.png": {
 		"ft": 32768,
@@ -3194,7 +3221,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/stroked-text.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/style.css": {
 		"aP": 0,
@@ -3212,7 +3242,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/svg-img.svg": {
 		"ft": 2097152,
@@ -3236,7 +3269,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/svg_blur.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/table.png": {
 		"ft": 32768,
@@ -3244,7 +3280,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/table.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow1.png": {
 		"ft": 32768,
@@ -3252,7 +3291,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow2.png": {
 		"ft": 32768,
@@ -3260,7 +3302,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/Windsong-webfont.eot": {
 		"ft": 8192,
@@ -3302,7 +3347,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/caniuse_files\/windsong_font.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/xhtml.html": {
 		"ft": 8192,
@@ -3505,7 +3553,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/fonz1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/fonz2.png": {
 		"ft": 32768,
@@ -3513,7 +3564,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/fonz2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/fonz3.png": {
 		"ft": 32768,
@@ -3521,7 +3575,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/fonz3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/lazyfonz1.png": {
 		"ft": 32768,
@@ -3529,7 +3586,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/lazyfonz1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/lazyfonz2.png": {
 		"ft": 32768,
@@ -3537,7 +3597,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/lazyfonz2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/lazyfonz3.png": {
 		"ft": 32768,
@@ -3545,7 +3608,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/lazyfonz3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/lazyfonz4.png": {
 		"ft": 32768,
@@ -3553,7 +3619,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/lazyfonz4.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/lazyfonz5.png": {
 		"ft": 32768,
@@ -3561,7 +3630,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/lazyfonz5.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/lazyfonz6.png": {
 		"ft": 32768,
@@ -3569,7 +3641,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/img\/lazyfonz6.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick-carousel\/img\/slick.gif": {
 		"ft": 4194304,
@@ -3779,7 +3854,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/fonz1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/fonz2.png": {
 		"ft": 32768,
@@ -3787,7 +3865,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/fonz2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/fonz3.png": {
 		"ft": 32768,
@@ -3795,7 +3876,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/fonz3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/lazyfonz1.png": {
 		"ft": 32768,
@@ -3803,7 +3887,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/lazyfonz1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/lazyfonz2.png": {
 		"ft": 32768,
@@ -3811,7 +3898,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/lazyfonz2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/lazyfonz3.png": {
 		"ft": 32768,
@@ -3819,7 +3909,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/lazyfonz3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/lazyfonz4.png": {
 		"ft": 32768,
@@ -3827,7 +3920,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/lazyfonz4.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/lazyfonz5.png": {
 		"ft": 32768,
@@ -3835,7 +3931,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/lazyfonz5.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/lazyfonz6.png": {
 		"ft": 32768,
@@ -3843,7 +3942,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/slick.js\/img\/lazyfonz6.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/slick.js\/img\/slick.gif": {
 		"ft": 4194304,
@@ -4122,7 +4224,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -4133,7 +4235,10 @@
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/fonts\/Gibson-Regular.css": {
 		"aP": 0,
@@ -4343,7 +4448,10 @@
 		"oA": 0,
 		"oAP": "\/images\/blond-ale.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/brown-ale.png": {
 		"ft": 32768,
@@ -4351,7 +4459,10 @@
 		"oA": 0,
 		"oAP": "\/images\/brown-ale.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/dotted-line.png": {
 		"ft": 32768,
@@ -4359,7 +4470,10 @@
 		"oA": 0,
 		"oAP": "\/images\/dotted-line.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/dotted-line@2X.png": {
 		"ft": 32768,
@@ -4367,7 +4481,10 @@
 		"oA": 0,
 		"oAP": "\/images\/dotted-line@2X.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/email-256.png": {
 		"ft": 32768,
@@ -4375,7 +4492,10 @@
 		"oA": 0,
 		"oAP": "\/images\/email-256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/facebook-256.png": {
 		"ft": 32768,
@@ -4383,7 +4503,10 @@
 		"oA": 0,
 		"oAP": "\/images\/facebook-256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/foursquare-256.png": {
 		"ft": 32768,
@@ -4391,7 +4514,10 @@
 		"oA": 0,
 		"oAP": "\/images\/foursquare-256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/ipa.png": {
 		"ft": 32768,
@@ -4399,7 +4525,10 @@
 		"oA": 0,
 		"oAP": "\/images\/ipa.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo-horizontal.png": {
 		"ft": 32768,
@@ -4407,7 +4536,10 @@
 		"oA": 0,
 		"oAP": "\/images\/logo-horizontal.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo-horizontal@2X.png": {
 		"ft": 32768,
@@ -4415,7 +4547,10 @@
 		"oA": 0,
 		"oAP": "\/images\/logo-horizontal@2X.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo.png": {
 		"ft": 32768,
@@ -4423,7 +4558,10 @@
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo@2X.png": {
 		"ft": 32768,
@@ -4431,7 +4569,10 @@
 		"oA": 0,
 		"oAP": "\/images\/logo@2X.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/nobar-seal.png": {
 		"ft": 32768,
@@ -4439,7 +4580,10 @@
 		"oA": 0,
 		"oAP": "\/images\/nobar-seal.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/photos\/1.jpg": {
 		"ft": 16384,
@@ -4447,7 +4591,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/10.jpg": {
 		"ft": 16384,
@@ -4455,7 +4601,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/100.jpg": {
 		"ft": 16384,
@@ -4463,7 +4611,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/100.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/101.jpg": {
 		"ft": 16384,
@@ -4471,7 +4621,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/101.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/102.jpg": {
 		"ft": 16384,
@@ -4479,7 +4631,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/102.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/11.jpg": {
 		"ft": 16384,
@@ -4487,7 +4641,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/12.jpg": {
 		"ft": 16384,
@@ -4495,7 +4651,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/2.jpg": {
 		"ft": 16384,
@@ -4503,7 +4661,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/5.jpg": {
 		"ft": 16384,
@@ -4511,7 +4671,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/5.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/8.jpg": {
 		"ft": 16384,
@@ -4519,7 +4681,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/8.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/9.jpg": {
 		"ft": 16384,
@@ -4527,7 +4691,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/9.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/90.jpg": {
 		"ft": 16384,
@@ -4535,7 +4701,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/90.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/91.jpg": {
 		"ft": 16384,
@@ -4543,7 +4711,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/91.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/92.jpg": {
 		"ft": 16384,
@@ -4551,7 +4721,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/92.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/Mundo-Cervejeiro24.jpg": {
 		"ft": 16384,
@@ -4559,7 +4731,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/Mundo-Cervejeiro24.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photos\/quinzena.jpg": {
 		"ft": 16384,
@@ -4567,7 +4741,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photos\/quinzena.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/porter.png": {
 		"ft": 32768,
@@ -4575,7 +4751,10 @@
 		"oA": 0,
 		"oAP": "\/images\/porter.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/seal-alternate.png": {
 		"ft": 32768,
@@ -4583,7 +4762,10 @@
 		"oA": 0,
 		"oAP": "\/images\/seal-alternate.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/seal-alternate@2X.png": {
 		"ft": 32768,
@@ -4591,7 +4773,10 @@
 		"oA": 0,
 		"oAP": "\/images\/seal-alternate@2X.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/seal.png": {
 		"ft": 32768,
@@ -4599,7 +4784,10 @@
 		"oA": 0,
 		"oAP": "\/images\/seal.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/seal@2X.png": {
 		"ft": 32768,
@@ -4607,7 +4795,10 @@
 		"oA": 0,
 		"oAP": "\/images\/seal@2X.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/social-facebook.png": {
 		"ft": 32768,
@@ -4615,7 +4806,10 @@
 		"oA": 0,
 		"oAP": "\/images\/social-facebook.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/social-foursquare.png": {
 		"ft": 32768,
@@ -4623,7 +4817,10 @@
 		"oA": 0,
 		"oAP": "\/images\/social-foursquare.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/social-plus.png": {
 		"ft": 32768,
@@ -4631,7 +4828,10 @@
 		"oA": 0,
 		"oAP": "\/images\/social-plus.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/social-tripadvisor.png": {
 		"ft": 32768,
@@ -4639,7 +4839,10 @@
 		"oA": 0,
 		"oAP": "\/images\/social-tripadvisor.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/social-twitter.png": {
 		"ft": 32768,
@@ -4647,7 +4850,10 @@
 		"oA": 0,
 		"oAP": "\/images\/social-twitter.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/tripadvisor-256.png": {
 		"ft": 32768,
@@ -4655,7 +4861,10 @@
 		"oA": 0,
 		"oAP": "\/images\/tripadvisor-256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/twitter-256.png": {
 		"ft": 32768,
@@ -4663,7 +4872,10 @@
 		"oA": 0,
 		"oAP": "\/images\/twitter-256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/untappd-256.png": {
 		"ft": 32768,
@@ -4671,7 +4883,10 @@
 		"oA": 0,
 		"oAP": "\/images\/untappd-256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/weizen.png": {
 		"ft": 32768,
@@ -4679,7 +4894,10 @@
 		"oA": 0,
 		"oAP": "\/images\/weizen.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -5514,6 +5732,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -5532,6 +5754,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -5734,6 +5960,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -5811,6 +6041,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -6010,6 +6244,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -6054,9 +6292,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -6151,6 +6397,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -6597,7 +6847,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -6620,14 +6871,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -6690,7 +6933,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -6775,6 +7020,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
